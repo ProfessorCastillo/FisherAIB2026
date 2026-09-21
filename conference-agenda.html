@@ -203,6 +203,17 @@
             margin-top: 2px;
         }
 
+        .pres-link {
+            display: inline-block;
+            margin-top: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #ba0c2f;
+            text-decoration: none;
+            border-bottom: 1px solid currentColor;
+        }
+        .pres-link:hover { color: #9a0a28; }
+
         .pres-alt {
             font-size: 12px;
             color: #555;
@@ -398,7 +409,8 @@
                     const sessions = (slot.parallel_sessions || []).map(session => {
                         const items = (session.presentations || []).map(p => {
                             const isIndustry = p.track === 'Industry';
-                            const presenterText = (isIndustry && p.affiliation)
+                            // Show the presenter's affiliation inline on both tracks.
+                            const presenterText = p.affiliation
                                 ? `${p.presenter} — ${p.affiliation}`
                                 : p.presenter;
                             const presenter = p.presenter
@@ -412,12 +424,18 @@
                             const alt = p.alternative_presenter
                                 ? `<div class="pres-alt">(alt. presenter: ${escapeHtml(p.alternative_presenter)})</div>`
                                 : '';
+                            // Mirror of the search page's "View in Schedule": jump to this talk on the
+                            // search page for all authors' affiliations and the full abstract.
+                            const link = p.submission_id
+                                ? `<a class="pres-link" href="conference-presentation-search.html?show=${encodeURIComponent(p.submission_id)}">View Presentation</a>`
+                                : '';
                             return `
                                 <li id="pres-${escapeHtml(String(p.submission_id))}">
                                     <div class="pres-title">${escapeHtml(p.title)}</div>
                                     ${presenter}
                                     ${authors}
                                     ${alt}
+                                    ${link}
                                 </li>`;
                         }).join('');
 

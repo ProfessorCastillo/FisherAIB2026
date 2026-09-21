@@ -1,5 +1,5 @@
 /* Static shell only: published JSON is always fetched from the network. */
-const CACHE_NAME = 'fisher-aib-2026-shell-v3';
+const CACHE_NAME = 'fisher-aib-2026-shell-v4';
 const APP_DATA_PATH = new URL('data/', self.registration.scope).pathname;
 const SHELL_URLS = [
   'conference-main.html', 'conference-agenda.html', 'conference-presentation-search.html',

@@ -268,6 +268,12 @@
             transition: all 0.3s;
         }
 
+        .result-card.result-highlight {
+            border-color: #ba0c2f;
+            box-shadow: 0 0 0 2px #ba0c2f;
+            background: #fdf0f2;
+        }
+
         .result-card:hover {
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             transform: translateY(-2px);
@@ -676,11 +682,26 @@
                 setupEventListeners();
                 populateDropdowns();
                 applyFilters();
+                focusRequestedPresentation();
             } catch (error) {
                 console.error('Error loading data:', error);
                 document.getElementById('resultsContainer').innerHTML =
                     '<div class="error">Error loading presentation data. Please refresh the page.</div>';
             }
+        }
+
+        // Deep link target from the agenda's "View Presentation" link (?show=<submission_id>):
+        // scroll to that card, open its abstract, and briefly highlight it.
+        function focusRequestedPresentation() {
+            const id = new URLSearchParams(window.location.search).get('show');
+            if (!id) return;
+            const card = document.getElementById('result-' + id);
+            if (!card) return;
+            card.scrollIntoView({ block: 'center', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+            card.classList.add('result-highlight');
+            setTimeout(() => card.classList.remove('result-highlight'), 2600);
+            const toggle = card.querySelector('.abstract-toggle');
+            if (toggle && toggle.getAttribute('aria-expanded') !== 'true') toggle.click();
         }
 
         function setupEventListeners() {
@@ -944,7 +965,7 @@
                     : '';
 
                 return `
-                    <article class="result-card" role="article" aria-labelledby="title-${index}">
+                    <article class="result-card" role="article" aria-labelledby="title-${index}" id="result-${escapeHtml(String(presentation.submission_id))}">
                         <h3 class="presentation-title" id="title-${index}">
                             ${highlightText(escapeHtml(presentation.title))}${badges}
                         </h3>
