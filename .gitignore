@@ -1,0 +1,26 @@
+# GitHub Pages repo root = this site/ directory. Publish ONLY the static app:
+# HTML, assets/ (css, js, vendored Plotly), data/*.json (allowlisted, promoted), images,
+# manifest.json, sw.js. Everything below must never be committed.
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Dev/sample fixtures are never published
+data/*.sample.json
+
+# Guards — none of these belong in the Pages repo; ignore them even if copied in by mistake
+# (the pipeline, build output, raw source exports, secrets, and the venv all live outside site/).
+*.py
+*.pyc
+__pycache__/
+.venv/
+build/
+pipeline/
+inputs/
+*.csv
+*.xlsx
+.env
+.env.*

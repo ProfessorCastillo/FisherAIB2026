@@ -1,0 +1,1451 @@
+{
+  "agenda": [
+    {
+      "date": "Wednesday, October 14, 2026",
+      "schedule": [
+        {
+          "time": "9:00 am – 10:15 am",
+          "start_time": "09:00",
+          "parallel_sessions": [
+            {
+              "room": "Pfahl 140",
+              "session_title": "Breakout sessions 1",
+              "presentations": [
+                {
+                  "submission_id": "5996",
+                  "title": "Your AI Build Has Seven Kinds of Value. Most Teams Measure One.",
+                  "presenter": "Vic Akosile",
+                  "affiliation": "Cloudflare",
+                  "track": "Industry",
+                  "authors": "Vic Akosile",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6001",
+                  "title": "Fast Forward, Together: Leading Inclusively in the Age of AI",
+                  "presenter": "Brooke Gazdag",
+                  "affiliation": "Kuehne Logistics University",
+                  "track": "Industry",
+                  "authors": "Brooke Gazdag",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6029",
+                  "title": "Job Architecture Ontology and AI: Rewiring the Operating System for Workforce Design",
+                  "presenter": "Emily Douglas-McNab",
+                  "affiliation": "Experience Management Institute and Ohio State University Fisher College of Business",
+                  "track": "Industry",
+                  "authors": "Emily Douglas-McNab, Vasiliki Stamouli",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 202",
+              "session_title": "Breakout sessions 1",
+              "presentations": [
+                {
+                  "submission_id": "5894",
+                  "title": "Scaling AI Beyond the Enterprise Boundary: Lessons from Building Interoperable Multi-Agent Systems",
+                  "presenter": "Bhuvana Dharani",
+                  "affiliation": "Dell Technologies",
+                  "track": "Industry",
+                  "authors": "Bhuvana Dharani",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5943",
+                  "title": "AI Innovation at Scale: Building Secure, Governed Enterprise RAG Systems with Grounded Data",
+                  "presenter": "Shirin Alhroob",
+                  "affiliation": "University of North Carolina at Greensboro",
+                  "track": "Industry",
+                  "authors": "Shirin Alhroob, Brook Tester",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6061",
+                  "title": "The Pilot Was Never the Product",
+                  "presenter": "Jesse Buxton",
+                  "affiliation": "Karna, LLC",
+                  "track": "Industry",
+                  "authors": "Jesse Buxton",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 240",
+              "session_title": "Breakout sessions 1",
+              "presentations": [
+                {
+                  "submission_id": "5957",
+                  "title": "From AI Activity to Business Performance - Lessons from Scaling AI Inside Large Enterprises",
+                  "presenter": "Todd James",
+                  "affiliation": "Aurora Insights LLC",
+                  "track": "Industry",
+                  "authors": "Todd James",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6030",
+                  "title": "Advice at Scale: What Happened When a Financial Advisory Practice Put AI Between the Advisor and the Client",
+                  "presenter": "Justin Maxwell",
+                  "affiliation": "SpeakerRealm",
+                  "track": "Industry",
+                  "authors": "Justin Maxwell",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6047",
+                  "title": "Start Wide, Not Deep: What a Cross-Functional First Cohort Teaches an Institution About Itself",
+                  "presenter": "JP Graulty",
+                  "affiliation": "SkillSpout",
+                  "track": "Industry",
+                  "authors": "JP Graulty",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 302",
+              "session_title": "Breakout sessions 1",
+              "presentations": [
+                {
+                  "submission_id": "5987",
+                  "title": "Your AI Works. Why Isn't Your Organization Improving? An Interactive Decision Lab for Scaling AI",
+                  "presenter": "Dong-Gil Ko",
+                  "affiliation": "University of Cincinnati",
+                  "track": "Industry",
+                  "authors": "Dong-Gil Ko",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "SUPP-HORVATH",
+                  "title": "Identifying, gathering, and vetting AI enablement ideas",
+                  "presenter": "Thom Horvath",
+                  "affiliation": "Rackspace Technology",
+                  "track": "Industry",
+                  "authors": "Thom Horvath",
+                  "alternative_presenter": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": "12:45 pm – 2:00 pm",
+          "start_time": "12:45",
+          "parallel_sessions": [
+            {
+              "room": "Pfahl 202",
+              "session_title": "Breakout sessions 2",
+              "presentations": [
+                {
+                  "submission_id": "5954",
+                  "title": "AI Everywhere, Results Nowhere: Building the Operating Model for Innovation at Scale",
+                  "presenter": "Heather Lenz",
+                  "affiliation": "AI Navigator Collective",
+                  "track": "Industry",
+                  "authors": "Heather Lenz",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5964",
+                  "title": "Beyond the Virtual Receptionist: Lessons in AI Readiness and Responsible Scale",
+                  "presenter": "Tamora Lupton-Wilkinspon",
+                  "affiliation": "https://www.tamoracompass.com/landing",
+                  "track": "Industry",
+                  "authors": "Tamora Lupton-Wilkinspon",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5991",
+                  "title": "The Meaning Gap: Where Value Moves When AI Scales",
+                  "presenter": "Arthur Zards",
+                  "affiliation": "Lab Z",
+                  "track": "Industry",
+                  "authors": "Arthur Zards",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 240",
+              "session_title": "Breakout sessions 2",
+              "presentations": [
+                {
+                  "submission_id": "5944",
+                  "title": "AI Won't Rescue Your Rollout: What Leaders' Identity Patterns Do to AI Adoption",
+                  "presenter": "Chris McAlister",
+                  "affiliation": "SightShift",
+                  "track": "Industry",
+                  "authors": "Chris McAlister",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5985",
+                  "title": "[Workshop] The Hidden Governance Problem in AI: Why diverse teams fail when expertise lacks influence",
+                  "presenter": "Maura Bowen",
+                  "affiliation": "West Virginia University (doctoral student); Abbott Labs (employee)",
+                  "track": "Industry",
+                  "authors": "Maura Bowen",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6016",
+                  "title": "Steering by Probability: Using AI to build the view leadership actually needed",
+                  "presenter": "Liz Rettig",
+                  "affiliation": "Lil Agile Monster, LLC",
+                  "track": "Industry",
+                  "authors": "Liz Rettig",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 302",
+              "session_title": "Breakout sessions 2",
+              "presentations": [
+                {
+                  "submission_id": "6028",
+                  "title": "How EASE Logistics Embedded Intelligence Into the Core of a Freight Brokerage",
+                  "presenter": "Erica Seymour",
+                  "affiliation": "EASE Logistics",
+                  "track": "Industry",
+                  "authors": "Erica Seymour",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6058",
+                  "title": "Order to Cash Without Adding Headcount: What Actually Ships When a Mid-Market Distributor Puts AI Into Operations",
+                  "presenter": "Dmytro Negodiuk",
+                  "affiliation": "NEGODIUK LLC",
+                  "track": "Industry",
+                  "authors": "Dmytro Negodiuk",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "SUPP-GRACEY",
+                  "title": "From AI Readiness to Responsible Implementation: Closing the Enterprise Execution Gap",
+                  "presenter": "Jerushah Gracey",
+                  "affiliation": "Adaptive Intelligence Layers",
+                  "track": "Industry",
+                  "authors": "Jerushah Gracey",
+                  "alternative_presenter": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": "2:15 pm – 3:00 pm",
+          "start_time": "14:15",
+          "parallel_sessions": [
+            {
+              "room": "Pfahl 202",
+              "session_title": "Breakout sessions 3",
+              "presentations": [
+                {
+                  "submission_id": "5979",
+                  "title": "AI-Ready Graduates, AI-Ready Organizations? Lessons from Working Professionals",
+                  "presenter": "Vasiliki Stamouli",
+                  "affiliation": "Experience Management Institute LLC",
+                  "track": "Industry",
+                  "authors": "Vasiliki Stamouli, Aidan Irvine, Asa Baird, Briana Lindemeyer, Heather Cox, Minny Poon, Scott DiStefano, Taylor Washington",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 240",
+              "session_title": "Breakout sessions 3",
+              "presentations": [
+                {
+                  "submission_id": "5851",
+                  "title": "Applying an Agentic AI Stack with Orchestrator to Sharpen Starting Points for New Opportunity Creation",
+                  "presenter": "Michael Fruhling",
+                  "affiliation": "BFS Innovations, Inc.",
+                  "track": "Industry",
+                  "authors": "Michael Fruhling",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6021",
+                  "title": "Agentic Commerce 101: How AI Is Transforming Retail & eCommerce",
+                  "presenter": "Ryan Lunka",
+                  "affiliation": "Aries Solutions",
+                  "track": "Industry",
+                  "authors": "Ryan Lunka",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 302",
+              "session_title": "Breakout sessions 3",
+              "presentations": [
+                {
+                  "submission_id": "5960",
+                  "title": "Your Pecfect Match - Your Date with AI - Setting Boundries with Governance in Business",
+                  "presenter": "Professor Tracey Sigers",
+                  "affiliation": "NCUS TEC Career College",
+                  "track": "Industry",
+                  "authors": "Professor Tracey Sigers",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6002",
+                  "title": "Built with AI, Governed by Rules: How Agentic AI Created a Living Rule Engine for Consumers",
+                  "presenter": "Aditya Sankar",
+                  "affiliation": "ScottsMiracle-Gro",
+                  "track": "Industry",
+                  "authors": "Aditya Sankar",
+                  "alternative_presenter": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "plenary": [
+        {
+          "kind": "plenary",
+          "title": "Breakfast",
+          "time": "8:00 am – 9:00 am",
+          "start_time": "08:00",
+          "place": "Upstairs Lobby"
+        },
+        {
+          "kind": "plenary",
+          "title": "Registration",
+          "time": "8:00 am – 9:00 am",
+          "start_time": "08:00",
+          "place": "Upstairs Lobby"
+        },
+        {
+          "kind": "break",
+          "title": "Break",
+          "time": "10:15 am – 10:30 am",
+          "start_time": "10:15",
+          "place": null
+        },
+        {
+          "kind": "plenary",
+          "title": "Welcome",
+          "time": "10:30 am – 10:45 am",
+          "start_time": "10:30",
+          "place": "Blackwell Inn Ballroom"
+        },
+        {
+          "kind": "keynote",
+          "title": "Keynote: Chris Berry",
+          "time": "10:45 am – 11:30 am",
+          "start_time": "10:45",
+          "place": "Blackwell Inn Ballroom"
+        },
+        {
+          "kind": "plenary",
+          "title": "Lunch",
+          "time": "11:30 am – 12:30 pm",
+          "start_time": "11:30",
+          "place": "Blackwell Inn Ballroom and Daley Family Pavilion"
+        },
+        {
+          "kind": "break",
+          "title": "Break",
+          "time": "12:30 pm – 12:45 pm",
+          "start_time": "12:30",
+          "place": null
+        },
+        {
+          "kind": "break",
+          "title": "Break",
+          "time": "2:00 pm – 2:15 pm",
+          "start_time": "14:00",
+          "place": null
+        },
+        {
+          "kind": "break",
+          "title": "Break",
+          "time": "3:00 pm – 3:15 pm",
+          "start_time": "15:00",
+          "place": null
+        },
+        {
+          "kind": "plenary",
+          "title": "Introduction",
+          "time": "3:15 pm – 3:30 pm",
+          "start_time": "15:15",
+          "place": "Blackwell Inn Ballroom"
+        },
+        {
+          "kind": "keynote",
+          "title": "Keynote: Tinglong Dai",
+          "time": "3:30 pm – 4:30 pm",
+          "start_time": "15:30",
+          "place": "Blackwell Inn Ballroom"
+        }
+      ]
+    },
+    {
+      "date": "Thursday, October 15, 2026",
+      "schedule": [
+        {
+          "time": "10:15am - 11:30am",
+          "start_time": "10:15",
+          "parallel_sessions": [
+            {
+              "room": "Pfahl 140",
+              "session_title": "Corporate AI Disclosure & Market Reactions",
+              "presentations": [
+                {
+                  "submission_id": "5958",
+                  "title": "Publishing to Coordinate: Corporate AI Disclosure and Supply Chain Adoption",
+                  "presenter": "Wei Jiao",
+                  "affiliation": "Rutgers University",
+                  "track": "Academic",
+                  "authors": "Wei Jiao",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5975",
+                  "title": "Artificial Intelligence or Artificial Hype? Evidence from Corporate Name Changes",
+                  "presenter": "Hongcheng Wang",
+                  "affiliation": "Temple University",
+                  "track": "Academic",
+                  "authors": "Hongcheng Wang",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6004",
+                  "title": "Talking to Digital Twins: Selective Disclosure and Belief Measurement in Financial Social Media",
+                  "presenter": "Boone Bowles",
+                  "affiliation": "Texas A&M University",
+                  "track": "Academic",
+                  "authors": "Boone Bowles, Sorin Sorescu, Raymond Duch",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6040",
+                  "title": "Substantive vs Symbolic AI Disclosure and Subsequent Safety Risks & Performance: Evidence from US Public Pharmaceutical Firms",
+                  "presenter": "Masum Patwary",
+                  "affiliation": "Augusta University",
+                  "track": "Academic",
+                  "authors": "Masum Patwary, Yi Zhu",
+                  "alternative_presenter": "Yi Zhu"
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 202",
+              "session_title": "The Economics of AI Infrastructure",
+              "presentations": [
+                {
+                  "submission_id": "5952",
+                  "title": "Stateful AI, Spatial Routing, and Infrastructure Investment",
+                  "presenter": "Chunjie Zhao",
+                  "affiliation": "Denison University",
+                  "track": "Academic",
+                  "authors": "Chunjie Zhao, Jingyun Hu",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6026",
+                  "title": "(Early) AI Compute Asset Pricing",
+                  "presenter": "Yinan Su",
+                  "affiliation": "Johns Hopkins University Carey Business School",
+                  "track": "Academic",
+                  "authors": "Yinan Su, Federico M. Bandi",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6048",
+                  "title": "Pricing the Physical Constraints of AI: Evidence from U.S. AI-Energy Policy",
+                  "presenter": "Liyuan Dong",
+                  "affiliation": "King's College London",
+                  "track": "Academic",
+                  "authors": "Liyuan Dong, Shunshun Zhang",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6080",
+                  "title": "Who Pays for the Cloud? The Impact of Data Center Entry on Grocery Purchases",
+                  "presenter": "Rong Bai",
+                  "affiliation": "Gies College of Business, University of Illinois Urbana-Champaign",
+                  "track": "Academic",
+                  "authors": "Rong Bai, Nathan Yang, Unnati Narang",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 240",
+              "session_title": "AI Search & Content on Digital Platforms",
+              "presentations": [
+                {
+                  "submission_id": "5920",
+                  "title": "When Does Visual Manipulation Work? Evidence from Online Marketplaces",
+                  "presenter": "Ali Kozehgaran",
+                  "affiliation": "Syracuse University",
+                  "track": "Academic",
+                  "authors": "Ali Kozehgaran, Liangbin Yang, Juncai Jiang",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5990",
+                  "title": "Generative AI Search on Content Creation Platform: Evidence from a Large-Scale Field Experiment",
+                  "presenter": "Hongxian Huang",
+                  "affiliation": "New York University, Stern School of Business",
+                  "track": "Academic",
+                  "authors": "Hongxian Huang, Jinglong Zhang, Jason Chan, Anindya Ghose",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6011",
+                  "title": "Should Platforms Replace Search with AI Chat? Evidence from a Live-Events Experiment",
+                  "presenter": "Rakesh Allu",
+                  "affiliation": "University of Illinois, Urbana Champaign",
+                  "track": "Academic",
+                  "authors": "Rakesh Allu, Evgeny Kagan",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6032",
+                  "title": "From Frontier Models to Frugal Teams: Harnessing Domain Knowledge for Cost-Efficient Causal Discovery with AI Agents",
+                  "presenter": "Yiheng An",
+                  "affiliation": "University of Florida",
+                  "track": "Academic",
+                  "authors": "Yiheng An",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 302",
+              "session_title": "AI in Service Operations & Customer Interactions",
+              "presentations": [
+                {
+                  "submission_id": "5883",
+                  "title": "When Better AI Hurts: Verification, Compliance, and AI-Human Handoffs in Service Systems",
+                  "presenter": "Guanling Yang",
+                  "affiliation": "Simon Business School, University of Rochester",
+                  "track": "Academic",
+                  "authors": "Guanling Yang, Cuihong Li, Ricky Roet-Green, Fasheng Xu",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5983",
+                  "title": "Organisational Readiness for Artificial Intelligence in South Africa's Lodging Industry: A Managerial Perspective",
+                  "presenter": "Thabang Madigoe",
+                  "affiliation": "Department of Business Management, University of Pretoria, Pretoria, South Africa ¬≤ African Futures Research Leadership Program, Michigan State University, East Lansing, Michigan, USA",
+                  "track": "Academic",
+                  "authors": "Thabang Madigoe, Marius Pretorius, Karthik Namasivayam",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6017",
+                  "title": "Response Latency in Asynchronous Care Queues: An Empirical Study of AI-Augmented Measurement and Emergency Department Spillover",
+                  "presenter": "Mohamed Megahed",
+                  "affiliation": "The Ohio State University",
+                  "track": "Academic",
+                  "authors": "Mohamed Megahed, Nathan Craig, Jane Jiang, Aravind Chandrasekaran",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6049",
+                  "title": "Human Interactions with Generative AI in Customer Service",
+                  "presenter": "Alyssa Allen",
+                  "affiliation": "OSU",
+                  "track": "Academic",
+                  "authors": "Alyssa Allen",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 330",
+              "session_title": "Bringing AI into Organizations: Adoption & Knowledge",
+              "presentations": [
+                {
+                  "submission_id": "5966",
+                  "title": "When heavy metal meets generative AI: Theoretical promise vs. organizational reality",
+                  "presenter": "Maria Pajuoja",
+                  "affiliation": "University of Vaasa, Finland",
+                  "track": "Academic",
+                  "authors": "Maria Pajuoja, Emilia Wietrak, Matti Pihlajamaa, Sebastian Bouschery",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5976",
+                  "title": "Ready, but Wary: How HR Professionals Perceive Prescriptive Analytics and Agentic AI",
+                  "presenter": "Vasiliki Stamouli",
+                  "affiliation": "Ohio State University Alumni/ Experience Management Institute",
+                  "track": "Academic",
+                  "authors": "Vasiliki Stamouli, Kate Keeler",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6003",
+                  "title": "Why Accurate AI Fails to Scale: Organizational Translation as the Missing Mechanism",
+                  "presenter": "Dong-Gil Ko",
+                  "affiliation": "University of Cincinnati",
+                  "track": "Academic",
+                  "authors": "Dong-Gil Ko",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6050",
+                  "title": "Governing Knowledge Across Humans and Machines: How AI Reshapes Organizational Knowledge Management Through Externally Specified and Internally Learned Representations",
+                  "presenter": "Ezekiel Leo",
+                  "affiliation": "Grand Valley State University",
+                  "track": "Academic",
+                  "authors": "Ezekiel Leo",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 340",
+              "session_title": "Generative AI, Skills & Labor Demand",
+              "presentations": [
+                {
+                  "submission_id": "5912",
+                  "title": "Generative AI and the Reorganization of Labor Demand",
+                  "presenter": "Fangyan Wang",
+                  "affiliation": "Purdue University - Daniels School of Business",
+                  "track": "Academic",
+                  "authors": "Fangyan Wang, Zaiyan Wei, Yang Wang",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5968",
+                  "title": "The Impact of Generative AI on Skill Demand",
+                  "presenter": "Sojung Yoon",
+                  "affiliation": "University of Minnesota",
+                  "track": "Academic",
+                  "authors": "Sojung Yoon, Wen Wen, Zixi Lei, Jason Chan",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6010",
+                  "title": "Self-Confirming Stigma and Skill-Substituting Technology",
+                  "presenter": "Vishavdeep Sharma",
+                  "affiliation": "The Ohio State University",
+                  "track": "Academic",
+                  "authors": "Vishavdeep Sharma",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6057",
+                  "title": "AI Human Capital, Real Outcomes, and Management Forecast Accuracy: Evidence from Clinical Trials",
+                  "presenter": "Jeremiah Harris",
+                  "affiliation": "Kent State University",
+                  "track": "Academic",
+                  "authors": "Jeremiah Harris, Sean Cao, Lijun (Gillian) Lei",
+                  "alternative_presenter": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": "12:45pm - 2:00pm",
+          "start_time": "12:45",
+          "parallel_sessions": [
+            {
+              "room": "Pfahl 140",
+              "session_title": "Best Paper Competition: PhD Students",
+              "presentations": [
+                {
+                  "submission_id": "5896",
+                  "title": "Where to Draw the Line: How Delegating Peripheral Work to AI Undermines Core Professional Judgment",
+                  "presenter": "Farnam Mohebi",
+                  "affiliation": "UC Berkeley",
+                  "track": "Academic",
+                  "authors": "Farnam Mohebi",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5992",
+                  "title": "AI-generated Summaries in Prediction Markets",
+                  "presenter": "Kaiyu Zhang",
+                  "affiliation": "University of Florida",
+                  "track": "Academic",
+                  "authors": "Kaiyu Zhang, Yi Tong, Qili Wang, Liangfei Qiu",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6009",
+                  "title": "A Simple Solution to Improving Human Supervision of Algorithms: Evidence from Smart Vending",
+                  "presenter": "Minda Zhao",
+                  "affiliation": "Georgia Tech",
+                  "track": "Academic",
+                  "authors": "Minda Zhao, Brian Rongqing Han, Xin Chen, Tao Zhu",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6023",
+                  "title": "AI and Appropriation Risk",
+                  "presenter": "Winston Chen",
+                  "affiliation": "University of Southern California",
+                  "track": "Academic",
+                  "authors": "Winston Chen",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 202",
+              "session_title": "AI Investment, Innovation & Diffusion",
+              "presentations": [
+                {
+                  "submission_id": "5945",
+                  "title": "Buy or Build? How AI Shapes Corporate Acquisitions and Innovation",
+                  "presenter": "Sebastiao Oliveira",
+                  "affiliation": "University of Illinois at Urbana-Champaign",
+                  "track": "Academic",
+                  "authors": "Sebastiao Oliveira, Vahid Shadram",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6044",
+                  "title": "Do Non-Competes Slow the Diffusion of AI?",
+                  "presenter": "Wei Wang",
+                  "affiliation": "Cleveland State University",
+                  "track": "Academic",
+                  "authors": "Wei Wang, Xiaoling Pu, Joanna Wang",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6063",
+                  "title": "Kingmaking: How Venture Capitalists Pick Artificial Intelligence Winners",
+                  "presenter": "Marta Zava",
+                  "affiliation": "Finance",
+                  "track": "Academic",
+                  "authors": "Marta Zava",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6068",
+                  "title": "Artificial Intelligence Investments and Expertise Erosion",
+                  "presenter": "Evan Jo",
+                  "affiliation": "Queen's University",
+                  "track": "Academic",
+                  "authors": "Evan Jo",
+                  "alternative_presenter": "Pierre Chaigneau"
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 240",
+              "session_title": "AI Disclosure & Labeling: Platforms and Firms",
+              "presentations": [
+                {
+                  "submission_id": "5858",
+                  "title": "Generative AI Content Governance and Market Outcomes: Evidence from Food Delivery Platforms",
+                  "presenter": "Jingwei Dai",
+                  "affiliation": "Carnegie Mellon University",
+                  "track": "Academic",
+                  "authors": "Jingwei Dai, Beibei Li, Rahul Telang",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6036",
+                  "title": "More Than a Label: AI Disclosure Intensity, Justification, and User Responses on a Gaming Platform",
+                  "presenter": "Chengcheng Li",
+                  "affiliation": "University of Rochester",
+                  "track": "Academic",
+                  "authors": "Chengcheng Li",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6037",
+                  "title": "When Transparency Meets \"AI Slop\": The Effects of AI Labeling on Creator and Viewer Behavior on Pinterest",
+                  "presenter": "Wanqin Chen",
+                  "affiliation": "University of Rochester",
+                  "track": "Academic",
+                  "authors": "Wanqin Chen, Mikhail Lysyakov",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6052",
+                  "title": "When GAI Writes: Generative AI Disclosure and Analyst Forecasts",
+                  "presenter": "Huihui Cheng",
+                  "affiliation": "Rutgers Business School",
+                  "track": "Academic",
+                  "authors": "Huihui Cheng, Guo Chen",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 302",
+              "session_title": "AI in Supply Chains & Operations",
+              "presentations": [
+                {
+                  "submission_id": "6025",
+                  "title": "Rare Demand, Reliable Access: A Field Experiment on AI-Driven Replenishment in a Retail Pharmacy Chain",
+                  "presenter": "Xianjia Gao",
+                  "affiliation": "University of Illinois Urbana-Champaign",
+                  "track": "Academic",
+                  "authors": "Xianjia Gao, Pengyi Shi",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6041",
+                  "title": "A Theoretical Framework for AI-Enabled Digital Twin Orchestration",
+                  "presenter": "Nehemiah Scott",
+                  "affiliation": "University of Illinois Urbana-Champaign",
+                  "track": "Academic",
+                  "authors": "Nehemiah Scott",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6051",
+                  "title": "Asymmetric Effects of Supplier and Customer AI Focus on Focal Firm Risk",
+                  "presenter": "Dax Trejo",
+                  "affiliation": "University of Manitoba",
+                  "track": "Academic",
+                  "authors": "Dax Trejo, Paul Larson",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6065",
+                  "title": "The AI Bullwhip Effect: Operations in AI Model Marketplace",
+                  "presenter": "Jiannan Xu",
+                  "affiliation": "University of Maryland",
+                  "track": "Academic",
+                  "authors": "Jiannan Xu, Wedad Elmaghraby, Jane Jiang, Jiding Zhang",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 330",
+              "session_title": "AI-Assisted Work, Communication & Learning",
+              "presentations": [
+                {
+                  "submission_id": "5850",
+                  "title": "From Delegation to Engagement: How AI Role and Prompting Modality Shape Developers' Productivity and Coding Quality",
+                  "presenter": "Guohou Shan",
+                  "affiliation": "Northeastern University",
+                  "track": "Academic",
+                  "authors": "Guohou Shan",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6033",
+                  "title": "Reading over 170,000 letters with a machine: an AI-built tracker as a testbed for classification at scale",
+                  "presenter": "Tzachi Zach",
+                  "affiliation": "Ohio State University",
+                  "track": "Academic",
+                  "authors": "Tzachi Zach",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6067",
+                  "title": "Integrating AI in Teaching Business Stats / Analytics To Elevate Critical Thinking, Personalized Learning, and Engagement.",
+                  "presenter": "Ismael Talke",
+                  "affiliation": "The Ohio State University, Fisher College of Business",
+                  "track": "Academic",
+                  "authors": "Ismael Talke",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6070",
+                  "title": "Narrowing the Extraversion Advantage: AI-Assisted Upward Voice and Supervisor-Rated Communication Competence",
+                  "presenter": "Erfan Bayat",
+                  "affiliation": "The Ohio state University - Fisher College of Business",
+                  "track": "Academic",
+                  "authors": "Erfan Bayat, Hun Lee",
+                  "alternative_presenter": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": "3:15pm - 4:30pm",
+          "start_time": "15:15",
+          "parallel_sessions": [
+            {
+              "room": "Pfahl 140",
+              "session_title": "Best Paper Competition: Junior Faculty",
+              "presentations": [
+                {
+                  "submission_id": "5961",
+                  "title": "AI as a Research Collaborator: Autonomous and Auditable Hypothesis Discovery in Finance",
+                  "presenter": "Miao Liu",
+                  "affiliation": "Boston College",
+                  "track": "Academic",
+                  "authors": "Miao Liu, Huan Liu, Zhizhe Liu, Danqing Mei",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5999",
+                  "title": "Agentic Agent, Better Agent: Evidence from Agentic AI in Telemarketing",
+                  "presenter": "Ray Zhang",
+                  "affiliation": "University of Denver",
+                  "track": "Academic",
+                  "authors": "Ray Zhang, Rain Kan, Wenkang Qiu, Fengwen Chen, Yong Tan",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6043",
+                  "title": "Beyond Keywords: Impact of LLM-Powered Search in Online Marketplaces",
+                  "presenter": "Nil Karacaoglu",
+                  "affiliation": "Fisher College of Business, Ohio State University",
+                  "track": "Academic",
+                  "authors": "Nil Karacaoglu, Santiago Gallino, Antonio Moreno",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6079",
+                  "title": "The Selection Behind the Penalty: Strategic and Mandatory AI Disclosure in Music Streaming",
+                  "presenter": "XI KANG",
+                  "affiliation": "Vanderbilt University",
+                  "track": "Academic",
+                  "authors": "XI KANG, Yahe Tan, Minxia Chen, Wanshu Niu, Liqiang Huang",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 202",
+              "session_title": "Competition, Entry & Pricing in AI Markets",
+              "presentations": [
+                {
+                  "submission_id": "5855",
+                  "title": "Shared Intelligence and Misaligned Firm Entry",
+                  "presenter": "Nathan Yang",
+                  "affiliation": "UIUC Gies",
+                  "track": "Academic",
+                  "authors": "Nathan Yang, Feng Chi",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5947",
+                  "title": "Who Captures AI Deflation? Quality-Adjusted Prices, Markups, and Pass-Through in AI Services",
+                  "presenter": "ZIJIE WANG",
+                  "affiliation": "Warwick Business School",
+                  "track": "Academic",
+                  "authors": "ZIJIE WANG",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5953",
+                  "title": "The Trainer's Dilemma: Operational Investment and Competitive Subsidization in Generative AI Platforms",
+                  "presenter": "Chunjie Zhao",
+                  "affiliation": "Denison University",
+                  "track": "Academic",
+                  "authors": "Chunjie Zhao, Jingyun Hu",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6024",
+                  "title": "Artificial Intelligence in the Market for Knowledge",
+                  "presenter": "Felix Feng",
+                  "affiliation": "University of Georgia",
+                  "track": "Academic",
+                  "authors": "Felix Feng, Brett Green, Curtis Taylor, Mark Westerfield",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 240",
+              "session_title": "Generative AI & the Creator Economy",
+              "presentations": [
+                {
+                  "submission_id": "6013",
+                  "title": "Will Human Creatives Survive Generative AI Shocks?",
+                  "presenter": "Jiasun Li",
+                  "affiliation": "GMU",
+                  "track": "Academic",
+                  "authors": "Jiasun Li",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6060",
+                  "title": "Racing or Partnering? Adoption Timing and Collaboration Strategies of Generative AI in the Creator Markets",
+                  "presenter": "Yuening Zhou",
+                  "affiliation": "Indiana University",
+                  "track": "Academic",
+                  "authors": "Yuening Zhou, Shibo Li, Amy Wenxuan Ding, Hanyang Wang",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6069",
+                  "title": "Making the Product, or Making It Seen? Generative AI and Where Value Comes From on Digital Platforms",
+                  "presenter": "Jing Tang",
+                  "affiliation": "The Ohio State University",
+                  "track": "Academic",
+                  "authors": "Jing Tang, Mingtao Xu",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6076",
+                  "title": "The Economics of AI Creators",
+                  "presenter": "Zihong Huang",
+                  "affiliation": "Texas Tech University",
+                  "track": "Academic",
+                  "authors": "Zihong Huang, Yi Zhu, Xiangjing Chen",
+                  "alternative_presenter": "Yi Zhu"
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 302",
+              "session_title": "Human Oversight & Governance of AI Systems",
+              "presentations": [
+                {
+                  "submission_id": "5847",
+                  "title": "Delegation and Blackboxes",
+                  "presenter": "Abhishek Ray",
+                  "affiliation": "George Mason University",
+                  "track": "Academic",
+                  "authors": "Abhishek Ray, Cesar Martinelli",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5984",
+                  "title": "Testing a Hybrid Sensemaking Framework for Ethical Decision-Making in AI Leadership",
+                  "presenter": "Maura Bowen",
+                  "affiliation": "West Virginia University",
+                  "track": "Academic",
+                  "authors": "Maura Bowen, Tom Zeni, Jeff Houghton",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6073",
+                  "title": "Governing Human-AI Co-Creation: Capability, Opacity, and the Economics of Oversight",
+                  "presenter": "Rakesh Mallipeddi",
+                  "affiliation": "The Ohio State University",
+                  "track": "Academic",
+                  "authors": "Rakesh Mallipeddi",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6083",
+                  "title": "GOVERNING AGENTIC AI WORKFLOWS: OVERSIGHT IN AGENTIC AND ASSISTIVE MODES",
+                  "presenter": "Huaibing Yuan",
+                  "affiliation": "Cornell University/Cornell Tech",
+                  "track": "Academic",
+                  "authors": "Huaibing Yuan, Karan Girotra, Elena Belavina",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 330",
+              "session_title": "LLMs as Research Instruments",
+              "presentations": [
+                {
+                  "submission_id": "5848",
+                  "title": "Can Artificial Intelligence Demythify the Global Value Chain of Programmatic Advertising?: A Natural Language Processing Approach",
+                  "presenter": "Jiyoon An",
+                  "affiliation": "Fayetteville State University, NC, USA",
+                  "track": "Academic",
+                  "authors": "Jiyoon An",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5995",
+                  "title": "Prompts as Measurement Instruments: A Theory-Grounded Protocol for Valid LLM Text Classification",
+                  "presenter": "Yufan Lin",
+                  "affiliation": "cal poly pomona",
+                  "track": "Academic",
+                  "authors": "Yufan Lin, Sunil Singh, Brady Hodges, Vamsi Kanuri, Raymond Yang",
+                  "alternative_presenter": "Vamsi Kanuri"
+                },
+                {
+                  "submission_id": "6018",
+                  "title": "From Academic Evidence to Managerial Insight: The Promise and Peril of Multimodal LLMs",
+                  "presenter": "Hun Whee Lee",
+                  "affiliation": "The Ohio State University",
+                  "track": "Academic",
+                  "authors": "Hun Whee Lee, Seung Hyun Bae, Hyunwoo Park",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6066",
+                  "title": "Escaping the Nash Trap: Structural Estimation and Alignment of Strategic Reasoning in Large Language Models",
+                  "presenter": "Jane Jiang",
+                  "affiliation": "The Ohio State University",
+                  "track": "Academic",
+                  "authors": "Jane Jiang, Jiannan Xu, Jiding Zhang, Yongkang Duan",
+                  "alternative_presenter": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "plenary": [
+        {
+          "kind": "plenary",
+          "title": "Breakfast",
+          "time": "8:00 am – 9:00 am",
+          "start_time": "08:00",
+          "place": "Blackwell Upstairs Lobby"
+        },
+        {
+          "kind": "plenary",
+          "title": "Registration",
+          "time": "8:00 am – 9:00 am",
+          "start_time": "08:00",
+          "place": "Blackwell Upstairs Lobby"
+        },
+        {
+          "kind": "plenary",
+          "title": "Welcome (Provost Brown)",
+          "time": "9:00 am – 9:15 am",
+          "start_time": "09:00",
+          "place": "Blackwell Ballroom"
+        },
+        {
+          "kind": "keynote",
+          "title": "Keynote: Jojy Mathew",
+          "time": "9:15 am – 10:00 am",
+          "start_time": "09:15",
+          "place": "Blackwell Ballroom"
+        },
+        {
+          "kind": "break",
+          "title": "Break",
+          "time": "10:00 am – 10:15 am",
+          "start_time": "10:00",
+          "place": null
+        },
+        {
+          "kind": "plenary",
+          "title": "Lunch Seated",
+          "time": "11:30 am – 12:30 pm",
+          "start_time": "11:30",
+          "place": "Blackwell Ballroom and Daley Family Pavilion"
+        },
+        {
+          "kind": "break",
+          "title": "Break",
+          "time": "12:30 pm – 12:45 pm",
+          "start_time": "12:30",
+          "place": null
+        },
+        {
+          "kind": "break",
+          "title": "Break",
+          "time": "2:00 pm – 2:15 pm",
+          "start_time": "14:00",
+          "place": null
+        },
+        {
+          "kind": "keynote",
+          "title": "Keynote: Param Singh",
+          "time": "2:15 pm – 3:00 pm",
+          "start_time": "14:15",
+          "place": "Blackwell Ballroom"
+        },
+        {
+          "kind": "break",
+          "title": "Break",
+          "time": "3:00 pm – 3:15 pm",
+          "start_time": "15:00",
+          "place": null
+        },
+        {
+          "kind": "plenary",
+          "title": "Evening Reception at Rev 1",
+          "time": "6:00 pm – 9:00 pm",
+          "start_time": "18:00",
+          "place": null
+        },
+        {
+          "kind": "plenary",
+          "title": "Reception Welcome",
+          "time": "6:30 pm – 6:45 pm",
+          "start_time": "18:30",
+          "place": null
+        }
+      ]
+    },
+    {
+      "date": "Friday, October 16, 2026",
+      "schedule": [
+        {
+          "time": "9:00am - 10:00am",
+          "start_time": "09:00",
+          "parallel_sessions": [
+            {
+              "room": "Pfahl 140",
+              "session_title": "AI Regulation & Public-Sector Applications",
+              "presentations": [
+                {
+                  "submission_id": "5956",
+                  "title": "Hedging AI Shocks to Human Capital",
+                  "presenter": "Jose Martinez",
+                  "affiliation": "University of Connecticut",
+                  "track": "Academic",
+                  "authors": "Jose Martinez",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6034",
+                  "title": "Jurisdictional Embeddedness and AI Regulation: Evidence from the EU AI Act",
+                  "presenter": "Yi Chen",
+                  "affiliation": "Cornell University",
+                  "track": "Academic",
+                  "authors": "Yi Chen, Zhe Wang, Jing Zhou",
+                  "alternative_presenter": "Jing Zhou"
+                },
+                {
+                  "submission_id": "6053",
+                  "title": "AI for 1.4 Billion: The Effects of the World's Largest Tax Analytics Experiment on Firms",
+                  "presenter": "Mona Makhija",
+                  "affiliation": "OSU",
+                  "track": "Academic",
+                  "authors": "Mona Makhija, B. Elango, Karthik Dhandapani",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 202",
+              "session_title": "Consumer Responses to AI-Generated Content",
+              "presentations": [
+                {
+                  "submission_id": "6054",
+                  "title": "Too Neat to Be True? AI-Generated Review Summary Discrepancies and Consumer Response",
+                  "presenter": "Yunzhou Zhong",
+                  "affiliation": "University of Pennsylvania",
+                  "track": "Academic",
+                  "authors": "Yunzhou Zhong, Simin Li, Jiding Zhang",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6072",
+                  "title": "Toward a Manipulable Taxonomy of Product-Specific Aesthetic Dimensions",
+                  "presenter": "Ethan Budge",
+                  "affiliation": "Ohio State University",
+                  "track": "Academic",
+                  "authors": "Ethan Budge, Jeff Dotson",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6074",
+                  "title": "Outsourcing Morality: How AI Labels in Marketing Communication Change Perceptions of Firm Morality",
+                  "presenter": "Anjali Tapadiya",
+                  "affiliation": "The Ohio State University",
+                  "track": "Academic",
+                  "authors": "Anjali Tapadiya, Rebecca Walker Reczek",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 302",
+              "session_title": "Judgment & Expertise in the Age of AI",
+              "presentations": [
+                {
+                  "submission_id": "5909",
+                  "title": "Learning from AI: Dynamic Complementarity in Expert Decision Making",
+                  "presenter": "Susan Feng Lu",
+                  "affiliation": "University of Toronto",
+                  "track": "Academic",
+                  "authors": "Susan Feng Lu",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5963",
+                  "title": "When Machines Think Fast: A Behavioral Economics Test of AI",
+                  "presenter": "Keith Gamble",
+                  "affiliation": "Middle Tennessee State University",
+                  "track": "Academic",
+                  "authors": "Keith Gamble, Patricia Hummel",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6031",
+                  "title": "Friction Discrimination: A Microfoundation of Entrepreneurial Judgment Under AI",
+                  "presenter": "Lori Kendall",
+                  "affiliation": "The Ohio State University",
+                  "track": "Academic",
+                  "authors": "Lori Kendall",
+                  "alternative_presenter": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "time": "10:15am - 11:30am",
+          "start_time": "10:15",
+          "parallel_sessions": [
+            {
+              "room": "Pfahl 140",
+              "session_title": "AI in Investing & Trading",
+              "presentations": [
+                {
+                  "submission_id": "6038",
+                  "title": "Where Bubbles Hide: Overvaluation and the Term Structure of Disagreement",
+                  "presenter": "Aditya Chaudhry",
+                  "affiliation": "The Ohio State University",
+                  "track": "Academic",
+                  "authors": "Aditya Chaudhry, Indira Puri",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6055",
+                  "title": "AI Scales-but Can It Deliver in High-Stakes Finance?",
+                  "presenter": "QIANRU Qi",
+                  "affiliation": "UNIVERSITY OF OTTAWA",
+                  "track": "Academic",
+                  "authors": "QIANRU Qi, Jonathan Yu-Meng Li",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6059",
+                  "title": "AI Automation and Effort Allocation: Evidence from Sophisticated Investors",
+                  "presenter": "Yuan Gao",
+                  "affiliation": "University of Iowa",
+                  "track": "Academic",
+                  "authors": "Yuan Gao",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6071",
+                  "title": "Reference Dependence and Risk Management: Evidence from Human and AI Crypto Traders",
+                  "presenter": "Chenhui Ling",
+                  "affiliation": "University of Utah",
+                  "track": "Academic",
+                  "authors": "Chenhui Ling, Jiaxuan Peng, Paul Hu",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 202",
+              "session_title": "AI Shocks to Human Capital",
+              "presentations": [
+                {
+                  "submission_id": "5942",
+                  "title": "Neuro-Symbolic Engineering for Business Regulatory Applications",
+                  "presenter": "Steven Keith Platt",
+                  "affiliation": "Loyola University Chicago",
+                  "track": "Academic",
+                  "authors": "Steven Keith Platt",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5955",
+                  "title": "Historical Trends in Job Complexity and Physical Demands: An AI-Automated Cross-Temporal Meta-Analysis",
+                  "presenter": "Cory Eisenhard",
+                  "affiliation": "University of South Carolina",
+                  "track": "Academic",
+                  "authors": "Cory Eisenhard",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5959",
+                  "title": "AI Exposure, Job Insecurity, and Household Financial Risk-Taking",
+                  "presenter": "Brooke Wang",
+                  "affiliation": "Miami University",
+                  "track": "Academic",
+                  "authors": "Brooke Wang, Feng Jiang, Yiming Qian",
+                  "alternative_presenter": "Yiming Qian"
+                },
+                {
+                  "submission_id": "6042",
+                  "title": "Automation or Augmentation? Common Knowledge Frictions and Auditor Pipeline Risk",
+                  "presenter": "Rui Shi",
+                  "affiliation": "Shanghai University of Finance and Economics",
+                  "track": "Academic",
+                  "authors": "Rui Shi, Yupeng Lin, Gaoqing Zhang",
+                  "alternative_presenter": null
+                }
+              ]
+            },
+            {
+              "room": "Pfahl 302",
+              "session_title": "Bots, Companions & Crowds: Human-AI Relationships",
+              "presentations": [
+                {
+                  "submission_id": "5973",
+                  "title": "When AI Joins the Crowd: Human Evaluation of AI-Generated Annotations in Crowdchecking",
+                  "presenter": "Adam Shenxiong Li",
+                  "affiliation": "University of Rochester, Simon Business School",
+                  "track": "Academic",
+                  "authors": "Adam Shenxiong Li, Yang Gao, Huaxia Rui",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5980",
+                  "title": "Bond with Social Bot: A Hidden Markov Model of Parasocial Relationship Dynamics in Human-AI Interaction",
+                  "presenter": "Maggie Zhang",
+                  "affiliation": "University of Virginia",
+                  "track": "Academic",
+                  "authors": "Maggie Zhang, Yang Gao, Jingwen Zhang",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5998",
+                  "title": "Configured to Care: How AI Emotional Expression Shapes User Engagement in Mental Health Support",
+                  "presenter": "Yu Kan",
+                  "affiliation": "Indiana University, Kelley School of Business",
+                  "track": "Academic",
+                  "authors": "Yu Kan, Lu Yan, Yuqing Hu",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6012",
+                  "title": "The Use and Impact of Social Bots among Social Media Users",
+                  "presenter": "Qi Guo",
+                  "affiliation": "University of Illinois at Urbana???Champaign",
+                  "track": "Academic",
+                  "authors": "Qi Guo, Aric Rindfleisch",
+                  "alternative_presenter": null
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "plenary": [
+        {
+          "kind": "plenary",
+          "title": "Breakfast",
+          "time": "8:00 am – 9:00 am",
+          "start_time": "08:00",
+          "place": "Blackwell Upstairs Lobby"
+        },
+        {
+          "kind": "plenary",
+          "title": "Registration",
+          "time": "8:00 am – 9:00 am",
+          "start_time": "08:00",
+          "place": "Blackwell Upstairs Lobby"
+        },
+        {
+          "kind": "plenary",
+          "title": "Introduction",
+          "time": "9:00 am – 9:15 am",
+          "start_time": "09:00",
+          "place": "Blackwell Ballroom"
+        },
+        {
+          "kind": "break",
+          "title": "Break",
+          "time": "10:00 am – 10:15 am",
+          "start_time": "10:00",
+          "place": null
+        },
+        {
+          "kind": "plenary",
+          "title": "Lunch, Awards, and Closing",
+          "time": "11:30 am – 12:30 pm",
+          "start_time": "11:30",
+          "place": "Blackwell Ballroom"
+        }
+      ]
+    }
+  ]
+}

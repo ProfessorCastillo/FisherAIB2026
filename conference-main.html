@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisher AIB Conference 2026 - Main Portal</title>
+
+    <!-- Favicon -->
+    <!-- TODO: 2026-branded icon/favicon assets not yet available; reusing 2025 artwork renamed to 2026. Replace when new icons are ready. -->
+    <link rel="icon" type="image/x-icon" href="2026FCOB_AIinBusiness_ico.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="2026FCOB_AIinBusiness_ico.ico">
+
+    <!-- Apple Touch Icon for iOS home screen -->
+    <link rel="apple-touch-icon" href="2026FCOB_AIinBusiness.png">
+
+    <!-- Android home screen icon -->
+    <link rel="icon" type="image/png" sizes="192x192" href="2026FCOB_AIinBusiness.png">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Android and other mobile browsers -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="AIB 2026">
+    <meta name="application-name" content="AIB 2026 Conference">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Skip link for accessibility */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: #000;
+            color: #fff;
+            padding: 8px;
+            text-decoration: none;
+            z-index: 1000;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .skip-link:focus {
+            top: 6px;
+        }
+
+        /* Enhanced focus indicators */
+        a:focus, button:focus {
+            outline: 3px solid #005cbf;
+            outline-offset: 2px;
+        }
+
+        /* Ensure sufficient color contrast for OSU brand colors */
+        .conference-map-btn, .conference-schedule-btn, .presentation-search-btn, .constellation-btn {
+            /* OSU red #ba0c2f on white has ~7.8:1 contrast - WCAG AA compliant */
+            background: #ba0c2f !important;
+        }
+
+        .conference-map-btn:hover, .conference-schedule-btn:hover, .presentation-search-btn:hover, .constellation-btn:hover {
+            /* Darker hover state maintains good contrast */
+            background: #9a0a28 !important;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+            min-width: 320px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+
+        /* iOS Safari specific fixes */
+        @supports (-webkit-touch-callout: none) {
+            .filter-select {
+                background: white;
+                -webkit-appearance: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+
+            .conference-map-btn, .conference-schedule-btn, .presentation-search-btn, .constellation-btn {
+                font-size: 14px !important;
+                padding: 10px 20px !important;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip navigation link for screen readers -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="container">
+        <main id="main-content" role="main">
+        <div style="text-align: center; margin-bottom: 30px;">
+            <img src="2026FCOB_AIinBusiness_Tagline.jpg"
+                 alt="2026 AI in Business Conference logo - Fisher College of Business at The Ohio State University"
+                 style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+
+            <nav aria-label="Conference navigation" style="margin-top: 20px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                <a href="conference-agenda.html"
+                   class="conference-schedule-btn"
+                   aria-label="View complete conference schedule for October 14-16, 2026"
+                   style="display: inline-block; background: #ba0c2f; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; box-shadow: 0 2px 8px rgba(186, 12, 47, 0.3); transition: all 0.3s ease;"
+                   onmouseover="this.style.background='#9a0a28'; this.style.transform='translateY(-2px)'"
+                   onmouseout="this.style.background='#ba0c2f'; this.style.transform='translateY(0)'">
+                    Complete Conference Schedule
+                </a>
+                <a href="conference-presentation-search.html"
+                   class="presentation-search-btn"
+                   aria-label="Search and filter conference presentations by author, topic, or title"
+                   style="display: inline-block; background: #ba0c2f; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; box-shadow: 0 2px 8px rgba(186, 12, 47, 0.3); transition: all 0.3s ease;"
+                   onmouseover="this.style.background='#9a0a28'; this.style.transform='translateY(-2px)'"
+                   onmouseout="this.style.background='#ba0c2f'; this.style.transform='translateY(0)'">
+                    Presentation Search
+                </a>
+                <a href="constellation.html"
+                   class="constellation-btn"
+                   aria-label="Explore the AI-generated Knowledge Constellation map of related presentations"
+                   style="display: inline-block; background: #ba0c2f; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; box-shadow: 0 2px 8px rgba(186, 12, 47, 0.3); transition: all 0.3s ease;"
+                   onmouseover="this.style.background='#9a0a28'; this.style.transform='translateY(-2px)'"
+                   onmouseout="this.style.background='#ba0c2f'; this.style.transform='translateY(0)'">
+                    Knowledge Constellation
+                </a>
+                <a href="https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY"
+                   target="_blank"
+                   class="conference-map-btn"
+                   aria-label="View conference building locations on Google Maps (opens in new tab)"
+                   style="display: inline-block; background: #ba0c2f; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; box-shadow: 0 2px 8px rgba(186, 12, 47, 0.3); transition: all 0.3s ease;"
+                   onmouseover="this.style.background='#9a0a28'; this.style.transform='translateY(-2px)'"
+                   onmouseout="this.style.background='#ba0c2f'; this.style.transform='translateY(0)'">
+                    Conference Locations Map
+                </a>
+            </nav>
+        </div>
+        <h1 style="line-height: 1.3; margin-bottom: 15px; text-align: center;">
+            2026 AI in Business Conference<br>
+            <span style="font-size: 20px; font-weight: normal; color: #666;">Fisher College of Business at The Ohio State University</span>
+        </h1>
+        <div class="subtitle" style="text-align: center;">
+            October 14&ndash;16, 2026 &bull; Welcome to the Conference Portal<br>
+            <span style="font-size: 13px;">Industry track opens Wednesday, October 14 &bull; Academic sessions run Thursday&ndash;Friday, October 15&ndash;16</span>
+        </div>
+
+
+        </main>
+
+        <div style="text-align: center; margin-top: 20px;">
+            <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 10px;">
+                <a href="mailto:fisher-aib-conference@osu.edu?subject=Fisher AIB Conference 2026 - Website Feedback"
+                   style="display: inline-block; background: #f5f5f5; color: #666; padding: 8px 16px; text-decoration: none; border-radius: 20px; font-size: 12px; border: 1px solid #ddd; transition: all 0.2s ease;"
+                   onmouseover="this.style.background='#e9e9e9'; this.style.color='#333'"
+                   onmouseout="this.style.background='#f5f5f5'; this.style.color='#666'">
+                    Feedback? Email us
+                </a>
+                <button onclick="toggleAppInstructions()"
+                        style="background: #f5f5f5; color: #666; padding: 8px 16px; border: 1px solid #ddd; border-radius: 20px; font-size: 12px; cursor: pointer; transition: all 0.2s ease;"
+                        onmouseover="this.style.background='#e9e9e9'; this.style.color='#333'"
+                        onmouseout="this.style.background='#f5f5f5'; this.style.color='#666'"
+                        aria-expanded="false"
+                        aria-controls="app-instructions">
+                    Save Portal as Mobile App
+                </button>
+            </div>
+
+            <div id="app-instructions" style="display: none; margin-top: 15px; text-align: center;">
+                <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 15px;">
+                    <button onclick="showInstructions('ios')"
+                            style="background: #007AFF; color: white; padding: 8px 16px; border: none; border-radius: 15px; font-size: 11px; cursor: pointer; transition: all 0.2s ease;"
+                            onmouseover="this.style.background='#0056CC'"
+                            onmouseout="this.style.background='#007AFF'">
+                        iOS Instructions
+                    </button>
+                    <button onclick="showInstructions('android')"
+                            style="background: #34A853; color: white; padding: 8px 16px; border: none; border-radius: 15px; font-size: 11px; cursor: pointer; transition: all 0.2s ease;"
+                            onmouseover="this.style.background='#2E8B40'"
+                            onmouseout="this.style.background='#34A853'">
+                        Android Instructions
+                    </button>
+                </div>
+
+                <div id="ios-instructions" style="display: none; background: #f8f9fa; padding: 15px; border-radius: 10px; margin: 10px 0; font-size: 12px; text-align: left; max-width: 400px; margin-left: auto; margin-right: auto; border: 1px solid #e9ecef;">
+                    <h4 style="margin: 0 0 10px 0; color: #007AFF; font-size: 13px;">iOS Installation (Safari/Chrome):</h4>
+                    <ol style="margin: 0; padding-left: 20px; line-height: 1.5;">
+                        <li>Open this website in Safari or Chrome</li>
+                        <li>Tap the Share button (&#9744;&#8599;) at the bottom (Safari) or address bar (Chrome).</li>
+                        <li>Scroll down and tap "Add to Home Screen."</li>
+                        <li>Tap "Add" to confirm</li>
+                    </ol>
+                    <p style="margin: 10px 0 0 0; font-style: italic; color: #666;">The app will appear on your home screen with the conference logo!</p>
+                </div>
+                <div id="android-instructions" style="display: none; background: #f8f9fa; padding: 15px; border-radius: 10px; margin: 10px 0; font-size: 12px; text-align: left; max-width: 400px; margin-left: auto; margin-right: auto; border: 1px solid #e9ecef;">
+                    <h4 style="margin: 0 0 10px 0; color: #34A853; font-size: 13px;">Android Installation (Chrome):</h4>
+                    <p style="margin: 0 0 10px 0;">Follow these steps to install the app on your mobile home screen for easy access.</p>
+                    <ol style="margin: 0; padding-left: 20px; line-height: 1.6;">
+                        <li>Open this website in your Chrome browser.</li>
+                        <li>Tap the browser menu (&#8942;) in the top right.</li>
+                        <li>Select "Add to home screen."</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // Register service worker for PWA functionality
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('sw.js').then(function(registration) {
+                    console.log('ServiceWorker registration successful');
+                }, function(err) {
+                    console.log('ServiceWorker registration failed');
+                });
+            });
+        }
+
+        // Toggle app installation instructions
+        function toggleAppInstructions() {
+            const instructions = document.getElementById('app-instructions');
+            const button = document.querySelector('[aria-controls="app-instructions"]');
+            const isVisible = instructions.style.display !== 'none';
+
+            if (isVisible) {
+                instructions.style.display = 'none';
+                button.setAttribute('aria-expanded', 'false');
+                // Hide individual instruction panels
+                document.getElementById('ios-instructions').style.display = 'none';
+                document.getElementById('android-instructions').style.display = 'none';
+            } else {
+                instructions.style.display = 'block';
+                button.setAttribute('aria-expanded', 'true');
+            }
+        }
+
+        // Show specific platform instructions
+        function showInstructions(platform) {
+            const iosInstructions = document.getElementById('ios-instructions');
+            const androidInstructions = document.getElementById('android-instructions');
+
+            // Hide both first
+            iosInstructions.style.display = 'none';
+            androidInstructions.style.display = 'none';
+
+            // Show the selected platform
+            if (platform === 'ios') {
+                iosInstructions.style.display = 'block';
+            } else if (platform === 'android') {
+                androidInstructions.style.display = 'block';
+            }
+        }
+    </script>
+
+</body>
+</html>

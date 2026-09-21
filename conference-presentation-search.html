@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisher AIB Conference 2026 - Search Presentations by Author, Topic & Title</title>
+
+    <!-- Favicon -->
+    <!-- TODO: 2026-branded icon/favicon assets not yet available; reusing 2025 artwork renamed to 2026. Replace when new icons are ready. -->
+    <link rel="icon" type="image/x-icon" href="2026FCOB_AIinBusiness_ico.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="2026FCOB_AIinBusiness_ico.ico">
+
+    <!-- Apple Touch Icon for iOS home screen -->
+    <link rel="apple-touch-icon" href="2026FCOB_AIinBusiness.png">
+
+    <!-- Android home screen icon -->
+    <link rel="icon" type="image/png" sizes="192x192" href="2026FCOB_AIinBusiness.png">
+
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Android and other mobile browsers -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="AIB 2026">
+    <meta name="application-name" content="AIB 2026 Conference">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Skip link for accessibility */
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 6px;
+            background: #000;
+            color: #fff;
+            padding: 8px;
+            text-decoration: none;
+            z-index: 1000;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        .skip-link:focus {
+            top: 6px;
+        }
+
+        /* Enhanced focus indicators */
+        a:focus, button:focus, select:focus, input:focus {
+            outline: 3px solid #005cbf;
+            outline-offset: 2px;
+        }
+
+        /* Screen reader only content */
+        .visually-hidden {
+            position: absolute !important;
+            width: 1px !important;
+            height: 1px !important;
+            padding: 0 !important;
+            margin: -1px !important;
+            overflow: hidden !important;
+            clip: rect(0, 0, 0, 0) !important;
+            white-space: nowrap !important;
+            border: 0 !important;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+            min-width: 320px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .back-button {
+            display: inline-block;
+            background: #ba0c2f;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: #9a0a28;
+            transform: translateY(-2px);
+        }
+
+        .search-container {
+            margin-bottom: 30px;
+        }
+
+        .dropdown-filters {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .filter-label {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 5px;
+            font-weight: 600;
+        }
+
+        .filter-select {
+            padding: 8px 12px;
+            border: 2px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            background: white;
+            cursor: pointer;
+            transition: border-color 0.3s;
+            width: 100%;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 8px center;
+            background-size: 16px;
+            padding-right: 35px;
+        }
+
+        /* Force mobile browsers to respect our styling */
+        .filter-select::-ms-expand {
+            display: none;
+        }
+
+        .filter-select:focus {
+            outline: none;
+            border-color: #ba0c2f;
+        }
+
+        .filter-select:hover {
+            border-color: #ba0c2f;
+        }
+
+        .search-type {
+            margin-bottom: 15px;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .search-type label {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .search-type input[type="radio"] {
+            margin-right: 8px;
+        }
+
+        .search-box {
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 12px 45px 12px 15px;
+            font-size: 16px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            transition: border-color 0.3s;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #ba0c2f;
+        }
+
+        .clear-btn {
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #e0e0e0;
+            border: none;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            display: none;
+            font-size: 18px;
+            color: #666;
+        }
+
+        .clear-btn:hover {
+            background: #d0d0d0;
+        }
+
+        .clear-btn.show {
+            display: block;
+        }
+
+        .clear-filters-btn {
+            grid-column: 1 / -1;
+            padding: 10px 20px;
+            background: #f44336;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+
+        .clear-filters-btn:hover {
+            background: #da190b;
+        }
+
+        .results-info {
+            margin-bottom: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .results-container {
+            display: grid;
+            gap: 15px;
+        }
+
+        .result-card {
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            background: #fff;
+            transition: all 0.3s;
+        }
+
+        .result-card:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+
+        .presentation-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+
+        .presenter-name {
+            font-size: 16px;
+            color: #ba0c2f;
+            margin-bottom: 5px;
+        }
+
+        .presenter-affiliation {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .session-info {
+            font-size: 14px;
+            color: #444;
+            margin-bottom: 10px;
+            padding: 5px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .presentation-details {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        .detail-item {
+            font-size: 13px;
+            color: #555;
+        }
+
+        .detail-label {
+            font-weight: 600;
+        }
+
+        .authors-list {
+            font-size: 13px;
+            color: #666;
+            margin-top: 8px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+
+        .badge.phd {
+            background: #FFE5B4;
+            color: #8B4513;
+        }
+
+        .badge.faculty {
+            background: #E6E6FA;
+            color: #4B0082;
+        }
+
+        /* Track badges */
+        .badge.track-academic {
+            background: #D9E8F5;
+            color: #0b3d66;
+        }
+
+        .badge.track-industry {
+            background: #E3F1E1;
+            color: #1f5c1a;
+        }
+
+        .card-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .card-actions .abstract-toggle {
+            margin-top: 0;
+        }
+        .schedule-link {
+            padding: 8px 15px;
+            background: #fff;
+            color: #ba0c2f;
+            border: 1px solid #ba0c2f;
+            border-radius: 5px;
+            font-size: 13px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background 0.3s, color 0.3s;
+        }
+        .schedule-link:hover {
+            background: #ba0c2f;
+            color: #fff;
+        }
+
+        .abstract-toggle {
+            margin-top: 10px;
+            padding: 8px 15px;
+            background: #ba0c2f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: background 0.3s;
+        }
+
+        .abstract-toggle:hover {
+            background: #9a0a28;
+        }
+
+        .abstract-toggle.expanded {
+            background: #666;
+        }
+
+        .abstract-content {
+            margin-top: 15px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-left: 3px solid #ba0c2f;
+            border-radius: 5px;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #333;
+            display: none;
+            white-space: pre-line;
+        }
+
+        .abstract-content.show {
+            display: block;
+            animation: slideDown 0.3s ease-out;
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .abstract-label {
+            font-weight: 600;
+            color: #ba0c2f;
+            margin-bottom: 8px;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #999;
+        }
+
+        .highlight {
+            background: #fff3cd;
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .error {
+            text-align: center;
+            padding: 40px;
+            color: #f44336;
+        }
+
+        /* iOS Safari specific fixes */
+        @supports (-webkit-touch-callout: none) {
+            .filter-select {
+                background: white;
+                -webkit-appearance: none;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+
+            .search-input {
+                font-size: 16px;
+                padding: 10px 40px 10px 12px;
+            }
+
+            .presentation-title {
+                font-size: 16px;
+            }
+
+            .dropdown-filters {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+
+            .filter-select {
+                font-size: 16px;
+                padding: 10px;
+                width: 100%;
+                min-height: 44px;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6,9 12,15 18,9'%3e%3c/polyline%3e%3c/svg%3e");
+                background-repeat: no-repeat;
+                background-position: right 8px center;
+                background-size: 16px;
+                padding-right: 35px;
+                border-radius: 8px;
+            }
+
+            /* Force mobile browsers to respect our styling */
+            .filter-select::-ms-expand {
+                display: none;
+            }
+
+            .clear-filters-btn {
+                width: 100%;
+                padding: 12px;
+            }
+
+            .search-type {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .search-type label {
+                padding: 8px 0;
+            }
+
+            .result-card {
+                padding: 15px;
+            }
+
+            .presentation-details {
+                flex-direction: column;
+                gap: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip navigation link for screen readers -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="container">
+        <main id="main-content" role="main">
+        <a href="conference-main.html" class="back-button">&larr; Back to Main Page</a>
+
+        <div style="text-align: center; margin-bottom: 30px;">
+            <img src="2026FCOB_AIinBusiness_Tagline.jpg"
+                 alt="2026 AI in Business Conference logo - Fisher College of Business at The Ohio State University"
+                 style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        </div>
+        <h1 style="line-height: 1.3; margin-bottom: 15px; text-align: center;">
+            2026 AI in Business Conference<br>
+            <span style="font-size: 20px; font-weight: normal; color: #666;">Fisher College of Business at The Ohio State University</span><br>
+            <span style="font-size: 24px;">Presentation Search</span>
+        </h1>
+        <div class="subtitle" style="text-align: center;">Search and filter conference presentations</div>
+
+        <section class="search-container" aria-label="Search presentations">
+            <div id="search-instructions" class="visually-hidden">Use the search options to find presentations by author name, discipline, title, or search across all fields</div>
+            <fieldset class="search-type">
+                <legend class="visually-hidden">Choose search method</legend>
+                <label>
+                    <input type="radio" name="searchType" value="name" checked aria-describedby="search-instructions">
+                    Search by Name
+                </label>
+                <label>
+                    <input type="radio" name="searchType" value="discipline">
+                    Search by Discipline
+                </label>
+                <label>
+                    <input type="radio" name="searchType" value="title">
+                    Search by Title
+                </label>
+                <label>
+                    <input type="radio" name="searchType" value="all">
+                    Search All Fields
+                </label>
+            </fieldset>
+            <div class="search-box">
+                <label for="searchInput" class="visually-hidden">Search presentations</label>
+                <input type="text"
+                       class="search-input"
+                       id="searchInput"
+                       placeholder="Start typing to search..."
+                       aria-describedby="search-instructions">
+                <button class="clear-btn" id="clearBtn" aria-label="Clear search" title="Clear search">&times;</button>
+            </div>
+        </section>
+
+        <section class="dropdown-filters" aria-label="Filter presentations" role="region">
+            <div class="filter-group">
+                <label class="filter-label" for="trackFilter">Filter by Track</label>
+                <select class="filter-select" id="trackFilter" aria-describedby="track-help">
+                    <option value="">All Tracks</option>
+                    <option value="Academic">Academic</option>
+                    <option value="Industry">Industry</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label class="filter-label" for="disciplineFilter">Filter by Discipline</label>
+                <select class="filter-select" id="disciplineFilter" aria-describedby="discipline-help">
+                    <option value="">All Disciplines</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label class="filter-label" for="roomFilter">Filter by Room</label>
+                <select class="filter-select" id="roomFilter" aria-describedby="room-help">
+                    <option value="">All Rooms</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label class="filter-label" for="dayFilter">Filter by Day</label>
+                <select class="filter-select" id="dayFilter" aria-describedby="day-help">
+                    <option value="">All Days</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label class="filter-label" for="finalistFilter">Filter by Award Category</label>
+                <select class="filter-select" id="finalistFilter" aria-describedby="award-help">
+                    <option value="">All Presentations</option>
+                    <option value="phd">Best PhD Student Paper Finalists</option>
+                    <option value="faculty">Best Junior Faculty Paper Finalists</option>
+                </select>
+            </div>
+            <button class="clear-filters-btn" onclick="clearAllFilters()" aria-describedby="clear-help">Clear All Filters</button>
+        </section>
+
+        <section class="results-section" aria-label="Presentation search results">
+            <div class="results-info" id="resultsInfo" aria-live="polite" aria-atomic="true"></div>
+            <div class="results-container" id="resultsContainer" role="region" aria-label="Search results">
+                <div class="loading">Loading presentations...</div>
+            </div>
+        </section>
+
+        </main>
+
+
+    </div>
+
+    <script>
+        // Global variables
+        let presentations = [];
+        let currentSearchType = 'name';
+        let searchTerm = '';
+        let filters = {
+            track: '',
+            discipline: '',
+            room: '',
+            day: '',
+            finalist: ''
+        };
+
+        // Escape HTML to keep rendering safe
+        function escapeHtml(value) {
+            if (value === null || value === undefined) return '';
+            return String(value)
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#39;');
+        }
+
+        // Initialize the app
+        async function init() {
+            try {
+                // Load the JSON data (2026: flat array of 115 records)
+                const response = await fetch(`data/presentations.json?v=${Date.now()}`);
+                if (!response.ok) {
+                    throw new Error('Failed to load presentation data');
+                }
+                presentations = await response.json();
+
+                // Setup the interface
+                setupEventListeners();
+                populateDropdowns();
+                applyFilters();
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('resultsContainer').innerHTML =
+                    '<div class="error">Error loading presentation data. Please refresh the page.</div>';
+            }
+        }
+
+        function setupEventListeners() {
+            const searchInput = document.getElementById('searchInput');
+            const clearBtn = document.getElementById('clearBtn');
+            const searchTypeRadios = document.querySelectorAll('input[name="searchType"]');
+
+            searchInput.addEventListener('input', handleSearch);
+            clearBtn.addEventListener('click', clearSearch);
+
+            searchTypeRadios.forEach(radio => {
+                radio.addEventListener('change', (e) => {
+                    currentSearchType = e.target.value;
+                    updateSearchPlaceholder();
+                    handleSearch();
+                });
+            });
+
+            // Add dropdown filter listeners
+            document.getElementById('trackFilter').addEventListener('change', (e) => {
+                filters.track = e.target.value;
+                applyFilters();
+            });
+
+            document.getElementById('disciplineFilter').addEventListener('change', (e) => {
+                filters.discipline = e.target.value;
+                applyFilters();
+            });
+
+            document.getElementById('roomFilter').addEventListener('change', (e) => {
+                filters.room = e.target.value;
+                applyFilters();
+            });
+
+            document.getElementById('dayFilter').addEventListener('change', (e) => {
+                filters.day = e.target.value;
+                applyFilters();
+            });
+
+            document.getElementById('finalistFilter').addEventListener('change', (e) => {
+                filters.finalist = e.target.value;
+                applyFilters();
+            });
+        }
+
+        function updateSearchPlaceholder() {
+            const searchInput = document.getElementById('searchInput');
+            const placeholders = {
+                name: 'Search by presenter or author name...',
+                discipline: 'Search by discipline...',
+                title: 'Search by presentation title...',
+                all: 'Search across all fields...'
+            };
+            searchInput.placeholder = placeholders[currentSearchType];
+        }
+
+        function handleSearch() {
+            const searchInput = document.getElementById('searchInput');
+            searchTerm = searchInput.value.toLowerCase().trim();
+
+            // Show/hide clear button
+            const clearBtn = document.getElementById('clearBtn');
+            clearBtn.classList.toggle('show', searchTerm.length > 0);
+
+            // Apply all filters
+            applyFilters();
+        }
+
+        function applyFilters() {
+            let filtered = presentations;
+
+            // Apply search term filter
+            if (searchTerm) {
+                filtered = filterPresentations(searchTerm);
+            }
+
+            // Apply track filter
+            if (filters.track) {
+                filtered = filtered.filter(p => p.track === filters.track);
+            }
+
+            // Apply discipline dropdown filter (cleaned_discipline only)
+            if (filters.discipline) {
+                filtered = filtered.filter(p =>
+                    p.cleaned_discipline === filters.discipline
+                );
+            }
+
+            // Apply room filter
+            if (filters.room) {
+                filtered = filtered.filter(p => {
+                    const room = p.presentation_room || 'TBD';
+                    return room === filters.room;
+                });
+            }
+
+            // Apply day filter
+            if (filters.day) {
+                filtered = filtered.filter(p => {
+                    const day = p.date || 'TBD';
+                    return day === filters.day;
+                });
+            }
+
+            // Apply finalist filter
+            if (filters.finalist) {
+                filtered = filtered.filter(p => {
+                    if (filters.finalist === 'phd') {
+                        return p.best_phd_finalist === true;
+                    } else if (filters.finalist === 'faculty') {
+                        return p.best_junior_faculty_finalist === true;
+                    }
+                    return true;
+                });
+            }
+
+            // Default order: chronological — day, then start time, then room, then title.
+            const dayKey = (d) => {
+                const t = Date.parse(String(d || '').replace(/^\w+,\s*/, ''));
+                return isNaN(t) ? Infinity : t;
+            };
+            filtered.sort((a, b) =>
+                (dayKey(a.date) - dayKey(b.date))
+                || String(a.start_time || '~').localeCompare(String(b.start_time || '~'))
+                || String(a.presentation_room || '~').localeCompare(String(b.presentation_room || '~'))
+                || String(a.title || '').localeCompare(String(b.title || '')));
+
+            displayResults(filtered);
+            updateResultsInfo(filtered.length);
+        }
+
+        function filterPresentations(term) {
+            if (!term) return presentations;
+
+            return presentations.filter(presentation => {
+                const authors = presentation.authors || [];
+                if (currentSearchType === 'name') {
+                    // Search presenter
+                    const presenterName = `${presentation.presenter_first_name} ${presentation.presenter_last_name}`.toLowerCase();
+                    if (presenterName.includes(term)) return true;
+
+                    // Search all authors
+                    return authors.some(author =>
+                        (author.name || '').toLowerCase().includes(term)
+                    );
+                } else if (currentSearchType === 'discipline') {
+                    return (presentation.cleaned_discipline || '').toLowerCase().includes(term);
+                } else if (currentSearchType === 'title') {
+                    return (presentation.title || '').toLowerCase().includes(term);
+                } else if (currentSearchType === 'all') {
+                    // Search everything
+                    const presenterName = `${presentation.presenter_first_name} ${presentation.presenter_last_name}`.toLowerCase();
+                    const allAuthors = authors.map(a => (a.name || '').toLowerCase()).join(' ');
+                    const searchString = `${presentation.title || ''} ${presenterName} ${allAuthors} ${presentation.cleaned_discipline || ''} ${presentation.presenter_affiliation || ''}`.toLowerCase();
+                    return searchString.includes(term);
+                }
+            });
+        }
+
+        function populateDropdowns() {
+            // Populate discipline dropdown
+            const disciplines = new Set();
+            const rooms = new Set();
+            const days = new Set();
+
+            presentations.forEach(p => {
+                if (p.cleaned_discipline) disciplines.add(p.cleaned_discipline);
+                rooms.add(p.presentation_room || 'TBD');
+                days.add(p.date || 'TBD');
+            });
+
+            // Sort and populate discipline dropdown
+            const disciplineSelect = document.getElementById('disciplineFilter');
+            Array.from(disciplines).sort().forEach(discipline => {
+                const count = presentations.filter(p =>
+                    p.cleaned_discipline === discipline
+                ).length;
+                const option = document.createElement('option');
+                option.value = discipline;
+                option.textContent = `${discipline} (${count})`;
+                disciplineSelect.appendChild(option);
+            });
+
+            // Populate room dropdown
+            const roomSelect = document.getElementById('roomFilter');
+            Array.from(rooms).sort().forEach(room => {
+                const count = presentations.filter(p =>
+                    (p.presentation_room || 'TBD') === room
+                ).length;
+                const option = document.createElement('option');
+                option.value = room;
+                option.textContent = `${room} (${count})`;
+                roomSelect.appendChild(option);
+            });
+
+            // Populate day dropdown (chronological, not alphabetical)
+            const daySelect = document.getElementById('dayFilter');
+            const dayKey = (d) => {
+                const t = Date.parse(String(d).replace(/^\w+,\s*/, ''));
+                return isNaN(t) ? Infinity : t;
+            };
+            Array.from(days).sort((a, b) => dayKey(a) - dayKey(b)).forEach(day => {
+                const count = presentations.filter(p =>
+                    (p.date || 'TBD') === day
+                ).length;
+                const option = document.createElement('option');
+                option.value = day;
+                option.textContent = `${day} (${count})`;
+                daySelect.appendChild(option);
+            });
+        }
+
+        function displayResults(results) {
+            const container = document.getElementById('resultsContainer');
+
+            if (results.length === 0) {
+                container.innerHTML = '<div class="no-results" role="status" aria-live="polite">No presentations found. Try adjusting your search.</div>';
+                return;
+            }
+
+            container.innerHTML = results.map((presentation, index) => {
+                const room = presentation.presentation_room || 'TBD';
+                const time = presentation.time || 'TBD';
+                const date = presentation.date || 'TBD';
+                const authors = presentation.authors || [];
+
+                // Get all author names with affiliations
+                const authorNames = authors.map(a =>
+                    `${a.name}${a.affiliation ? ` (${a.affiliation})` : ''}`
+                ).join(', ');
+
+                // Create badges
+                let badges = '';
+                if (presentation.track) {
+                    const trackClass = presentation.track === 'Industry' ? 'track-industry' : 'track-academic';
+                    badges += `<span class="badge ${trackClass}">${escapeHtml(presentation.track)}</span>`;
+                }
+                if (presentation.best_phd_finalist) {
+                    badges += '<span class="badge phd">PhD Student Finalist</span>';
+                }
+                if (presentation.best_junior_faculty_finalist) {
+                    badges += '<span class="badge faculty">Junior Faculty Finalist</span>';
+                }
+
+                // Check if abstract exists
+                const hasAbstract = presentation.abstract && presentation.abstract.trim().length > 0;
+                const abstractButton = hasAbstract ?
+                    `<button class="abstract-toggle" onclick="toggleAbstract(${index})" id="toggle-${index}" aria-expanded="false" aria-controls="abstract-${index}">
+                        Show Abstract
+                    </button>` : '';
+
+                const abstractContent = hasAbstract ?
+                    `<div class="abstract-content" id="abstract-${index}">
+                        <div class="abstract-label">Abstract</div>
+                        ${escapeHtml(presentation.abstract)}
+                    </div>` : '';
+
+                // Deep link to this talk's slot on the schedule page (only when scheduled)
+                const scheduleLink = (presentation.date && presentation.date !== 'TBD')
+                    ? `<a class="schedule-link" href="conference-agenda.html#pres-${encodeURIComponent(presentation.submission_id)}">View in Schedule</a>`
+                    : '';
+
+                return `
+                    <article class="result-card" role="article" aria-labelledby="title-${index}">
+                        <h3 class="presentation-title" id="title-${index}">
+                            ${highlightText(escapeHtml(presentation.title))}${badges}
+                        </h3>
+                        <div class="presenter-name">
+                            ${escapeHtml(presentation.presenter_first_name)} ${escapeHtml(presentation.presenter_last_name)}
+                        </div>
+                        <div class="presenter-affiliation">
+                            ${escapeHtml(presentation.presenter_affiliation)}
+                        </div>
+                        <div class="session-info">
+                            <strong>Session:</strong> ${escapeHtml(presentation.session_title) || 'TBD'}
+                        </div>
+                        <div class="authors-list">
+                            <strong>All Authors:</strong> ${highlightText(escapeHtml(authorNames))}
+                        </div>
+                        <div class="presentation-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Date:</span> ${escapeHtml(date)}
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Time:</span> ${escapeHtml(time)}
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Room:</span> ${escapeHtml(room)}
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Discipline:</span> ${highlightText(escapeHtml(presentation.cleaned_discipline))}
+                            </div>
+                        </div>
+                        <div class="card-actions">
+                            ${abstractButton}
+                            ${scheduleLink}
+                        </div>
+                        ${abstractContent}
+                    </article>
+                `;
+            }).join('');
+        }
+
+        function highlightText(text) {
+            if (!searchTerm || currentSearchType === 'discipline') return text;
+
+            // Escape regex special characters in the search term
+            const safeTerm = searchTerm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+            const regex = new RegExp(`(${safeTerm})`, 'gi');
+            return text.replace(regex, '<span class="highlight">$1</span>');
+        }
+
+        function updateResultsInfo(count) {
+            const info = document.getElementById('resultsInfo');
+            // Check if any filters are active
+            const hasActiveFilters = searchTerm ||
+                                   filters.track ||
+                                   filters.discipline ||
+                                   filters.room ||
+                                   filters.day ||
+                                   filters.finalist;
+
+            if (hasActiveFilters) {
+                info.textContent = `Found ${count} presentation${count !== 1 ? 's' : ''}`;
+            } else {
+                info.textContent = `Showing all ${count} presentations`;
+            }
+        }
+
+        function clearSearch() {
+            document.getElementById('searchInput').value = '';
+            searchTerm = '';
+            handleSearch();
+        }
+
+        function clearAllFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('trackFilter').value = '';
+            document.getElementById('disciplineFilter').value = '';
+            document.getElementById('roomFilter').value = '';
+            document.getElementById('dayFilter').value = '';
+            document.getElementById('finalistFilter').value = '';
+            searchTerm = '';
+            filters = {
+                track: '',
+                discipline: '',
+                room: '',
+                day: '',
+                finalist: ''
+            };
+            applyFilters();
+        }
+
+        function toggleAbstract(index) {
+            const abstractDiv = document.getElementById(`abstract-${index}`);
+            const toggleBtn = document.getElementById(`toggle-${index}`);
+
+            if (abstractDiv && toggleBtn) {
+                if (abstractDiv.classList.contains('show')) {
+                    abstractDiv.classList.remove('show');
+                    toggleBtn.classList.remove('expanded');
+                    toggleBtn.textContent = 'Show Abstract';
+                    toggleBtn.setAttribute('aria-expanded', 'false');
+                } else {
+                    abstractDiv.classList.add('show');
+                    toggleBtn.classList.add('expanded');
+                    toggleBtn.textContent = 'Hide Abstract';
+                    toggleBtn.setAttribute('aria-expanded', 'true');
+                }
+            }
+        }
+
+        // Start the app when the page loads
+        document.addEventListener('DOMContentLoaded', init);
+
+        // Register service worker for PWA functionality
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                navigator.serviceWorker.register('sw.js').then(function(registration) {
+                    console.log('ServiceWorker registration successful');
+                }, function(err) {
+                    console.log('ServiceWorker registration failed');
+                });
+            });
+        }
+    </script>
+</body>
+</html>
