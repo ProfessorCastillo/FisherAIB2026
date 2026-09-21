@@ -542,6 +542,9 @@
             }
         }
     </style>
+
+    <!-- Shared Fisher/OSU-branded design system — loaded last so it governs the shared look. -->
+    <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
     <!-- Skip navigation link for screen readers -->
@@ -550,17 +553,15 @@
         <main id="main-content" role="main">
         <a href="conference-main.html" class="back-button">&larr; Back to Main Page</a>
 
-        <div style="text-align: center; margin-bottom: 30px;">
-            <img src="2026FCOB_AIinBusiness_Tagline.jpg"
-                 alt="2026 AI in Business Conference logo - Fisher College of Business at The Ohio State University"
-                 style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-        </div>
-        <h1 style="line-height: 1.3; margin-bottom: 15px; text-align: center;">
-            2026 AI in Business Conference<br>
-            <span style="font-size: 20px; font-weight: normal; color: #666;">Fisher College of Business at The Ohio State University</span><br>
-            <span style="font-size: 24px;">Presentation Search</span>
-        </h1>
-        <div class="subtitle" style="text-align: center;">Search and filter conference presentations</div>
+        <header class="masthead">
+            <p class="eyebrow">The Ohio State University &bull; Fisher College of Business</p>
+            <h1 class="masthead-title">
+                Presentation Search
+                <span class="sub">AI in Business Conference 2026</span>
+            </h1>
+            <p class="dateline">Search and filter by author, discipline, title, or award</p>
+            <hr class="masthead-rule">
+        </header>
 
         <section class="search-container" aria-label="Search presentations">
             <div id="search-instructions" class="visually-hidden">Use the search options to find presentations by author name, discipline, title, or search across all fields</div>

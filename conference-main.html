@@ -121,77 +121,67 @@
 
         }
     </style>
+
+    <!-- Shared Fisher/OSU-branded design system — loaded last so it governs the shared look. -->
+    <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
     <!-- Skip navigation link for screen readers -->
     <a class="skip-link" href="#main-content">Skip to main content</a>
     <div class="container">
         <main id="main-content" role="main">
-        <div style="text-align: center; margin-bottom: 30px;">
+        <div style="text-align: center; margin-bottom: 26px;">
             <img src="2026FCOB_AIinBusiness_Tagline.jpg"
                  alt="2026 AI in Business Conference logo - Fisher College of Business at The Ohio State University"
-                 style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-
-            <nav aria-label="Conference navigation" style="margin-top: 20px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-                <a href="conference-agenda.html"
-                   class="conference-schedule-btn"
-                   aria-label="View complete conference schedule for October 14-16, 2026"
-                   style="display: inline-block; background: #ba0c2f; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; box-shadow: 0 2px 8px rgba(186, 12, 47, 0.3); transition: all 0.3s ease;"
-                   onmouseover="this.style.background='#9a0a28'; this.style.transform='translateY(-2px)'"
-                   onmouseout="this.style.background='#ba0c2f'; this.style.transform='translateY(0)'">
-                    Complete Conference Schedule
-                </a>
-                <a href="conference-presentation-search.html"
-                   class="presentation-search-btn"
-                   aria-label="Search and filter conference presentations by author, topic, or title"
-                   style="display: inline-block; background: #ba0c2f; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; box-shadow: 0 2px 8px rgba(186, 12, 47, 0.3); transition: all 0.3s ease;"
-                   onmouseover="this.style.background='#9a0a28'; this.style.transform='translateY(-2px)'"
-                   onmouseout="this.style.background='#ba0c2f'; this.style.transform='translateY(0)'">
-                    Presentation Search
-                </a>
-                <a href="constellation.html"
-                   class="constellation-btn"
-                   aria-label="Explore the AI-generated Knowledge Constellation map of related presentations"
-                   style="display: inline-block; background: #ba0c2f; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; box-shadow: 0 2px 8px rgba(186, 12, 47, 0.3); transition: all 0.3s ease;"
-                   onmouseover="this.style.background='#9a0a28'; this.style.transform='translateY(-2px)'"
-                   onmouseout="this.style.background='#ba0c2f'; this.style.transform='translateY(0)'">
-                    Knowledge Constellation
-                </a>
-                <a href="https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY"
-                   target="_blank"
-                   class="conference-map-btn"
-                   aria-label="View conference building locations on Google Maps (opens in new tab)"
-                   style="display: inline-block; background: #ba0c2f; color: white; padding: 12px 24px; text-decoration: none; border-radius: 8px; font-weight: 600; font-size: 16px; box-shadow: 0 2px 8px rgba(186, 12, 47, 0.3); transition: all 0.3s ease;"
-                   onmouseover="this.style.background='#9a0a28'; this.style.transform='translateY(-2px)'"
-                   onmouseout="this.style.background='#ba0c2f'; this.style.transform='translateY(0)'">
-                    Conference Locations Map
-                </a>
-            </nav>
-        </div>
-        <h1 style="line-height: 1.3; margin-bottom: 15px; text-align: center;">
-            2026 AI in Business Conference<br>
-            <span style="font-size: 20px; font-weight: normal; color: #666;">Fisher College of Business at The Ohio State University</span>
-        </h1>
-        <div class="subtitle" style="text-align: center;">
-            October 14&ndash;16, 2026 &bull; Welcome to the Conference Portal<br>
-            <span style="font-size: 13px;">Industry track opens Wednesday, October 14 &bull; Academic sessions run Thursday&ndash;Friday, October 15&ndash;16</span>
+                 style="max-width: 100%; height: auto;">
         </div>
 
+        <header class="masthead" style="text-align: center;">
+            <p class="eyebrow">The Ohio State University &bull; Fisher College of Business</p>
+            <h1 class="masthead-title">
+                AI in Business Conference
+                <span class="sub">The Conference Portal</span>
+            </h1>
+            <p class="dateline">October 14&ndash;16, 2026 &bull; Columbus, Ohio</p>
+            <hr class="masthead-rule" style="margin-left: auto; margin-right: auto;">
+        </header>
+
+        <p class="portal-intro">Industry track opens Wednesday, October 14. Academic sessions run Thursday and Friday, October 15&ndash;16.</p>
+
+        <nav class="portal-nav" aria-label="Conference navigation">
+            <a href="conference-agenda.html"
+               aria-label="View complete conference schedule for October 14-16, 2026">
+                <span class="nav-title">Complete Schedule</span>
+                <span class="nav-desc">Every session, day by day, October 14&ndash;16.</span>
+            </a>
+            <a href="conference-presentation-search.html"
+               aria-label="Search and filter conference presentations by author, topic, or title">
+                <span class="nav-title">Presentation Search</span>
+                <span class="nav-desc">Find talks by author, topic, title, or award.</span>
+            </a>
+            <a href="constellation.html"
+               aria-label="Explore the AI-generated Knowledge Constellation map of related presentations">
+                <span class="nav-title">Knowledge Constellation</span>
+                <span class="nav-desc">A map of how this year's research connects.</span>
+            </a>
+            <a href="https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY"
+               target="_blank" rel="noopener"
+               aria-label="View conference building locations on Google Maps (opens in new tab)">
+                <span class="nav-title">Locations Map</span>
+                <span class="nav-desc">Venue and building directions on Google Maps.</span>
+            </a>
+        </nav>
 
         </main>
 
         <div style="text-align: center; margin-top: 20px;">
             <div style="display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-bottom: 10px;">
                 <a href="mailto:fisher-aib-conference@osu.edu?subject=Fisher AIB Conference 2026 - Website Feedback"
-                   style="display: inline-block; background: #f5f5f5; color: #666; padding: 8px 16px; text-decoration: none; border-radius: 20px; font-size: 12px; border: 1px solid #ddd; transition: all 0.2s ease;"
-                   onmouseover="this.style.background='#e9e9e9'; this.style.color='#333'"
-                   onmouseout="this.style.background='#f5f5f5'; this.style.color='#666'">
+                   class="utility-link">
                     Feedback? Email us
                 </a>
                 <button onclick="toggleAppInstructions()"
-                        style="background: #f5f5f5; color: #666; padding: 8px 16px; border: 1px solid #ddd; border-radius: 20px; font-size: 12px; cursor: pointer; transition: all 0.2s ease;"
-                        onmouseover="this.style.background='#e9e9e9'; this.style.color='#333'"
-                        onmouseout="this.style.background='#f5f5f5'; this.style.color='#666'"
+                        class="utility-link"
                         aria-expanded="false"
                         aria-controls="app-instructions">
                     Save Portal as Mobile App

@@ -330,6 +330,9 @@
             transition: background 0.4s ease, outline-color 0.4s ease;
         }
     </style>
+
+    <!-- Shared Fisher/OSU-branded design system — loaded last so it governs the shared look. -->
+    <link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
     <!-- Skip navigation link for screen readers -->
@@ -338,24 +341,19 @@
         <main id="main-content" role="main">
         <a href="conference-main.html" class="back-button">&larr; Back to Main Page</a>
 
-        <div style="text-align: center; margin-bottom: 30px;">
-            <img src="2026FCOB_AIinBusiness_Tagline.jpg"
-                 alt="2026 AI in Business Conference logo - Fisher College of Business at The Ohio State University"
-                 style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-        </div>
-
-        <h1 style="line-height: 1.3; margin-bottom: 15px; text-align: center;">
-            2026 AI in Business Conference<br>
-            <span style="font-size: 20px; font-weight: normal; color: #666;">Fisher College of Business at The Ohio State University</span><br>
-            <span style="font-size: 24px;">Complete Schedule</span>
-        </h1>
-        <div class="subtitle" style="text-align: center;">
-            Full conference October 14&ndash;16, 2026 &bull; Academic sessions Thursday&ndash;Friday, October 15&ndash;16
-        </div>
-
-        <div class="note" role="note">
-            Academic parallel sessions are listed below by day, time slot, and room. The industry track opens Wednesday, October 14; industry session times and rooms are still being finalized and will appear here as they are confirmed.
-        </div>
+        <header class="masthead">
+            <p class="eyebrow">The Ohio State University &bull; Fisher College of Business</p>
+            <h1 class="masthead-title">
+                Complete Schedule
+                <span class="sub">AI in Business Conference 2026</span>
+            </h1>
+            <nav class="day-jump" aria-label="Jump to a conference day">
+                <a href="#day1-header">Industry Track &middot; October 14, 2026</a>
+                <a href="#day2-header">Academic Track &middot; October 15, 2026</a>
+                <a href="#day3-header">Academic Track &middot; October 16, 2026</a>
+            </nav>
+            <hr class="masthead-rule">
+        </header>
 
         <div id="agenda-root" aria-live="polite">
             <div class="loading">Loading schedule...</div>
@@ -496,6 +494,16 @@
             setTimeout(() => target.classList.remove('pres-highlight'), 2600);
         }
         window.addEventListener('hashchange', scrollToHashTarget);
+
+        // Masthead day-jump links glide to each day's section (respecting reduced motion).
+        document.addEventListener('click', (event) => {
+            const link = event.target.closest('.day-jump a');
+            if (!link) return;
+            const target = document.getElementById(link.getAttribute('href').slice(1));
+            if (!target) return;
+            event.preventDefault();
+            target.scrollIntoView({ block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+        });
 
         document.addEventListener('DOMContentLoaded', initAgenda);
 

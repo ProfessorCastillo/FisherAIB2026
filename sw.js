@@ -1,9 +1,9 @@
 /* Static shell only: published JSON is always fetched from the network. */
-const CACHE_NAME = 'fisher-aib-2026-shell-v4';
+const CACHE_NAME = 'fisher-aib-2026-shell-v5';
 const APP_DATA_PATH = new URL('data/', self.registration.scope).pathname;
 const SHELL_URLS = [
   'conference-main.html', 'conference-agenda.html', 'conference-presentation-search.html',
-  'constellation.html', 'manifest.json', 'assets/constellation.css', 'assets/constellation.js',
+  'constellation.html', 'manifest.json', 'assets/site.css', 'assets/constellation.css', 'assets/constellation.js',
   'assets/plotly-2.35.2.min.js',
   '2026FCOB_AIinBusiness_Tagline.jpg', '2026FCOB_AIinBusiness.png', '2026FCOB_AIinBusiness_ico.ico'
 ];
