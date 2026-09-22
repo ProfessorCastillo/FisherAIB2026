@@ -137,6 +137,12 @@
           "start_time": "12:45",
           "parallel_sessions": [
             {
+              "room": "Pfahl 140",
+              "session_title": "Breakout sessions 2",
+              "presentations": [],
+              "note": "Fisher Executive Education Panel"
+            },
+            {
               "room": "Pfahl 202",
               "session_title": "Breakout sessions 2",
               "presentations": [
@@ -241,6 +247,12 @@
           "time": "2:15 pm – 3:00 pm",
           "start_time": "14:15",
           "parallel_sessions": [
+            {
+              "room": "Pfahl 140",
+              "session_title": "Breakout sessions 3",
+              "presentations": [],
+              "note": "Fisher Executive Education Panel"
+            },
             {
               "room": "Pfahl 202",
               "session_title": "Breakout sessions 3",

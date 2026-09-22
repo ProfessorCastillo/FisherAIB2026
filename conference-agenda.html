@@ -440,7 +440,7 @@
                         const label = session.note || session.session_title || 'Session';
                         const body = (session.presentations && session.presentations.length)
                             ? `<ul>${items}</ul>`
-                            : (session.note ? '<div class="session-note">Room reserved for the full session</div>' : '');
+                            : '';
                         return `
                             <div class="parallel-session">
                                 <div class="room">${escapeHtml(session.room || 'Room TBD')}</div>
