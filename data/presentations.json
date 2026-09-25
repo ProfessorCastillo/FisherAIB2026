@@ -1320,6 +1320,41 @@
     ]
   },
   {
+    "submission_id": "5993",
+    "track": "Academic",
+    "title": "Decision Making using AI: An Examination of Environmental-Oriented Crowdfunding Opportunities with Artificial Intelligence",
+    "abstract": "Anecdotally, an investment opportunity with an environmental orientation will attract greater interest. While the declaration is entirely voluntary, the effect is likely stronger in a crowdfunding setting. We collected data from Kickstarter, which designated a section for environmental disclosures starting in 2018, and established a baseline on whether a crowdfunding campaign's environmental disclosure affects its funding performance. We then explore the decision-making capability of AI algorithms in such a setting, using semantic-based and LLM-based text analyses to examine the characteristics of the disclosures and to predict the implications on funding performance. Our preliminary findings show that LLM-based evaluation offers greater predictive power for the disclosure effect than semantic-based approaches. However, prompt engineering techniques, such as persona prompting, have limited implications. We also explore the mechanisms behind LLM-based algorithms and receive results that defy our expectations.",
+    "presenter_first_name": "Wayne",
+    "presenter_last_name": "Fu",
+    "presenter_affiliation": "University of Michigan-Dearborn",
+    "alternative_presenter": null,
+    "cleaned_discipline": "Logistics, Operations, & Supply Chain",
+    "best_phd_finalist": false,
+    "best_junior_faculty_finalist": false,
+    "date": "Thursday, October 15, 2026",
+    "time": "12:45pm - 2:00pm",
+    "start_time": "12:45",
+    "presentation_room": "Pfahl 302",
+    "session_title": "AI in Supply Chains & Operations",
+    "authors": [
+      {
+        "name": "Wayne Fu",
+        "affiliation": "University of Michigan-Dearborn",
+        "role": "presenter"
+      },
+      {
+        "name": "Vince Castillo",
+        "affiliation": "The Ohio State University",
+        "role": "co-author"
+      },
+      {
+        "name": "Guangzhi Shang",
+        "affiliation": "Arizona State University",
+        "role": "co-author"
+      }
+    ]
+  },
+  {
     "submission_id": "5995",
     "track": "Academic",
     "title": "Prompts as Measurement Instruments: A Theory-Grounded Protocol for Valid LLM Text Classification",
