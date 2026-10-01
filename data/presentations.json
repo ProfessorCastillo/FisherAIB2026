@@ -435,36 +435,6 @@
     ]
   },
   {
-    "submission_id": "5945",
-    "track": "Academic",
-    "title": "Buy or Build? How AI Shapes Corporate Acquisitions and Innovation",
-    "abstract": "Motivation\nU.S. and global M&A activity has accelerated sharply in recent years, with artificial intelligence repeatedly cited as the motive behind the resurgence in strategic dealmaking. This paper asks a classic question of firm boundaries in a new and unusually clean setting: when the economy-wide returns to a capability rise abruptly, do firms build that capability in-house or buy it through the market for corporate control-and does buying it generate innovation? Frontier AI capabilities-state-of-the-art models, the scarce talent that trains them, and the proprietary data and compute they require-cannot be assembled internally within a short window. A sudden increase in the returns to AI should therefore tilt firms toward buying rather than making, most strongly among firms whose internal build option is weakest. If AI behaves as a general-purpose technology, these acquisitions should also raise innovation well beyond AI itself, as acquirers deploy the acquired capability as an input into their own core products and processes. Despite the salience of AI-driven dealmaking, no prior work has examined how a discrete jump in the returns to AI reshapes the composition and dynamics of M&A, or its consequences for innovation.\n\nMethodology\nWe assemble an acquirer-quarter panel of U.S. mergers and acquisitions from PitchBook covering 2020 through late 2025. Our central measurement innovation is a firm- and deal-level classification of AI exposure built from PitchBook's granular \"verticals\" and \"emerging spaces.\" Because a single firm carries multiple tags, we can decompose each firm's technological profile and separate not only AI from non-AI firms but, crucially, AI producers-firms whose output is AI technology-from AI adopters-firms that merely use AI as an input. We classify the category descriptions with the assistance of a large language model and validate every label by hand. We externally validate the resulting firm-level measure against the independently constructed generative-AI workforce-exposure scores of Eisfeldt et al., with which it is positively and significantly correlated. For identification, we exploit the November 2022 release of ChatGPT as a sudden, unanticipated, economy-wide shock to the returns on AI. The event was unanticipated, represented a discontinuous jump in capabilities, and diffused to mass adoption within months-features that support its interpretation as a common productivity shock that hit firms asymmetrically according to their pre-existing AI exposure. We estimate a matched difference-in-differences design, pairing AI-exposed acquirers with observably similar non-AI acquirers via nearest-neighbor matching with replacement on pre-shock characteristics and exact matching within industry sector, and we assess parallel trends with event studies. To probe the mechanism and the innovation response, we merge the panel with USPTO PatentsView records, date patents by application date, classify AI patents from CPC subclasses, and estimate triple-difference specifications.\n\nFindings\nWe first document a set of novel descriptive facts: AI-exposed acquirers sharply increase AI-related deals while their non-AI deals decline, and the increase is concentrated specifically in AI-producing targets-frontier firms in generative AI and machine learning whose technologies overlap with the domains in which the buyers themselves patent. Our causal estimates confirm and sharpen this picture. Following the shock, AI-exposed acquirers become significantly more likely to acquire AI targets, yet total deal value does not rise across either AI or non-AI deals. The response is thus a reallocation in the composition of dealmaking rather than an expansion of overall acquisition spending. The reallocation loads on AI-producing targets, with no effect on acquisitions of AI adopters, and is concentrated among young and small targets-evidence that acquirers are buying embodied capability and human capital, not scale. Dynamically, the effects emerge roughly a year after the shock and peak near three years, with no pre-trends, consistent with the search, due-diligence, and integration lags intrinsic to M&A. We then isolate the make-versus-buy channel. The reallocation is strongest among adopters-the firms least able to build AI internally-and, in a within-adopter triple difference, is significantly weaker for adopters with more pre-shock patenting; the same dampening is absent for non-AI deals, ruling out a generic size or acquisitiveness story. Turning to innovation, acquirers of AI producers subsequently patent significantly more, whereas acquirers of AI adopters do not. Strikingly, the gains are larger for non-AI than for AI patents and concentrate in the acquirer's core, AI-adjacent domains, consistent with AI diffusing across the innovation portfolio as a general-purpose input. Finally, the acquired producers are complementary, non-competitor capability suppliers rather than substitutes, indicating that AI-driven M&A operates through synergy rather than consolidation. The results survive placebo shock dates, controls for the venture-capital supply of targets, Section 174 R&D-amortization exposure, alternative matching, and alternative AI-patent definitions.\n\nImplications\nOur findings provide, to our knowledge, the first evidence that a discrete shock to the returns on AI reorganizes how firms acquire innovation along the make-versus-buy margin-not merely how much they invest. When the returns to a capability rise faster than firms can build it, the market for corporate control reallocates that capability to the firms able to deploy it most productively, and the innovation that follows is generated by the acquirer building on the acquired input rather than by the target's own patenting. Several implications follow. Methodologically, the producer-adopter taxonomy offers a portable tool for distinguishing the supply of a technology from its use, applicable well beyond AI. Substantively, M&A emerges as a central mechanism through which firms-and the broader economy-absorb and build on transformative general-purpose technologies, complementing the literature on shock-driven reallocation of corporate assets. And for competition policy, the concentration of deals in complementary, non-competitor targets speaks directly to the \"killer acquisition\" debate: the AI acquisitions we document look like synergy-driven capability sourcing rather than the neutralization of disruptive entrants.",
-    "presenter_first_name": "Sebastiao",
-    "presenter_last_name": "Oliveira",
-    "presenter_affiliation": "University of Illinois at Urbana-Champaign",
-    "alternative_presenter": null,
-    "cleaned_discipline": "Accounting & Finance",
-    "best_phd_finalist": false,
-    "best_junior_faculty_finalist": false,
-    "date": "Thursday, October 15, 2026",
-    "time": "12:45pm - 2:00pm",
-    "start_time": "12:45",
-    "presentation_room": "Pfahl 202",
-    "session_title": "AI Investment, Innovation & Diffusion",
-    "authors": [
-      {
-        "name": "Sebastiao Oliveira",
-        "affiliation": "University of Illinois at Urbana-Champaign",
-        "role": "presenter"
-      },
-      {
-        "name": "Vahid Shadram",
-        "affiliation": "University of Illinois at Urbana-Champaign",
-        "role": "co-author"
-      }
-    ]
-  },
-  {
     "submission_id": "5947",
     "track": "Academic",
     "title": "Who Captures AI Deflation? Quality-Adjusted Prices, Markups, and Pass-Through in AI Services",
@@ -1334,8 +1304,8 @@
     "date": "Thursday, October 15, 2026",
     "time": "12:45pm - 2:00pm",
     "start_time": "12:45",
-    "presentation_room": "Pfahl 302",
-    "session_title": "AI in Supply Chains & Operations",
+    "presentation_room": "Pfahl 202",
+    "session_title": "AI Investment, Innovation & Diffusion",
     "authors": [
       {
         "name": "Wayne Fu",
