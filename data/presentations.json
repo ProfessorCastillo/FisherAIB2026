@@ -1304,8 +1304,8 @@
     "date": "Thursday, October 15, 2026",
     "time": "12:45pm - 2:00pm",
     "start_time": "12:45",
-    "presentation_room": "Pfahl 202",
-    "session_title": "AI Investment, Innovation & Diffusion",
+    "presentation_room": "Pfahl 302",
+    "session_title": "AI in Supply Chains & Operations",
     "authors": [
       {
         "name": "Wayne Fu",
@@ -1830,6 +1830,36 @@
       {
         "name": "Hyunwoo Park",
         "affiliation": "Seoul National University",
+        "role": "co-author"
+      }
+    ]
+  },
+  {
+    "submission_id": "6019",
+    "track": "Academic",
+    "title": "Breaking AI Collusion with Consumer AI",
+    "abstract": "There is sufficient evidence in both the academic literature and the popular press that machine learning algorithms can collude. When firms price their products using machine learning algorithms, the algorithms can, after several interactions, determine that a collusive price is the best price. In this paper, we use a game-theoretic model to study methods for breaking AI collusion. Much of the discussion of algorithmic collusion centers on the collusion among producer-side algorithms. However, the use of AI on the consumer side is also rapidly growing, especially with the rise of Agentic AI. Many consumers increasingly delegate product search, comparison, and purchase decisions to consumer-facing AI agents, such as the ChatGPT agent and Amazon's Alexa shopping assistant. We propose a method in which such consumer AI providers can strategically inject demand noise into the market to break collusion. The consumer AI can do this by randomizing the purchases of a small fraction of subscribed consumers. The collusion of producer-side algorithms heavily relies on their ability to monitor each other's actions and tacitly punish (by undercutting the price) if any collusive partner deviates from the collusive price. Strategically induced demand noise hampers this monitoring ability and makes it easy for producer firms to deviate from collusion without being detected by the rival (due to noise); thus, it breaks the collusion by incentivizing deviation from it. We establish the robustness of this method when the producer-side algorithms strategically react to such noise injection. We also analyze how strategic adoption of AI by consumers affects the effectiveness of our method and characterize the conditions under which the method continues to break collusion. We find that although the objective of consumer AI providers is to maximize their own profits instead of maximizing consumer surplus, their presence always increases consumer surplus due to the breaking of collusion. Our analysis also reveals how the demand noise can be optimally designed depending on the market characteristics to increase the chances of breaking collusion. Our results contribute to the ongoing debate on algorithmic collusion and provide policy recommendations.",
+    "presenter_first_name": "Charlie",
+    "presenter_last_name": "Cheng",
+    "presenter_affiliation": "University of Maryland",
+    "alternative_presenter": null,
+    "cleaned_discipline": "Information Systems & Analytics",
+    "best_phd_finalist": false,
+    "best_junior_faculty_finalist": false,
+    "date": "Thursday, October 15, 2026",
+    "time": "12:45pm - 2:00pm",
+    "start_time": "12:45",
+    "presentation_room": "Pfahl 202",
+    "session_title": "AI Investment, Innovation & Diffusion",
+    "authors": [
+      {
+        "name": "Charlie Cheng",
+        "affiliation": "University of Maryland",
+        "role": "presenter"
+      },
+      {
+        "name": "Manmohan Aseri",
+        "affiliation": "University of Maryland",
         "role": "co-author"
       }
     ]

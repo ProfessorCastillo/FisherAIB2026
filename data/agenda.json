@@ -711,6 +711,15 @@
               "session_title": "AI Investment, Innovation & Diffusion",
               "presentations": [
                 {
+                  "submission_id": "6019",
+                  "title": "Breaking AI Collusion with Consumer AI",
+                  "presenter": "Charlie Cheng",
+                  "affiliation": "University of Maryland",
+                  "track": "Academic",
+                  "authors": "Charlie Cheng, Manmohan Aseri",
+                  "alternative_presenter": null
+                },
+                {
                   "submission_id": "6044",
                   "title": "Do Non-Competes Slow the Diffusion of AI?",
                   "presenter": "Wei Wang",
@@ -736,15 +745,6 @@
                   "track": "Academic",
                   "authors": "Evan Jo",
                   "alternative_presenter": "Pierre Chaigneau"
-                },
-                {
-                  "submission_id": "5993",
-                  "title": "Decision Making using AI: An Examination of Environmental-Oriented Crowdfunding Opportunities with Artificial Intelligence",
-                  "presenter": "Wayne Fu",
-                  "affiliation": "University of Michigan-Dearborn",
-                  "track": "Academic",
-                  "authors": "Wayne Fu, Vince Castillo, Guangzhi Shang",
-                  "alternative_presenter": null
                 }
               ]
             },
@@ -828,6 +828,15 @@
                   "affiliation": "University of Maryland",
                   "track": "Academic",
                   "authors": "Jiannan Xu, Wedad Elmaghraby, Jane Jiang, Jiding Zhang",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "5993",
+                  "title": "Decision Making using AI: An Examination of Environmental-Oriented Crowdfunding Opportunities with Artificial Intelligence",
+                  "presenter": "Wayne Fu",
+                  "affiliation": "University of Michigan-Dearborn",
+                  "track": "Academic",
+                  "authors": "Wayne Fu, Vince Castillo, Guangzhi Shang",
                   "alternative_presenter": null
                 }
               ]
