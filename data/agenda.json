@@ -139,8 +139,25 @@
             {
               "room": "Pfahl 140",
               "session_title": "Breakout sessions 2",
-              "presentations": [],
-              "note": "AI in Practice: Executive Perspectives on Value, Trust, and Responsible Adoption (12:45-1:45 pm) — panelists: Brian Shea, CIO, MedOne Healthcare Partners; Vanitha Zacharias, Chief AI Strategist, State of Ohio"
+              "presentations": [
+                {
+                  "submission_id": null,
+                  "title": "AI in Practice: Executive Perspectives on Value, Trust, and Responsible Adoption",
+                  "track": "Industry",
+                  "format": "Fisher Executive Education Panel",
+                  "time": "12:45–1:45 pm",
+                  "panelists": [
+                    {
+                      "name": "Brian Shea",
+                      "affiliation": "CIO, MedOne Healthcare Partners"
+                    },
+                    {
+                      "name": "Vanitha Zacharias",
+                      "affiliation": "Chief AI Strategist, State of Ohio"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "room": "Pfahl 202",
@@ -250,8 +267,25 @@
             {
               "room": "Pfahl 140",
               "session_title": "Breakout sessions 3",
-              "presentations": [],
-              "note": "Enterprise Transformation: Technology, Leadership, and What's Next (2:00-3:00 pm) — panelists: Chris Archer, Vice President, Enterprise Technology Platforms, Cardinal Health; Ervan Rodgers, Vice President of Information Technology, Duluth Trading Company"
+              "presentations": [
+                {
+                  "submission_id": null,
+                  "title": "Enterprise Transformation: Technology, Leadership, and What's Next",
+                  "track": "Industry",
+                  "format": "Fisher Executive Education Panel",
+                  "time": "2:00–3:00 pm",
+                  "panelists": [
+                    {
+                      "name": "Chris Archer",
+                      "affiliation": "Vice President, Enterprise Technology Platforms, Cardinal Health"
+                    },
+                    {
+                      "name": "Ervan Rodgers",
+                      "affiliation": "Vice President of Information Technology, Duluth Trading Company"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "room": "Pfahl 202",

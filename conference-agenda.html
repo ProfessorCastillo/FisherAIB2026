@@ -427,9 +427,20 @@
                             const link = p.submission_id
                                 ? `<a class="pres-link" href="conference-presentation-search.html?show=${encodeURIComponent(p.submission_id)}">View Presentation</a>`
                                 : '';
+                            // Invited panels (e.g. Fisher Executive Education) have no submission:
+                            // show the format/time and one line per panelist instead.
+                            const format = p.format
+                                ? `<div class="pres-alt">${escapeHtml(p.format)}${p.time ? ' &middot; ' + escapeHtml(p.time) : ''}</div>`
+                                : '';
+                            const panelists = (p.panelists || []).map(person =>
+                                `<div class="pres-presenter">Panelist: ${escapeHtml(person.affiliation ? `${person.name} — ${person.affiliation}` : person.name)}</div>`
+                            ).join('');
+                            const idAttr = p.submission_id ? ` id="pres-${escapeHtml(String(p.submission_id))}"` : '';
                             return `
-                                <li id="pres-${escapeHtml(String(p.submission_id))}">
+                                <li${idAttr}>
                                     <div class="pres-title">${escapeHtml(p.title)}</div>
+                                    ${format}
+                                    ${panelists}
                                     ${presenter}
                                     ${authors}
                                     ${alt}
