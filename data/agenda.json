@@ -138,13 +138,12 @@
           "parallel_sessions": [
             {
               "room": "Pfahl 140",
-              "session_title": "Breakout sessions 2",
+              "session_title": "Panel Session - Executive Education",
               "presentations": [
                 {
                   "submission_id": null,
                   "title": "AI in Practice: Executive Perspectives on Value, Trust, and Responsible Adoption",
                   "track": "Industry",
-                  "format": "Fisher Executive Education Panel",
                   "time": "12:45–1:45 pm",
                   "panelists": [
                     {
@@ -266,13 +265,12 @@
           "parallel_sessions": [
             {
               "room": "Pfahl 140",
-              "session_title": "Breakout sessions 3",
+              "session_title": "Panel Session - Executive Education",
               "presentations": [
                 {
                   "submission_id": null,
                   "title": "Enterprise Transformation: Technology, Leadership, and What's Next",
                   "track": "Industry",
-                  "format": "Fisher Executive Education Panel",
                   "time": "2:00–3:00 pm",
                   "panelists": [
                     {

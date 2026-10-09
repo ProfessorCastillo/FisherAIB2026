@@ -564,7 +564,7 @@
         </header>
 
         <section class="search-container" aria-label="Search presentations">
-            <div id="search-instructions" class="visually-hidden">Use the search options to find presentations by author name, discipline, title, or search across all fields</div>
+            <div id="search-instructions" class="visually-hidden">Use the search options to find presentations by author name, discipline, title, industry presenter company, or search across all fields</div>
             <fieldset class="search-type">
                 <legend class="visually-hidden">Choose search method</legend>
                 <label>
@@ -578,6 +578,10 @@
                 <label>
                     <input type="radio" name="searchType" value="title">
                     Search by Title
+                </label>
+                <label>
+                    <input type="radio" name="searchType" value="company">
+                    Search by Company
                 </label>
                 <label>
                     <input type="radio" name="searchType" value="all">
@@ -608,6 +612,12 @@
                 <label class="filter-label" for="disciplineFilter">Filter by Discipline</label>
                 <select class="filter-select" id="disciplineFilter" aria-describedby="discipline-help">
                     <option value="">All Disciplines</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label class="filter-label" for="companyFilter">Filter by Company</label>
+                <select class="filter-select" id="companyFilter">
+                    <option value="">All Companies (Industry Track)</option>
                 </select>
             </div>
             <div class="filter-group">
@@ -653,6 +663,7 @@
         let filters = {
             track: '',
             discipline: '',
+            company: '',
             room: '',
             day: '',
             finalist: ''
@@ -732,6 +743,11 @@
                 applyFilters();
             });
 
+            document.getElementById('companyFilter').addEventListener('change', (e) => {
+                filters.company = e.target.value;
+                applyFilters();
+            });
+
             document.getElementById('roomFilter').addEventListener('change', (e) => {
                 filters.room = e.target.value;
                 applyFilters();
@@ -754,6 +770,7 @@
                 name: 'Search by presenter or author name...',
                 discipline: 'Search by discipline...',
                 title: 'Search by presentation title...',
+                company: 'Search by industry presenter company...',
                 all: 'Search across all fields...'
             };
             searchInput.placeholder = placeholders[currentSearchType];
@@ -789,6 +806,11 @@
                 filtered = filtered.filter(p =>
                     p.cleaned_discipline === filters.discipline
                 );
+            }
+
+            // Apply company filter (Industry-track presenters only)
+            if (filters.company) {
+                filtered = filtered.filter(p => presenterCompany(p) === filters.company);
             }
 
             // Apply room filter
@@ -852,6 +874,9 @@
                     return (presentation.cleaned_discipline || '').toLowerCase().includes(term);
                 } else if (currentSearchType === 'title') {
                     return (presentation.title || '').toLowerCase().includes(term);
+                } else if (currentSearchType === 'company') {
+                    const company = presenterCompany(presentation);
+                    return company !== '' && `${company} ${presentation.presenter_affiliation || ''}`.toLowerCase().includes(term);
                 } else if (currentSearchType === 'all') {
                     // Search everything
                     const presenterName = `${presentation.presenter_first_name} ${presentation.presenter_last_name}`.toLowerCase();
@@ -860,6 +885,21 @@
                     return searchString.includes(term);
                 }
             });
+        }
+
+        // Company filter/search covers Industry-track presenters only. Affiliations are free text,
+        // so a few entries are mapped to a clean company name; unlisted values are used as entered.
+        const COMPANY_ALIASES = {
+            'Experience Management Institute LLC': 'Experience Management Institute',
+            'Experience Management Institute and Ohio State University Fisher College of Business': 'Experience Management Institute',
+            'https://www.tamoracompass.com/landing': 'Tamora Compass',
+            'West Virginia University (doctoral student); Abbott Labs (employee)': 'Abbott Labs'
+        };
+
+        function presenterCompany(p) {
+            if (p.track !== 'Industry') return '';
+            const raw = String(p.presenter_affiliation || '').trim();
+            return COMPANY_ALIASES[raw] || raw;
         }
 
         function populateDropdowns() {
@@ -884,6 +924,20 @@
                 option.value = discipline;
                 option.textContent = `${discipline} (${count})`;
                 disciplineSelect.appendChild(option);
+            });
+
+            // Populate company dropdown (Industry-track presenters only)
+            const companyCounts = new Map();
+            presentations.forEach(p => {
+                const company = presenterCompany(p);
+                if (company) companyCounts.set(company, (companyCounts.get(company) || 0) + 1);
+            });
+            const companySelect = document.getElementById('companyFilter');
+            Array.from(companyCounts.keys()).sort((a, b) => a.localeCompare(b)).forEach(company => {
+                const option = document.createElement('option');
+                option.value = company;
+                option.textContent = `${company} (${companyCounts.get(company)})`;
+                companySelect.appendChild(option);
             });
 
             // Populate room dropdown
@@ -1021,6 +1075,7 @@
             const hasActiveFilters = searchTerm ||
                                    filters.track ||
                                    filters.discipline ||
+                                   filters.company ||
                                    filters.room ||
                                    filters.day ||
                                    filters.finalist;
@@ -1042,6 +1097,7 @@
             document.getElementById('searchInput').value = '';
             document.getElementById('trackFilter').value = '';
             document.getElementById('disciplineFilter').value = '';
+            document.getElementById('companyFilter').value = '';
             document.getElementById('roomFilter').value = '';
             document.getElementById('dayFilter').value = '';
             document.getElementById('finalistFilter').value = '';
@@ -1049,6 +1105,7 @@
             filters = {
                 track: '',
                 discipline: '',
+                company: '',
                 room: '',
                 day: '',
                 finalist: ''
