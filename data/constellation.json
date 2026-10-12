@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "build_id": "ade6374821161b5344ec7938e5a2b0ae3804f898b92a75cea4340c9382cdc045",
+  "build_id": "74052aeffcaf07931bf87a3a0300c54407618e5918bac568339126ed367343cf",
   "generated": "2026-09-21T13:22:22.594984Z",
   "mode": "map",
   "nodes": [
@@ -1707,7 +1707,7 @@
     {
       "submission_id": "6018",
       "title": "From Academic Evidence to Managerial Insight: The Promise and Peril of Multimodal LLMs",
-      "presenter": "Hun Whee Lee",
+      "presenter": "Seung Hyun Bae",
       "affiliation": "The Ohio State University",
       "track": "Academic",
       "discipline": "Human Resources & Organizational Behavior",
@@ -1717,18 +1717,24 @@
           "person_id": null,
           "name": "Hun Whee Lee",
           "affiliation": "The Ohio State University",
-          "role": "presenter"
+          "role": "co-author"
         },
         {
           "person_id": null,
           "name": "Seung Hyun Bae",
           "affiliation": "The Ohio State University",
-          "role": "co-author"
+          "role": "presenter"
         },
         {
           "person_id": null,
           "name": "Hyunwoo Park",
           "affiliation": "Seoul National University",
+          "role": "co-author"
+        },
+        {
+          "person_id": null,
+          "name": "Hanho Lee",
+          "affiliation": "The Ohio State University",
           "role": "co-author"
         }
       ],

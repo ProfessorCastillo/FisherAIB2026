@@ -1739,8 +1739,8 @@
     "track": "Academic",
     "title": "From Academic Evidence to Managerial Insight: The Promise and Peril of Multimodal LLMs",
     "abstract": "This is what makes a new class of tools worth taking seriously. Large language models (LLMs) are deep learning models pretrained on large-scale text corpora to capture broad linguistic and semantic knowledge. Building on this foundation, multimodal large language models extend language capabilities by integrating and reasoning over multiple modalities, such as text, images, audio, and video. As these capabilities have advanced, conversational AI assistants have increasingly incorporated multimodal functionalities, enabling users not only to generate text but also to interpret, synthesize, and transform information across multiple formats. One example is NotebookLM, which allows users to transform a single source document, such as a research article, into complementary outputs including an infographic, an audio overview, and a video (Mehta et al., 2025). Learning science predicts that this should work. The cognitive theory of multimedia learning (CTML) holds that people process verbal and visual information through separate, capacity-limited channels, and that understanding is built by selecting and integrating material across them (Mayer, 2024; Mayer & Moreno, 2003). Drawing this insight, we suggest that splitting a dense research article across multimedia channels with the help of the multimodal LLM interface offloads the verbal bottleneck, frees working memory, and scaffolds an integrated mental model, thereby lowering the accessibility cost that keeps evidence out of practice.\nBut we also identify its downside: the same machinery that opens the evidence may close the mind that receives it. A research article processed, polished, and delivered in a confident synthetic voice invites the user to stand down their own judgment. People follow AI advice even against contradictory information and their own assessment (Klingbeil et al., 2024), and the more they lean on these tools, the more they offload the cognitive work and the less they think critically for themselves (Gerlich, 2025; Risko & Gilbert, 2016). We call this state unreserved reliance on AI: deference to AI-generated output without critical reservation. Our central claim is that the benefit and the cost are not separate phenomena to be traded off but two faces of one mechanism. The ease that lets a practitioner grasp a research article is the same ease that tempts them to stop interrogating it (Alter & Oppenheimer, 2009). \nIf the tool is double-edged, the question is whether it can be addressed. The remedy we propose comes from EBMgt's own toolkit. CIMO-logic decomposes a finding into the Context in which it holds, the Intervention it implies, the Mechanism that drives it, and the Outcome it yields; it was built to cast research into prescriptive, transferable form (Denyer et al., 2008). We turn it from a format for writing evidence into a structure for engaging it, prompting users to reconstruct a finding's context, intervention, mechanism, and outcome as they carry it into their own setting: a cognitive nudging function that makes the user think rather than merely receive. This prompting solution cuts two ways at once. Reconstructing a finding in one's own words is generative work that deepens understanding; judging whether it transfers (e.g., does this context match mine, would this mechanism operate here?) is evaluative work that reinstates critical cognitive agency, defined as the active exercise of independent judgment in questioning, contextualizing, and appraising when engaging with a research article. \nWe test both edges and the remedy across two experiments, asking whether multimodal LLM interfaces can bridge research and practice, turning \"journal language\" into \"manager language\", and whether that bridge can be engineered to inform without inducing unreserved reliance. Study 1 tests whether multimodal translation raises comprehension and unreserved reliance at once. Study 2 holds the multimodal translation interface fixed and pits CIMO-based prompting against a default chat, testing whether structured reflection lifts comprehension and critical cognitive agency together. Study 1 shows that multimodal translation improves comprehension of a research article while simultaneously increasing unreserved reliance on AI. Study 2 shows that prompting users to reflect on the Context, Intervention, Mechanism, and Outcome (CIMO) of a research article enhances both comprehension and critical cognitive agency.",
-    "presenter_first_name": "Hun Whee",
-    "presenter_last_name": "Lee",
+    "presenter_first_name": "Seung Hyun",
+    "presenter_last_name": "Bae",
     "presenter_affiliation": "The Ohio State University",
     "alternative_presenter": null,
     "cleaned_discipline": "Human Resources & Organizational Behavior",
@@ -1755,16 +1755,21 @@
       {
         "name": "Hun Whee Lee",
         "affiliation": "The Ohio State University",
-        "role": "presenter"
+        "role": "co-author"
       },
       {
         "name": "Seung Hyun Bae",
         "affiliation": "The Ohio State University",
-        "role": "co-author"
+        "role": "presenter"
       },
       {
         "name": "Hyunwoo Park",
         "affiliation": "Seoul National University",
+        "role": "co-author"
+      },
+      {
+        "name": "Hanho Lee",
+        "affiliation": "The Ohio State University",
         "role": "co-author"
       }
     ]
