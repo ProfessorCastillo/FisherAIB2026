@@ -1510,13 +1510,6 @@
           "place": "Blackwell Inn Second Floor Lobby"
         },
         {
-          "kind": "plenary",
-          "title": "Introduction",
-          "time": "9:00 am – 9:15 am",
-          "start_time": "09:00",
-          "place": "Blackwell Ballroom"
-        },
-        {
           "kind": "break",
           "title": "Break",
           "time": "10:00 am – 10:15 am",
