@@ -1201,8 +1201,16 @@
           "title": "Buses Depart to Reception",
           "time": "5:45 pm",
           "start_time": "17:45",
-          "place": "Neil Avenue outside Gerlach Hall",
-          "map_url": "https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY&ll=40.0051173,-83.015428&z=18"
+          "places": [
+            {
+              "label": "Pick-up: Gerlach Hall, Neil Ave",
+              "map_url": "https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY&ll=40.0051173,-83.015428&z=18"
+            },
+            {
+              "label": "Drop-off: Rev 1 at the Peninsula",
+              "map_url": "https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY&ll=39.9599652,-83.0091568&z=18"
+            }
+          ]
         },
         {
           "kind": "plenary",

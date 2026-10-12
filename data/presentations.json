@@ -520,31 +520,6 @@
     ]
   },
   {
-    "submission_id": "5954",
-    "track": "Industry",
-    "title": "AI Everywhere, Results Nowhere: Building the Operating Model for Innovation at Scale",
-    "abstract": "This proposed 45-minute interactive session for practitioners addresses one of the most important questions facing business leaders today: Why are organizations investing heavily in AI while so few can point to meaningful, measurable business results? AI is already everywhere. Employees are experimenting, departments are launching pilots, and leadership teams are considering larger investments. But the leading research in the past two years shows clearly that companies who are buying and adopting tools aren't actually seeing an impact to their bottom line - they are stuck in experimentation and scattered adoption. Moving from experimentation to innovation at scale requires more than additional tools. It requires an organization designed to repeatedly identify valuable opportunities, redesign work, manage risk, measure results, and expand what works.\n\nHeather Lenz will draw on her firsthand experience transforming a multi-million-dollar professional services firm into an AI-driven business and ultimately selling it. She will share the threat AI posed to the core business model, what the company initially expected AI to change, what actually had to change, where early efforts stalled, and how the leadership team redesigned workflows, roles, meetings, documentation, quality control, and accountability around the technology. The case study will show how AI value is created not through isolated tasks, but through the deliberate redesign of complete workflows and the operating systems around them.\n\nHeather will connect that experience to the patterns she now sees as Founder and CEO of AI Navigator Collective, where she helps executive teams turn scattered experimentation into practical business value. A professionally trained speaker and experienced facilitator, Heather has spoken nationally and presented to executive and practitioner audiences at AI summits, industry conferences, Chamber of Commerce events, and regional economic development programs. Her recent engagements include workshops at the Wayne County Economic Development Council, Cleveland AI Summit, Culture Matters Conference, and a keynote for the Canton Regional Chamber of Commerce AI Summit. Known for making complex organizational challenges accessible, Heather combines candid business stories, practical frameworks, humor, and active audience participation so attendees stay actively engaged and leave with ideas they can put to work immediately.\n\nParticipants will examine the most common reasons AI investments fail to generate meaningful returns: unclear ownership, disconnected experimentation, poorly selected use cases, generalized training without application, and attempts to layer AI onto workflows that were never reconsidered. They will learn how many companies are approaching AI adoption, and what research and practice shows works best. \n\nThe session will introduce a practical method for identifying and prioritizing AI investments across three value categories. Quick wins create immediate efficiencies within existing work. Operational enhancements redesign important workflows to improve speed, quality, capacity, or decision-making. Strategic moves can change how the organization competes, serves customers, uses proprietary data, or delivers products and services. Participants will learn why these opportunities require different levels of investment, governance, measurement, and organizational readiness, and why treating them as interchangeable undermines ROI.\n\nAttendees will also learn to define value before selecting technology. For each AI opportunity, leaders should identify the business outcome, establish a baseline, determine what will change in the workflow, assign ownership, and decide how results will be measured. ROI may include reduced production time, greater capacity, improved quality, faster decisions, lower risk, increased revenue, or entirely new sources of value. This approach gives organizations a disciplined way to decide what to scale, what to revise, and what to stop.\n\nDuring a guided exercise, participants will identify AI opportunities with the potential to move beyond individual productivity into meaningful operational or strategic value. They will leave with a clearer picture of their organization's readiness, a practical framework for evaluating AI investments, and two or three actions they can take to strengthen ownership, prioritization, workflow design, governance, and measurement.\n\nThis is not a technical demonstration or another presentation about which AI tools to buy. It is a candid, highly practical session for executives, business leaders, and transformation practitioners responsible for turning AI activity into measurable results. Attendees will leave understanding that innovation at scale is not one successful pilot replicated across the company. It is the organizational capability to continuously choose the right opportunities, redesign work around them, measure their value, and scale what works as the technology changes.",
-    "presenter_first_name": "Heather",
-    "presenter_last_name": "Lenz",
-    "presenter_affiliation": "AI Navigator Collective",
-    "alternative_presenter": null,
-    "cleaned_discipline": "Management & Strategy",
-    "best_phd_finalist": false,
-    "best_junior_faculty_finalist": false,
-    "date": "Wednesday, October 14, 2026",
-    "time": "12:45 pm – 2:00 pm",
-    "start_time": "12:45",
-    "presentation_room": "Pfahl 202",
-    "session_title": "Breakout sessions 2",
-    "authors": [
-      {
-        "name": "Heather Lenz",
-        "affiliation": "AI Navigator Collective",
-        "role": "presenter"
-      }
-    ]
-  },
-  {
     "submission_id": "5955",
     "track": "Academic",
     "title": "Historical Trends in Job Complexity and Physical Demands: An AI-Automated Cross-Temporal Meta-Analysis",
@@ -1185,46 +1160,6 @@
     ]
   },
   {
-    "submission_id": "5990",
-    "track": "Academic",
-    "title": "Generative AI Search on Content Creation Platform: Evidence from a Large-Scale Field Experiment",
-    "abstract": "Generative AI Search is an emerging platform-owned search-interface design that places AI-generated content above conventional ranked search results. For eligible queries, it provides users with a synthesized natural-language answer before they inspect or click the underlying sources, shifting the search experience from a retrieval-first, search-and-click model toward an answer-first format. On content creation platforms, where creator-supplied content is itself the informational product users seek, this design may affect both how often users search and how they subsequently consume the underlying content. Using a large-scale randomized field experiment involving 100,000 users on a leading Chinese content creation platform, we examine these two behavioral margins jointly. Treatment-group users received AI-generated content above the conventional ranked user-generated content (UGC) list when a submitted query satisfied the platform's triggering rule for objective or sufficiently standardized experience-based answers, whereas control-group users always saw only the conventional ranked list.\n\nOur results reveal a scale-intensity trade-off in content consumption. Generative AI Search expands the extensive margin of information seeking: users search more frequently, on more days, and across a wider range of content categories and semantic topics. This expansion spans all six substantive search intents, including those less aligned with the platform's triggering rule. On the intensive margin, however, users who search consume less creator-supplied content per session: they browse and click less UGC. Despite this within-session contraction, aggregate UGC browsing and clicking increase, and more search sessions initiate downstream content consumption, which refers to subsequent within-platform content-page clicks after a user opens an initial piece of UGC from the search-results page. An activity-intensity decomposition shows that the expansion in search activity more than offsets the decline in average content consumption per session. Thus, Generative AI Search can reduce the consumption of creator-supplied content within individual sessions while increasing its aggregate consumption, demonstrating why lower per-session consumption need not imply lower overall demand for creator-supplied content.",
-    "presenter_first_name": "Hongxian",
-    "presenter_last_name": "Huang",
-    "presenter_affiliation": "New York University, Stern School of Business",
-    "alternative_presenter": null,
-    "cleaned_discipline": "Information Systems & Analytics",
-    "best_phd_finalist": false,
-    "best_junior_faculty_finalist": false,
-    "date": "Thursday, October 15, 2026",
-    "time": "10:15am - 11:30am",
-    "start_time": "10:15",
-    "presentation_room": "Pfahl 240",
-    "session_title": "AI Search & Content on Digital Platforms",
-    "authors": [
-      {
-        "name": "Hongxian Huang",
-        "affiliation": "New York University, Stern School of Business",
-        "role": "presenter"
-      },
-      {
-        "name": "Jinglong Zhang",
-        "affiliation": "CUST",
-        "role": "co-author"
-      },
-      {
-        "name": "Jason Chan",
-        "affiliation": "UMN Carlson",
-        "role": "co-author"
-      },
-      {
-        "name": "Anindya Ghose",
-        "affiliation": "NYU Stern",
-        "role": "co-author"
-      }
-    ]
-  },
-  {
     "submission_id": "5991",
     "track": "Industry",
     "title": "The Meaning Gap: Where Value Moves When AI Scales",
@@ -1285,6 +1220,41 @@
       {
         "name": "Liangfei Qiu",
         "affiliation": "University of Florida",
+        "role": "co-author"
+      }
+    ]
+  },
+  {
+    "submission_id": "5993",
+    "track": "Academic",
+    "title": "Decision Making using AI: An Examination of Environmental-Oriented Crowdfunding Opportunities with Artificial Intelligence",
+    "abstract": "Anecdotally, an investment opportunity with an environmental orientation will attract greater interest. While the declaration is entirely voluntary, the effect is likely stronger in a crowdfunding setting. We collected data from Kickstarter, which designated a section for environmental disclosures starting in 2018, and established a baseline on whether a crowdfunding campaign's environmental disclosure affects its funding performance. We then explore the decision-making capability of AI algorithms in such a setting, using semantic-based and LLM-based text analyses to examine the characteristics of the disclosures and to predict the implications on funding performance. Our preliminary findings show that LLM-based evaluation offers greater predictive power for the disclosure effect than semantic-based approaches. However, prompt engineering techniques, such as persona prompting, have limited implications. We also explore the mechanisms behind LLM-based algorithms and receive results that defy our expectations.",
+    "presenter_first_name": "Wayne",
+    "presenter_last_name": "Fu",
+    "presenter_affiliation": "University of Michigan-Dearborn",
+    "alternative_presenter": null,
+    "cleaned_discipline": "Logistics, Operations, & Supply Chain",
+    "best_phd_finalist": false,
+    "best_junior_faculty_finalist": false,
+    "date": "Thursday, October 15, 2026",
+    "time": "10:15am - 11:30am",
+    "start_time": "10:15",
+    "presentation_room": "Pfahl 240",
+    "session_title": "AI Search & Content on Digital Platforms",
+    "authors": [
+      {
+        "name": "Wayne Fu",
+        "affiliation": "University of Michigan-Dearborn",
+        "role": "presenter"
+      },
+      {
+        "name": "Vince Castillo",
+        "affiliation": "The Ohio State University",
+        "role": "co-author"
+      },
+      {
+        "name": "Guangzhi Shang",
+        "affiliation": "Arizona State University",
         "role": "co-author"
       }
     ]

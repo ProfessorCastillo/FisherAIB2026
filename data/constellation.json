@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "build_id": "35924330bf5623c72da3f32be7c47c297e2299c48e1488fe50011c5bec9b4d48",
+  "build_id": "22ed74841f8ba17969a4aa99634642f81e8d53731fb77ed51f561e25b5386675",
   "generated": "2026-09-21T13:22:22.594984Z",
   "mode": "map",
   "nodes": [
@@ -484,37 +484,6 @@
       "color": "#e377c2",
       "x": 13.970358,
       "y": 15.75384
-    },
-    {
-      "submission_id": "5954",
-      "title": "AI Everywhere, Results Nowhere: Building the Operating Model for Innovation at Scale",
-      "presenter": "Heather Lenz",
-      "affiliation": "AI Navigator Collective",
-      "track": "Industry",
-      "discipline": "Management & Strategy",
-      "abstract": "This proposed 45-minute interactive session for practitioners addresses one of the most important questions facing business leaders today: Why are organizations investing heavily in AI while so few can point to meaningful, measurable business results? AI is already everywhere. Employees are experimenting, departments are launching pilots, and leadership teams are considering larger investments. But the leading research in the past two years shows clearly that companies who are buying and adopting tools aren't actually seeing an impact to their bottom line - they are stuck in experimentation and scattered adoption. Moving from experimentation to innovation at scale requires more than additional tools. It requires an organization designed to repeatedly identify valuable opportunities, redesign work, manage risk, measure results, and expand what works.\n\nHeather Lenz will draw on her firsthand experience transforming a multi-million-dollar professional services firm into an AI-driven business and ultimately selling it. She will share the threat AI posed to the core business model, what the company initially expected AI to change, what actually had to change, where early efforts stalled, and how the leadership team redesigned workflows, roles, meetings, documentation, quality control, and accountability around the technology. The case study will show how AI value is created not through isolated tasks, but through the deliberate redesign of complete workflows and the operating systems around them.\n\nHeather will connect that experience to the patterns she now sees as Founder and CEO of AI Navigator Collective, where she helps executive teams turn scattered experimentation into practical business value. A professionally trained speaker and experienced facilitator, Heather has spoken nationally and presented to executive and practitioner audiences at AI summits, industry conferences, Chamber of Commerce events, and regional economic development programs. Her recent engagements include workshops at the Wayne County Economic Development Council, Cleveland AI Summit, Culture Matters Conference, and a keynote for the Canton Regional Chamber of Commerce AI Summit. Known for making complex organizational challenges accessible, Heather combines candid business stories, practical frameworks, humor, and active audience participation so attendees stay actively engaged and leave with ideas they can put to work immediately.\n\nParticipants will examine the most common reasons AI investments fail to generate meaningful returns: unclear ownership, disconnected experimentation, poorly selected use cases, generalized training without application, and attempts to layer AI onto workflows that were never reconsidered. They will learn how many companies are approaching AI adoption, and what research and practice shows works best. \n\nThe session will introduce a practical method for identifying and prioritizing AI investments across three value categories. Quick wins create immediate efficiencies within existing work. Operational enhancements redesign important workflows to improve speed, quality, capacity, or decision-making. Strategic moves can change how the organization competes, serves customers, uses proprietary data, or delivers products and services. Participants will learn why these opportunities require different levels of investment, governance, measurement, and organizational readiness, and why treating them as interchangeable undermines ROI.\n\nAttendees will also learn to define value before selecting technology. For each AI opportunity, leaders should identify the business outcome, establish a baseline, determine what will change in the workflow, assign ownership, and decide how results will be measured. ROI may include reduced production time, greater capacity, improved quality, faster decisions, lower risk, increased revenue, or entirely new sources of value. This approach gives organizations a disciplined way to decide what to scale, what to revise, and what to stop.\n\nDuring a guided exercise, participants will identify AI opportunities with the potential to move beyond individual productivity into meaningful operational or strategic value. They will leave with a clearer picture of their organization's readiness, a practical framework for evaluating AI investments, and two or three actions they can take to strengthen ownership, prioritization, workflow design, governance, and measurement.\n\nThis is not a technical demonstration or another presentation about which AI tools to buy. It is a candid, highly practical session for executives, business leaders, and transformation practitioners responsible for turning AI activity into measurable results. Attendees will leave understanding that innovation at scale is not one successful pilot replicated across the company. It is the organizational capability to continuously choose the right opportunities, redesign work around them, measure their value, and scale what works as the technology changes.",
-      "authors": [
-        {
-          "person_id": null,
-          "name": "Heather Lenz",
-          "affiliation": "AI Navigator Collective",
-          "role": "presenter"
-        }
-      ],
-      "presenter_person_id": null,
-      "schedule": {
-        "date": "2026-10-14",
-        "start_time": "12:45",
-        "end_time": "14:00",
-        "timezone": "America/New_York",
-        "room": "Pfahl 202",
-        "session_title": "Breakout sessions 2"
-      },
-      "abstract_preview": "This proposed 45-minute interactive session for practitioners addresses one of the most important questions facing business leaders today: Why are organizations investing heavily in AI while so few can point to meaningful, measurable busine…",
-      "cluster": 7,
-      "color": "#17becf",
-      "x": 16.422634,
-      "y": 17.913452
     },
     {
       "submission_id": "5955",
@@ -1198,55 +1167,6 @@
       "color": "#2ca02c",
       "x": 17.071001,
       "y": 18.112358
-    },
-    {
-      "submission_id": "5990",
-      "title": "Generative AI Search on Content Creation Platform: Evidence from a Large-Scale Field Experiment",
-      "presenter": "Hongxian Huang",
-      "affiliation": "New York University, Stern School of Business",
-      "track": "Academic",
-      "discipline": "Information Systems & Analytics",
-      "abstract": "Generative AI Search is an emerging platform-owned search-interface design that places AI-generated content above conventional ranked search results. For eligible queries, it provides users with a synthesized natural-language answer before they inspect or click the underlying sources, shifting the search experience from a retrieval-first, search-and-click model toward an answer-first format. On content creation platforms, where creator-supplied content is itself the informational product users seek, this design may affect both how often users search and how they subsequently consume the underlying content. Using a large-scale randomized field experiment involving 100,000 users on a leading Chinese content creation platform, we examine these two behavioral margins jointly. Treatment-group users received AI-generated content above the conventional ranked user-generated content (UGC) list when a submitted query satisfied the platform's triggering rule for objective or sufficiently standardized experience-based answers, whereas control-group users always saw only the conventional ranked list.\n\nOur results reveal a scale-intensity trade-off in content consumption. Generative AI Search expands the extensive margin of information seeking: users search more frequently, on more days, and across a wider range of content categories and semantic topics. This expansion spans all six substantive search intents, including those less aligned with the platform's triggering rule. On the intensive margin, however, users who search consume less creator-supplied content per session: they browse and click less UGC. Despite this within-session contraction, aggregate UGC browsing and clicking increase, and more search sessions initiate downstream content consumption, which refers to subsequent within-platform content-page clicks after a user opens an initial piece of UGC from the search-results page. An activity-intensity decomposition shows that the expansion in search activity more than offsets the decline in average content consumption per session. Thus, Generative AI Search can reduce the consumption of creator-supplied content within individual sessions while increasing its aggregate consumption, demonstrating why lower per-session consumption need not imply lower overall demand for creator-supplied content.",
-      "authors": [
-        {
-          "person_id": null,
-          "name": "Hongxian Huang",
-          "affiliation": "New York University, Stern School of Business",
-          "role": "presenter"
-        },
-        {
-          "person_id": null,
-          "name": "Jinglong Zhang",
-          "affiliation": "CUST",
-          "role": "co-author"
-        },
-        {
-          "person_id": null,
-          "name": "Jason Chan",
-          "affiliation": "UMN Carlson",
-          "role": "co-author"
-        },
-        {
-          "person_id": null,
-          "name": "Anindya Ghose",
-          "affiliation": "NYU Stern",
-          "role": "co-author"
-        }
-      ],
-      "presenter_person_id": null,
-      "schedule": {
-        "date": "2026-10-15",
-        "start_time": "10:15",
-        "end_time": "11:30",
-        "timezone": "America/New_York",
-        "room": "Pfahl 240",
-        "session_title": "AI Search & Content on Digital Platforms"
-      },
-      "abstract_preview": "Generative AI Search is an emerging platform-owned search-interface design that places AI-generated content above conventional ranked search results. For eligible queries, it provides users with a synthesized natural-language answer before …",
-      "cluster": -1,
-      "color": "#9e9e9e",
-      "x": 15.469558,
-      "y": 15.472867
     },
     {
       "submission_id": "5991",
@@ -3079,7 +2999,7 @@
       "id": -1,
       "name": "Explore beyond the themes",
       "narrative": "These presentations are not assigned to a theme.",
-      "size": 11,
+      "size": 10,
       "color": "#9e9e9e",
       "representative_ids": []
     },
@@ -3171,10 +3091,9 @@
       "id": 7,
       "name": "Scaling AI Through Organizational Change",
       "narrative": "How can organizations move AI from experimentation to responsible scale through the redesign of workflows, operating models, and organizational translation?",
-      "size": 4,
+      "size": 3,
       "color": "#17becf",
       "representative_ids": [
-        "5954",
         "6003",
         "5964"
       ]
@@ -3261,11 +3180,6 @@
     },
     {
       "source": "5851",
-      "target": "5954",
-      "weight": 0.652637
-    },
-    {
-      "source": "5851",
       "target": "5957",
       "weight": 0.653049
     },
@@ -3318,11 +3232,6 @@
       "source": "5894",
       "target": "5943",
       "weight": 0.634435
-    },
-    {
-      "source": "5894",
-      "target": "5954",
-      "weight": 0.638244
     },
     {
       "source": "5894",
@@ -3433,61 +3342,6 @@
       "source": "5953",
       "target": "6065",
       "weight": 0.601501
-    },
-    {
-      "source": "5954",
-      "target": "5957",
-      "weight": 0.866221
-    },
-    {
-      "source": "5954",
-      "target": "5964",
-      "weight": 0.760482
-    },
-    {
-      "source": "5954",
-      "target": "5979",
-      "weight": 0.789702
-    },
-    {
-      "source": "5954",
-      "target": "5987",
-      "weight": 0.802114
-    },
-    {
-      "source": "5954",
-      "target": "5996",
-      "weight": 0.692765
-    },
-    {
-      "source": "5954",
-      "target": "6001",
-      "weight": 0.684336
-    },
-    {
-      "source": "5954",
-      "target": "6003",
-      "weight": 0.751058
-    },
-    {
-      "source": "5954",
-      "target": "6047",
-      "weight": 0.722476
-    },
-    {
-      "source": "5954",
-      "target": "6058",
-      "weight": 0.610717
-    },
-    {
-      "source": "5954",
-      "target": "6061",
-      "weight": 0.590608
-    },
-    {
-      "source": "5954",
-      "target": "6083",
-      "weight": 0.671947
     },
     {
       "source": "5955",
@@ -3878,21 +3732,6 @@
       "source": "5987",
       "target": "6057",
       "weight": 0.645927
-    },
-    {
-      "source": "5990",
-      "target": "6011",
-      "weight": 0.714025
-    },
-    {
-      "source": "5990",
-      "target": "6013",
-      "weight": 0.574609
-    },
-    {
-      "source": "5990",
-      "target": "6060",
-      "weight": 0.585494
     },
     {
       "source": "5991",
@@ -4431,30 +4270,8 @@
     },
     {
       "source": "5851",
-      "target": "5954",
-      "rank": 2,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing an agentic AI stack that searches for customer inputs to clarify target customers and problems, alongside the organizational capability to choose opportunities, redesign work, measure value, and scale as technology changes.",
-      "discussion_prompt": "How does an agentic AI stack's search for customer inputs relate to the organizational capability to choose and scale opportunities?",
-      "evidence": [
-        {
-          "submission_id": "5851",
-          "excerpt": "Our agentic AI stack interprets the founder's starting point, whether it is an idea, problem, technology, or market thesis, and actively searches for customer inputs that can clarify the target customer, early adopter, customer problem, current alternatives, workarounds, unmet needs, and evidence of urgency."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "It is the organizational capability to continuously choose the right opportunities, redesign work around them, measure their value, and scale what works as the technology changes."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5851",
       "target": "6031",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -4476,7 +4293,7 @@
     {
       "source": "5851",
       "target": "5999",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -4498,7 +4315,7 @@
     {
       "source": "5851",
       "target": "6021",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -4520,7 +4337,7 @@
     {
       "source": "5851",
       "target": "5996",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -4816,30 +4633,8 @@
     },
     {
       "source": "5894",
-      "target": "5954",
-      "rank": 2,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing how challenges surface in real workflows and how common assumptions about interoperability break down, alongside how a leadership team redesigned workflows, roles, and accountability due to threats AI posed to a core business model.",
-      "discussion_prompt": "How do technical and organizational approaches align when redesigning workflows and accountability around AI?",
-      "evidence": [
-        {
-          "submission_id": "5894",
-          "excerpt": "We will walk through how these challenges surface in real workflows, how common assumptions about interoperability break down, and how we reframed the problem to align both technical and organizational approaches."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "She will share the threat AI posed to the core business model, what the company initially expected AI to change, what actually had to change, where early efforts stalled, and how the leadership team redesigned workflows, roles, meetings, documentation, quality control, and accountability around the technology."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5894",
       "target": "5943",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest"
       ],
@@ -4860,7 +4655,7 @@
     {
       "source": "5894",
       "target": "5957",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -4882,7 +4677,7 @@
     {
       "source": "5894",
       "target": "5960",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest"
       ],
@@ -4903,7 +4698,7 @@
     {
       "source": "5894",
       "target": "5964",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -5497,30 +5292,8 @@
     },
     {
       "source": "5943",
-      "target": "5954",
-      "rank": 4,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing a case study on resolving conflicting and outdated source content in enterprise RAG systems, while also addressing how AI value is created through the deliberate redesign of complete workflows and their surrounding operating systems.",
-      "discussion_prompt": "How does the redesign of complete workflows relate to the resolution of conflicting source content in enterprise RAG systems?",
-      "evidence": [
-        {
-          "submission_id": "5943",
-          "excerpt": "A main focus of this case study is how we identified and resolved conflicting and outdated source content, a common problem in enterprise RAG systems."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "The case study will show how AI value is created not through isolated tasks, but through the deliberate redesign of complete workflows and the operating systems around them."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5943",
       "target": "5957",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -5542,7 +5315,7 @@
     {
       "source": "5943",
       "target": "5979",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -5793,136 +5566,6 @@
         {
           "submission_id": "6023",
           "excerpt": "I construct a firm-level measure of exposure to appropriation risk from a common AI training corpus, based on how precisely AI can reconstruct each firm's intellectual property."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5954",
-      "target": "5957",
-      "rank": 1,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "Attendees may discuss frameworks for evaluating AI investments and connecting use cases to financial performance. They could exchange lessons on why AI initiatives fail to scale and identify actions to strengthen governance, measurement, and workflow design.",
-      "discussion_prompt": "How can frameworks for evaluating AI investments and connecting use cases to financial performance help identify why AI initiatives fail to scale?",
-      "evidence": [
-        {
-          "submission_id": "5954",
-          "excerpt": "They will leave with a clearer picture of their organization's readiness, a practical framework for evaluating AI investments, and two or three actions they can take to strengthen ownership, prioritization, workflow design, governance, and measurement."
-        },
-        {
-          "submission_id": "5957",
-          "excerpt": "Participants will leave with a practical view of why promising AI initiatives fail to scale, firsthand lessons from running AI inside large, complex companies, a clear line between AI activity and AI value, questions they can use to pressure-test their own initiatives, and a framework connecting use cases, operating change, governance, and financial performance."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5954",
-      "target": "5979",
-      "rank": 2,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "Attendees may discuss a practical framework for evaluating AI investments and actions to strengthen governance. They could examine how AI capabilities are developed, encouraged, restricted, or governed based on an organization's mission, technical maturity, risk profile, data environment, and AI readiness.",
-      "discussion_prompt": "How do an organization's mission and risk profile influence the governance and development of AI capabilities?",
-      "evidence": [
-        {
-          "submission_id": "5954",
-          "excerpt": "They will leave with a clearer picture of their organization's readiness, a practical framework for evaluating AI investments, and two or three actions they can take to strengthen ownership, prioritization, workflow design, governance, and measurement."
-        },
-        {
-          "submission_id": "5979",
-          "excerpt": "Their experiences will allow the audience to examine how similar AI capabilities may be developed in one setting, encouraged in another, restricted elsewhere, and governed differently depending on the organization's mission, technical maturity, risk profile, data environment, and level of AI readiness."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5954",
-      "target": "5987",
-      "rank": 3,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "Participants may discuss a framework for evaluating AI investments and how to allocate a limited budget of 10 investment credits across twelve options, such as governance, measurement, and workflow redesign, to determine organizational readiness.",
-      "discussion_prompt": "How should the 10 investment credits be allocated across the twelve possible investments to strengthen organizational readiness?",
-      "evidence": [
-        {
-          "submission_id": "5954",
-          "excerpt": "They will leave with a clearer picture of their organization's readiness, a practical framework for evaluating AI investments, and two or three actions they can take to strengthen ownership, prioritization, workflow design, governance, and measurement."
-        },
-        {
-          "submission_id": "5987",
-          "excerpt": "Each team receives a limited implementation budget of 10 investment credits and must allocate them across twelve possible investments, including model improvement, data and interoperability, governance, workflow redesign, workforce adoption, AI literacy, change management, measurement, staged rollout, equity monitoring, and MLOps support."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5954",
-      "target": "5964",
-      "rank": 4,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "Conference attendees may discuss using a practical framework and a one-page Readiness Map to evaluate AI investments and workflows, while identifying risks, next steps, and actions to strengthen governance, measurement, and ownership before scaling a pilot.",
-      "discussion_prompt": "How can a Readiness Map and a practical framework help an organization evaluate AI investments and workflows?",
-      "evidence": [
-        {
-          "submission_id": "5954",
-          "excerpt": "They will leave with a clearer picture of their organization's readiness, a practical framework for evaluating AI investments, and two or three actions they can take to strengthen ownership, prioritization, workflow design, governance, and measurement."
-        },
-        {
-          "submission_id": "5964",
-          "excerpt": "Attendees leave with a repeatable way to evaluate their own workflows, plus a one-page Readiness Map they can use to identify risks and next steps before scaling a pilot."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5954",
-      "target": "5960",
-      "rank": 5,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "Heather, Founder and CEO of AI Navigator Collective, may discuss helping executive teams turn scattered experimentation into practical business value and how to bridge the gap between executive leadership's strategic vision and the technical realities of front-line staff.",
-      "discussion_prompt": "How can executive teams turn scattered experimentation into practical business value while bridging the gap between strategic vision and technical realities?",
-      "evidence": [
-        {
-          "submission_id": "5954",
-          "excerpt": "Heather will connect that experience to the patterns she now sees as Founder and CEO of AI Navigator Collective, where she helps executive teams turn scattered experimentation into practical business value."
-        },
-        {
-          "submission_id": "5960",
-          "excerpt": "You'll experience what it looks like to achieve organizational harmony, learning how to bridge the gap between executive leadership's strategic vision and the technical realities of front-line staff."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5954",
-      "target": "6003",
-      "rank": 6,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could involve discussing the organizational capability to choose opportunities, redesign work, measure value, and scale as technology changes, while mapping recurring constructs onto the Six Foundations of Enterprise AI Scale.",
-      "discussion_prompt": "How do the Six Foundations of Enterprise AI Scale relate to the organizational capability to scale what works as technology changes?",
-      "evidence": [
-        {
-          "submission_id": "5954",
-          "excerpt": "It is the organizational capability to continuously choose the right opportunities, redesign work around them, measure their value, and scale what works as the technology changes."
-        },
-        {
-          "submission_id": "6003",
-          "excerpt": "I map recurring constructs onto the Practice-to-Practice cycle and organize them as Six Foundations of Enterprise AI Scale: AI Value, Grounded Data, Governed Risk, Workflow Integration, Workforce and Change, and Measurement and Learning."
         }
       ],
       "existing_collaborator": false
@@ -6184,30 +5827,8 @@
     },
     {
       "source": "5957",
-      "target": "5954",
-      "rank": 1,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "Conference participants may discuss why AI initiatives fail to scale and how to distinguish AI activity from value. They might also talk about organization readiness, evaluating AI investments, and actions to strengthen ownership, prioritization, workflow design, governance, and measurement.",
-      "discussion_prompt": "How can a framework connecting use cases and financial performance help in evaluating AI investments and organization readiness?",
-      "evidence": [
-        {
-          "submission_id": "5957",
-          "excerpt": "Participants will leave with a practical view of why promising AI initiatives fail to scale, firsthand lessons from running AI inside large, complex companies, a clear line between AI activity and AI value, questions they can use to pressure-test their own initiatives, and a framework connecting use cases, operating change, governance, and financial performance."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "They will leave with a clearer picture of their organization's readiness, a practical framework for evaluating AI investments, and two or three actions they can take to strengthen ownership, prioritization, workflow design, governance, and measurement."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5957",
       "target": "5987",
-      "rank": 2,
+      "rank": 1,
       "categories": [
         "shared_interest"
       ],
@@ -6228,7 +5849,7 @@
     {
       "source": "5957",
       "target": "5960",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -6250,7 +5871,7 @@
     {
       "source": "5957",
       "target": "6003",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -6272,7 +5893,7 @@
     {
       "source": "5957",
       "target": "5979",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -6294,7 +5915,7 @@
     {
       "source": "5957",
       "target": "6055",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -6379,30 +6000,8 @@
     },
     {
       "source": "5960",
-      "target": "5954",
-      "rank": 4,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "Heather, Founder and CEO of AI Navigator Collective, may discuss helping executive teams turn scattered experimentation into practical business value and how to bridge the gap between executive leadership's strategic vision and the technical realities of front-line staff to achieve organizational harmony.",
-      "discussion_prompt": "How can executive teams turn scattered experimentation into practical business value while bridging the gap between strategic vision and technical realities?",
-      "evidence": [
-        {
-          "submission_id": "5960",
-          "excerpt": "You'll experience what it looks like to achieve organizational harmony, learning how to bridge the gap between executive leadership's strategic vision and the technical realities of front-line staff."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "Heather will connect that experience to the patterns she now sees as Founder and CEO of AI Navigator Collective, where she helps executive teams turn scattered experimentation into practical business value."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5960",
       "target": "5985",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest"
       ],
@@ -6423,7 +6022,7 @@
     {
       "source": "5960",
       "target": "6073",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -6699,29 +6298,8 @@
     },
     {
       "source": "5964",
-      "target": "5954",
-      "rank": 1,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "Attendees may discuss using a one-page Readiness Map and a practical framework to evaluate workflows and AI investments, while identifying risks and actions to strengthen governance, measurement, and ownership before scaling a pilot.",
-      "discussion_prompt": "How can the Readiness Map and practical framework be used to identify risks and strengthen workflow design before scaling a pilot?",
-      "evidence": [
-        {
-          "submission_id": "5964",
-          "excerpt": "Attendees leave with a repeatable way to evaluate their own workflows, plus a one-page Readiness Map they can use to identify risks and next steps before scaling a pilot."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "They will leave with a clearer picture of their organization's readiness, a practical framework for evaluating AI investments, and two or three actions they can take to strengthen ownership, prioritization, workflow design, governance, and measurement."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5964",
       "target": "5987",
-      "rank": 2,
+      "rank": 1,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -6743,7 +6321,7 @@
     {
       "source": "5964",
       "target": "5979",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -6765,7 +6343,7 @@
     {
       "source": "5964",
       "target": "5960",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -6787,7 +6365,7 @@
     {
       "source": "5964",
       "target": "5976",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -6809,7 +6387,7 @@
     {
       "source": "5964",
       "target": "6049",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -6872,30 +6450,8 @@
     },
     {
       "source": "5966",
-      "target": "5954",
-      "rank": 3,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing how Generative Artificial Intelligence (GenAI) reshapes innovation processes from discovery to prototyping, and the organizational capability to choose opportunities, redesign work, measure value, and scale as technology changes.",
-      "discussion_prompt": "How does the organizational capability to scale and redesign work relate to GenAI's role in reshaping innovation processes?",
-      "evidence": [
-        {
-          "submission_id": "5966",
-          "excerpt": "Generative Artificial Intelligence (GenAI) is emerging as a general-purpose technology that is reshaping innovation processes, supporting activities from early-stage discovery to concept prototyping and refinement (Calvino et al., 2025; Füller et al., 2022; Gama & Magistretti, 2025)."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "It is the organizational capability to continuously choose the right opportunities, redesign work around them, measure their value, and scale what works as the technology changes."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5966",
       "target": "6040",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -6917,7 +6473,7 @@
     {
       "source": "5966",
       "target": "5985",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -6939,7 +6495,7 @@
     {
       "source": "5966",
       "target": "6065",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -7345,30 +6901,8 @@
     },
     {
       "source": "5979",
-      "target": "5954",
-      "rank": 1,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "Attendees can examine how AI capabilities are developed, encouraged, restricted, and governed based on organizational factors. They will leave with a clearer picture of their organization's readiness and a framework for evaluating AI investments and specific actions to strengthen governance and workflow design.",
-      "discussion_prompt": "How do an organization's mission and risk profile influence the governance and development of AI capabilities?",
-      "evidence": [
-        {
-          "submission_id": "5979",
-          "excerpt": "Their experiences will allow the audience to examine how similar AI capabilities may be developed in one setting, encouraged in another, restricted elsewhere, and governed differently depending on the organization's mission, technical maturity, risk profile, data environment, and level of AI readiness."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "They will leave with a clearer picture of their organization's readiness, a practical framework for evaluating AI investments, and two or three actions they can take to strengthen ownership, prioritization, workflow design, governance, and measurement."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5979",
       "target": "5960",
-      "rank": 2,
+      "rank": 1,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -7390,7 +6924,7 @@
     {
       "source": "5979",
       "target": "5957",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -7412,7 +6946,7 @@
     {
       "source": "5979",
       "target": "5976",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest"
       ],
@@ -7433,7 +6967,7 @@
     {
       "source": "5979",
       "target": "6047",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest"
       ],
@@ -7454,7 +6988,7 @@
     {
       "source": "5979",
       "target": "5968",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -7666,29 +7200,8 @@
     },
     {
       "source": "5983",
-      "target": "5954",
-      "rank": 4,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could occur between a researcher analyzing patterns of organizational readiness and AI integration barriers (5983) and Heather, who helps executive teams turn scattered experimentation into practical business value (5954).",
-      "discussion_prompt": "How do the patterns of organizational readiness relate to turning scattered experimentation into practical business value?",
-      "evidence": [
-        {
-          "submission_id": "5983",
-          "excerpt": "The data will be analysed using thematic analysis to identify patterns relating to organisational readiness for AI adoption, the strategic value of AI, barriers to implementation, workforce transformation, and the organisational capabilities required to support successful AI integration."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "Heather will connect that experience to the patterns she now sees as Founder and CEO of AI Navigator Collective, where she helps executive teams turn scattered experimentation into practical business value."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5983",
       "target": "5979",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -7710,7 +7223,7 @@
     {
       "source": "5983",
       "target": "5960",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -7837,28 +7350,6 @@
       "existing_collaborator": false
     },
     {
-      "source": "5984",
-      "target": "5954",
-      "rank": 6,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve leaders discussing the challenge of making ethical decisions amidst uncertainty and conflicting demands while questioning why heavy AI investments have yielded few meaningful, measurable business results.",
-      "discussion_prompt": "Why are organizations investing heavily in AI despite a lack of measurable business results and the presence of significant ethical implications?",
-      "evidence": [
-        {
-          "submission_id": "5984",
-          "excerpt": "As organizations increasingly integrate artificial intelligence into products, services, and operational processes, leaders are being asked to make decisions with significant ethical implications in environments characterized by uncertainty, conflicting stakeholder demands, evolving regulation, and incomplete information."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "This proposed 45-minute interactive session for practitioners addresses one of the most important questions facing business leaders today: Why are organizations investing heavily in AI while so few can point to meaningful, measurable business results?"
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
       "source": "5985",
       "target": "5960",
       "rank": 1,
@@ -7924,30 +7415,8 @@
     },
     {
       "source": "5985",
-      "target": "5954",
-      "rank": 4,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "Participants may discuss identifying AI opportunities for operational or strategic value and how the Ethical Improvisation Model (EIM) explains whether ethical concerns translate into action or disappear during decision-making.",
-      "discussion_prompt": "How does the Ethical Improvisation Model relate to identifying AI opportunities for strategic value?",
-      "evidence": [
-        {
-          "submission_id": "5985",
-          "excerpt": "Following the simulation, participants will be introduced to the Ethical Improvisation Model (EIM), a practical framework that explains how ethical concerns raised during AI development either translate into meaningful action or disappear during decision-making processes."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "During a guided exercise, participants will identify AI opportunities with the potential to move beyond individual productivity into meaningful operational or strategic value."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5985",
       "target": "5979",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -7969,7 +7438,7 @@
     {
       "source": "5985",
       "target": "5991",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -8010,30 +7479,8 @@
     },
     {
       "source": "5987",
-      "target": "5954",
-      "rank": 2,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing how teams allocate a limited budget of 10 investment credits across twelve areas, such as governance and measurement, while using a framework to evaluate AI investments and identify actions to strengthen ownership and workflow design.",
-      "discussion_prompt": "How can the 10 investment credits be allocated using the practical framework for evaluating AI investments?",
-      "evidence": [
-        {
-          "submission_id": "5987",
-          "excerpt": "Each team receives a limited implementation budget of 10 investment credits and must allocate them across twelve possible investments, including model improvement, data and interoperability, governance, workflow redesign, workforce adoption, AI literacy, change management, measurement, staged rollout, equity monitoring, and MLOps support."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "They will leave with a clearer picture of their organization's readiness, a practical framework for evaluating AI investments, and two or three actions they can take to strengthen ownership, prioritization, workflow design, governance, and measurement."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5987",
       "target": "6003",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -8055,7 +7502,7 @@
     {
       "source": "5987",
       "target": "5991",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -8077,7 +7524,7 @@
     {
       "source": "5987",
       "target": "5979",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -8099,7 +7546,7 @@
     {
       "source": "5987",
       "target": "5964",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -8114,132 +7561,6 @@
         {
           "submission_id": "5964",
           "excerpt": "Attendees will learn a five-question readiness test for deciding whether an AI initiative is ready to move from experimentation to responsible scale: outcome, process, data, judgment, and accountability."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5990",
-      "target": "6011",
-      "rank": 1,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could contrast a search experience shifting toward an answer-first format for eligible queries with a scenario where users construct queries based on perceived catalog contents due to the lack of a visible menu.",
-      "discussion_prompt": "How does an answer-first format compare to a system where users construct queries based on what they think a catalog contains?",
-      "evidence": [
-        {
-          "submission_id": "5990",
-          "excerpt": "For eligible queries, it provides users with a synthesized natural-language answer before they inspect or click the underlying sources, shifting the search experience from a retrieval-first, search-and-click model toward an answer-first format."
-        },
-        {
-          "submission_id": "6011",
-          "excerpt": "an echo chamber: without a visible menu, users construct queries based on what they think the catalog contains."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5990",
-      "target": "6060",
-      "rank": 2,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "One person could discuss how aggregate UGC browsing and clicking increase and more search sessions initiate downstream content consumption. Another could discuss how adoption timing and collaboration mode shape content value and audience attribution in two-sided creator markets.",
-      "discussion_prompt": "How do UGC browsing trends relate to the way adoption timing and collaboration mode shape content value in creator markets?",
-      "evidence": [
-        {
-          "submission_id": "5990",
-          "excerpt": "Despite this within-session contraction, aggregate UGC browsing and clicking increase, and more search sessions initiate downstream content consumption, which refers to subsequent within-platform content-page clicks after a user opens an initial piece of UGC from the search-results page."
-        },
-        {
-          "submission_id": "6060",
-          "excerpt": "Drawing on diffusion of innovation theory, we extend diffusion thinking to two-sided creator markets and argue that adoption timing shapes the content value available from a maturing technological and normative environment, whereas collaboration mode shapes how much of that value audiences attribute to the human creator."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5990",
-      "target": "6013",
-      "rank": 3,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could involve discussing how aggregate UGC browsing and clicking increase and more search sessions initiate downstream content consumption, while also noting that generative AI cannot fully displace human creators because they would otherwise stop producing fresh content.",
-      "discussion_prompt": "How does the inability of generative AI to fully displace human creators relate to trends in UGC browsing and downstream content consumption?",
-      "evidence": [
-        {
-          "submission_id": "5990",
-          "excerpt": "Despite this within-session contraction, aggregate UGC browsing and clicking increase, and more search sessions initiate downstream content consumption, which refers to subsequent within-platform content-page clicks after a user opens an initial piece of UGC from the search-results page."
-        },
-        {
-          "submission_id": "6013",
-          "excerpt": "Our baseline result establishes a robust human-AI coexis- tence, analogous to the Grossman and Stiglitz (1980) impossibility of informationally efficient markets: Just as prices cannot fully aggregate private information-otherwise no investor would pay to acquire it, leaving nothing to aggregate-generative AI can- not fully displace human creators-otherwise they would stop producing fresh content,"
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5990",
-      "target": "6037",
-      "rank": 4,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could involve discussing how aggregate UGC browsing and clicking increase and more search sessions initiate downstream content consumption, while also addressing how Generative AI creates governance challenges regarding authenticity, quality, and user trust for visual content platforms.",
-      "discussion_prompt": "How do governance challenges regarding synthetic images relate to trends in UGC browsing and downstream content consumption?",
-      "evidence": [
-        {
-          "submission_id": "5990",
-          "excerpt": "Despite this within-session contraction, aggregate UGC browsing and clicking increase, and more search sessions initiate downstream content consumption, which refers to subsequent within-platform content-page clicks after a user opens an initial piece of UGC from the search-results page."
-        },
-        {
-          "submission_id": "6037",
-          "excerpt": "Generative AI has created new governance challenges for visual content platforms by making synthetic images easier to produce while raising concerns about authenticity, content quality, and user trust."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5990",
-      "target": "6073",
-      "rank": 5,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could involve discussing how design on content creation platforms affects user search and consumption, alongside the governance problem firms face when deciding how to design loops to allocate human attention effectively.",
-      "discussion_prompt": "How might the design of human-in-the-loop governance relate to user search and consumption patterns on content creation platforms?",
-      "evidence": [
-        {
-          "submission_id": "5990",
-          "excerpt": "On content creation platforms, where creator-supplied content is itself the informational product users seek, this design may affect both how often users search and how they subsequently consume the underlying content."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5990",
-      "target": "6012",
-      "rank": 6,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could involve discussing how design on content creation platforms may affect user search and consumption patterns, alongside how the dependable implementation of social bots might help less-visible users feel connected.",
-      "discussion_prompt": "How might platform design and the implementation of social bots influence user behavior and connectivity?",
-      "evidence": [
-        {
-          "submission_id": "5990",
-          "excerpt": "On content creation platforms, where creator-supplied content is itself the informational product users seek, this design may affect both how often users search and how they subsequently consume the underlying content."
-        },
-        {
-          "submission_id": "6012",
-          "excerpt": "More broadly, social bots may help platforms make less-visible users feel recognized and connected, but their benefits depend on dependable implementation."
         }
       ],
       "existing_collaborator": false
@@ -8349,28 +7670,6 @@
         {
           "submission_id": "5979",
           "excerpt": "Attendees will leave with a cross-industry understanding of how AI learning in MBA and MHRM programs transfers into professional practice; how organizational context enables or constrains that transfer; how building AI agents differs from using existing AI tools; and what universities and employers can do to develop an AI-ready workforce."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5991",
-      "target": "5954",
-      "rank": 6,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing a practice that is small enough to be repeated the same afternoon and works inside AI workflows, alongside the organizational capability to choose opportunities, redesign work, measure value, and scale what works as technology changes.",
-      "discussion_prompt": "How does a practice that works inside AI workflows relate to the organizational capability to redesign work and scale what works as technology changes?",
-      "evidence": [
-        {
-          "submission_id": "5991",
-          "excerpt": "The practice is deliberately small enough to be repeated the same afternoon, and it works inside AI workflows rather than requiring participants to step outside of them."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "It is the organizational capability to continuously choose the right opportunities, redesign work around them, measure their value, and scale what works as the technology changes."
         }
       ],
       "existing_collaborator": false
@@ -8505,30 +7804,8 @@
     },
     {
       "source": "5996",
-      "target": "5954",
-      "rank": 1,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve introducing the Value Prism, a six-dimension framework (Scale, Quality, Experience, Risk, Capability, and Financial Impact), alongside a discussion on the organizational capability to choose opportunities, redesign work, measure value, and scale what works as technology changes.",
-      "discussion_prompt": "How does the Value Prism framework relate to the organizational capability to measure value and scale what works as technology changes?",
-      "evidence": [
-        {
-          "submission_id": "5996",
-          "excerpt": "This session introduces the Value Prism, a six-dimension framework built to replace that single-metric story with an honest, disaggregated one: Scale, Quality, Experience, Risk, and Capability describe how value is created; Financial Impact - the sixth, and only the sixth - asks whether any of it lands on a P&L."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "It is the organizational capability to continuously choose the right opportunities, redesign work around them, measure their value, and scale what works as the technology changes."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5996",
       "target": "5957",
-      "rank": 2,
+      "rank": 1,
       "categories": [
         "shared_interest"
       ],
@@ -8549,7 +7826,7 @@
     {
       "source": "5996",
       "target": "5987",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest"
       ],
@@ -8570,7 +7847,7 @@
     {
       "source": "5996",
       "target": "6016",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest"
       ],
@@ -8591,7 +7868,7 @@
     {
       "source": "5996",
       "target": "5960",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -8613,7 +7890,7 @@
     {
       "source": "5996",
       "target": "6083",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -8890,30 +8167,8 @@
     },
     {
       "source": "6001",
-      "target": "5954",
-      "rank": 1,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing the impact of ubiquitous AI assistants on human systems and the organizational capability to redesign work, select opportunities, measure value, and scale processes as technology changes.",
-      "discussion_prompt": "How does the organizational capability to redesign work relate to the impact of AI assistants on human systems?",
-      "evidence": [
-        {
-          "submission_id": "6001",
-          "excerpt": "This is the question hiding inside AI innovation at scale: when the assistant is everywhere, what happens to the human system around it?"
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "It is the organizational capability to continuously choose the right opportunities, redesign work around them, measure their value, and scale what works as the technology changes."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6001",
       "target": "6047",
-      "rank": 2,
+      "rank": 1,
       "categories": [
         "shared_interest"
       ],
@@ -8934,7 +8189,7 @@
     {
       "source": "6001",
       "target": "5979",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest"
       ],
@@ -8955,7 +8210,7 @@
     {
       "source": "6001",
       "target": "5960",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -8977,7 +8232,7 @@
     {
       "source": "6001",
       "target": "5957",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -8999,7 +8254,7 @@
     {
       "source": "6001",
       "target": "5968",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -9170,29 +8425,8 @@
     },
     {
       "source": "6003",
-      "target": "5954",
-      "rank": 2,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could involve discussing the Six Foundations of Enterprise AI Scale, which include AI Value and Measurement and Learning, alongside the organizational capability to choose opportunities, redesign work, measure value, and scale as technology changes.",
-      "discussion_prompt": "How do the Six Foundations of Enterprise AI Scale relate to the organizational capability to scale what works as technology changes?",
-      "evidence": [
-        {
-          "submission_id": "6003",
-          "excerpt": "I map recurring constructs onto the Practice-to-Practice cycle and organize them as Six Foundations of Enterprise AI Scale: AI Value, Grounded Data, Governed Risk, Workflow Integration, Workforce and Change, and Measurement and Learning."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "It is the organizational capability to continuously choose the right opportunities, redesign work around them, measure their value, and scale what works as the technology changes."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6003",
       "target": "5987",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -9214,7 +8448,7 @@
     {
       "source": "6003",
       "target": "5991",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -9236,7 +8470,7 @@
     {
       "source": "6003",
       "target": "5983",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest"
       ],
@@ -9257,7 +8491,7 @@
     {
       "source": "6003",
       "target": "5979",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -9364,29 +8598,8 @@
     },
     {
       "source": "6011",
-      "target": "5990",
-      "rank": 1,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could contrast how users construct queries based on perceived catalog contents when a menu is absent, versus how an answer-first format provides synthesized natural-language answers before users click underlying sources.",
-      "discussion_prompt": "How does the shift toward an answer-first format compare to users constructing queries based on what they think a catalog contains?",
-      "evidence": [
-        {
-          "submission_id": "6011",
-          "excerpt": "an echo chamber: without a visible menu, users construct queries based on what they think the catalog contains."
-        },
-        {
-          "submission_id": "5990",
-          "excerpt": "For eligible queries, it provides users with a synthesized natural-language answer before they inspect or click the underlying sources, shifting the search experience from a retrieval-first, search-and-click model toward an answer-first format."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6011",
       "target": "5980",
-      "rank": 2,
+      "rank": 1,
       "categories": [
         "shared_interest"
       ],
@@ -9407,7 +8620,7 @@
     {
       "source": "6011",
       "target": "6021",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest"
       ],
@@ -9428,7 +8641,7 @@
     {
       "source": "6011",
       "target": "6018",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest"
       ],
@@ -9449,7 +8662,7 @@
     {
       "source": "6011",
       "target": "5943",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest"
       ],
@@ -9470,7 +8683,7 @@
     {
       "source": "6011",
       "target": "6001",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -9576,29 +8789,8 @@
     },
     {
       "source": "6012",
-      "target": "5990",
-      "rank": 5,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could involve discussing how social bots might help less-visible users feel connected, provided implementation is dependable, and how certain designs on content creation platforms may affect user search frequency and subsequent content consumption.",
-      "discussion_prompt": "How might the implementation of social bots and platform design influence user connectivity and content consumption?",
-      "evidence": [
-        {
-          "submission_id": "6012",
-          "excerpt": "More broadly, social bots may help platforms make less-visible users feel recognized and connected, but their benefits depend on dependable implementation."
-        },
-        {
-          "submission_id": "5990",
-          "excerpt": "On content creation platforms, where creator-supplied content is itself the informational product users seek, this design may affect both how often users search and how they subsequently consume the underlying content."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6012",
       "target": "6001",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -9769,30 +8961,8 @@
     },
     {
       "source": "6016",
-      "target": "5954",
-      "rank": 2,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A speaker may discuss using AI agents at a trucking insurance company to provide leadership with delivery tracking and probability of meeting forecasted dates. Another speaker may share how a company redesigned workflows, roles, and accountability after AI threatened its core business model.",
-      "discussion_prompt": "How did the leadership teams in these examples adapt their workflows or reporting using AI?",
-      "evidence": [
-        {
-          "submission_id": "6016",
-          "excerpt": "At a trucking insurance company, I used the same AI agents that were writing the company's code to build what leadership actually needed: a live picture of what was being delivered, and for every major initiative, the odds it lands by its forecasted date."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "She will share the threat AI posed to the core business model, what the company initially expected AI to change, what actually had to change, where early efforts stalled, and how the leadership team redesigned workflows, roles, meetings, documentation, quality control, and accountability around the technology."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6016",
       "target": "5987",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest"
       ],
@@ -9813,7 +8983,7 @@
     {
       "source": "6016",
       "target": "6061",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest"
       ],
@@ -9834,7 +9004,7 @@
     {
       "source": "6016",
       "target": "6083",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest"
       ],
@@ -9855,7 +9025,7 @@
     {
       "source": "6016",
       "target": "5996",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -10153,30 +9323,8 @@
     },
     {
       "source": "6021",
-      "target": "5954",
-      "rank": 5,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing how AI is changing how people find and buy things, and the specific steps leaders should take this quarter, such as identifying business outcomes, establishing baselines, determining workflow changes, assigning ownership, and deciding how results will be measured.",
-      "discussion_prompt": "What specific steps should leaders take this quarter to address how AI is changing how people find and buy things?",
-      "evidence": [
-        {
-          "submission_id": "6021",
-          "excerpt": "This talk looks at what actually separated the winners from the losers in past commerce shifts, then applies those lessons to what's happening in retail right now: how AI is already changing how people find and buy things, where this is headed, and what leaders should be doing about it this quarter, not someday."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "For each AI opportunity, leaders should identify the business outcome, establish a baseline, determine what will change in the workflow, assign ownership, and decide how results will be measured."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6021",
       "target": "5979",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -10517,30 +9665,8 @@
     },
     {
       "source": "6029",
-      "target": "5954",
-      "rank": 3,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could occur between business leaders and practitioners regarding the practical realities of deploying AI in complex organizational environments and why few organizations can point to meaningful, measurable business results despite heavy investment.",
-      "discussion_prompt": "Why are organizations investing heavily in AI while so few can point to meaningful, measurable business results?",
-      "evidence": [
-        {
-          "submission_id": "6029",
-          "excerpt": "Designed for business and HR leaders, technology and workforce practitioners, researchers, faculty members, and graduate students, this session focuses on the practical realities of deploying AI in complex organizational environments."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "This proposed 45-minute interactive session for practitioners addresses one of the most important questions facing business leaders today: Why are organizations investing heavily in AI while so few can point to meaningful, measurable business results?"
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6029",
       "target": "5912",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest"
       ],
@@ -10561,7 +9687,7 @@
     {
       "source": "6029",
       "target": "5960",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -10583,7 +9709,7 @@
     {
       "source": "6029",
       "target": "5957",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -10690,30 +9816,8 @@
     },
     {
       "source": "6030",
-      "target": "5954",
-      "rank": 5,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "Justin Maxwell will discuss foundations for scaling, including data permissions, human signatures, and output review. Another speaker will share how AI threatened the business model and how leadership redesigned workflows, roles, and accountability.",
-      "discussion_prompt": "How did the leadership team redesign workflows and accountability around the technology?",
-      "evidence": [
-        {
-          "submission_id": "6030",
-          "excerpt": "Justin Maxwell will cover the foundations that had to exist before any of it could scale: what client data was allowed into a model and what was not, where a human signature was made non-negotiable, how output was reviewed before it reached a client, and the point at which the team stopped asking \"can AI do this?\" and started asking \"should a client ever know AI did this?\""
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "She will share the threat AI posed to the core business model, what the company initially expected AI to change, what actually had to change, where early efforts stalled, and how the leadership team redesigned workflows, roles, meetings, documentation, quality control, and accountability around the technology."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6030",
       "target": "6073",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -11531,30 +10635,8 @@
     },
     {
       "source": "6047",
-      "target": "5954",
-      "rank": 2,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A speaker may discuss how a company redesigned roles, workflows, and accountability after AI threatened its business model, while another focuses on what an institution learns about its real friction and credible internal voices through tool adoption.",
-      "discussion_prompt": "How do institutional learnings about friction and internal voices relate to the redesign of roles and workflows around AI?",
-      "evidence": [
-        {
-          "submission_id": "6047",
-          "excerpt": "It is what the institution learns about itself - which roles take to these tools, which workflows they actually land in, where the friction is real versus rhetorical, and who the credible internal voices turn out to be."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "She will share the threat AI posed to the core business model, what the company initially expected AI to change, what actually had to change, where early efforts stalled, and how the leadership team redesigned workflows, roles, meetings, documentation, quality control, and accountability around the technology."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6047",
       "target": "5987",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -11576,7 +10658,7 @@
     {
       "source": "6047",
       "target": "6001",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest"
       ],
@@ -11597,7 +10679,7 @@
     {
       "source": "6047",
       "target": "5960",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -11619,7 +10701,7 @@
     {
       "source": "6047",
       "target": "5957",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -12255,27 +11337,6 @@
       "existing_collaborator": false
     },
     {
-      "source": "6055",
-      "target": "5954",
-      "rank": 6,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could involve discussing how reasoning models identify contextual findings beyond predefined rules, while participants in a guided exercise identify AI opportunities to move beyond individual productivity into operational or strategic value.",
-      "discussion_prompt": "How do reasoning models' ability to identify contextual findings relate to AI opportunities for operational or strategic value?",
-      "evidence": [
-        {
-          "submission_id": "6055",
-          "excerpt": "This does not mean LLMs add no value: reasoning models identify contextual findings beyond predefined rules or pattern matching."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "During a guided exercise, participants will identify AI opportunities with the potential to move beyond individual productivity into meaningful operational or strategic value."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
       "source": "6057",
       "target": "6040",
       "rank": 1,
@@ -12449,30 +11510,8 @@
     },
     {
       "source": "6058",
-      "target": "5954",
-      "rank": 3,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could focus on an organizational capability to choose opportunities and redesign work as technology changes, specifically addressing changes in the operating model, such as governance without an internal data team and how to determine if a deployment is earning or being carried.",
-      "discussion_prompt": "How does the organizational capability to redesign work relate to changes in the operating model when the builder is also the operator?",
-      "evidence": [
-        {
-          "submission_id": "6058",
-          "excerpt": "It covers what changes in the operating model itself: how work gets specified when the builder is also the operator, what governance looks like without an internal data team, why the retirement decision matters more than the launch decision, and how to tell within weeks whether a deployment is earning or being carried."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "It is the organizational capability to continuously choose the right opportunities, redesign work around them, measure their value, and scale what works as the technology changes."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6058",
       "target": "6055",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest"
       ],
@@ -12493,7 +11532,7 @@
     {
       "source": "6058",
       "target": "6030",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -12515,7 +11554,7 @@
     {
       "source": "6058",
       "target": "5960",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -12816,30 +11855,8 @@
     },
     {
       "source": "6061",
-      "target": "5954",
-      "rank": 2,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could occur between a practitioner discussing why organizations invest in AI without measurable business results and someone describing how organizations use review gates, templates, and definitions of done to get engineers to write material before code.",
-      "discussion_prompt": "How do organizational efforts to ensure engineers write material before code relate to the lack of measurable business results from AI investments?",
-      "evidence": [
-        {
-          "submission_id": "6061",
-          "excerpt": "Most organizations have spent years trying to get engineers to write that material before code: review gates, templates, definitions of done."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "This proposed 45-minute interactive session for practitioners addresses one of the most important questions facing business leaders today: Why are organizations investing heavily in AI while so few can point to meaningful, measurable business results?"
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6061",
       "target": "6083",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest"
       ],
@@ -12860,7 +11877,7 @@
     {
       "source": "6061",
       "target": "5996",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest"
       ],
@@ -12881,7 +11898,7 @@
     {
       "source": "6061",
       "target": "6058",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -12903,7 +11920,7 @@
     {
       "source": "6061",
       "target": "6073",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -13287,28 +12304,6 @@
         {
           "submission_id": "5957",
           "excerpt": "Participants will leave with a practical view of why promising AI initiatives fail to scale, firsthand lessons from running AI inside large, complex companies, a clear line between AI activity and AI value, questions they can use to pressure-test their own initiatives, and a framework connecting use cases, operating change, governance, and financial performance."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6067",
-      "target": "5954",
-      "rank": 6,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing how students use AI to get high scores without understanding statistics despite lockdown browsers, while also examining why AI investments fail due to factors like poorly selected use cases and disconnected experimentation.",
-      "discussion_prompt": "How do the reasons for AI investment failures relate to students bypassing proctoring systems to use AI in statistics?",
-      "evidence": [
-        {
-          "submission_id": "6067",
-          "excerpt": "Despite the use of lockdown browsers and honorlock systems, significant number of students are finding ways to use AI to achieve near-perfect scores without developing a meaningful understanding of statistical concepts, tools, and outputs."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "Participants will examine the most common reasons AI investments fail to generate meaningful returns: unclear ownership, disconnected experimentation, poorly selected use cases, generalized training without application, and attempts to layer AI onto workflows that were never reconsidered."
         }
       ],
       "existing_collaborator": false
@@ -14064,29 +13059,8 @@
     },
     {
       "source": "6083",
-      "target": "5954",
-      "rank": 3,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could involve discussing how AI value is created through the redesign of complete workflows and operating systems, while addressing the governance challenge of where to position humans and how to incentivize their engagement when intermediate verification is costly and difficult to observe.",
-      "discussion_prompt": "How does the redesign of complete workflows impact the positioning and incentivization of humans in the governance loop?",
-      "evidence": [
-        {
-          "submission_id": "6083",
-          "excerpt": "The central governance challenge is therefore not simply whether to keep humans in the loop, but where to position them and how to incentivize their engagement when intermediate verification is costly and difficult to observe."
-        },
-        {
-          "submission_id": "5954",
-          "excerpt": "The case study will show how AI value is created not through isolated tasks, but through the deliberate redesign of complete workflows and the operating systems around them."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6083",
       "target": "5960",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest"
       ],
@@ -14107,7 +13081,7 @@
     {
       "source": "6083",
       "target": "5850",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest"
       ],
@@ -14128,7 +13102,7 @@
     {
       "source": "6083",
       "target": "6016",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
