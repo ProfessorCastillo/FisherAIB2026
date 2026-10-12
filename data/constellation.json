@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "build_id": "22ed74841f8ba17969a4aa99634642f81e8d53731fb77ed51f561e25b5386675",
+  "build_id": "ade6374821161b5344ec7938e5a2b0ae3804f898b92a75cea4340c9382cdc045",
   "generated": "2026-09-21T13:22:22.594984Z",
   "mode": "map",
   "nodes": [
@@ -2785,37 +2785,6 @@
       "y": 14.302705
     },
     {
-      "submission_id": "6073",
-      "title": "Governing Human-AI Co-Creation: Capability, Opacity, and the Economics of Oversight",
-      "presenter": "Rakesh Mallipeddi",
-      "affiliation": "The Ohio State University",
-      "track": "Academic",
-      "discipline": "Logistics, Operations, & Supply Chain",
-      "abstract": "Firms increasingly deploy generative AI alongside human workers, expanding workers' responsibilities from producing output to also reviewing, validating, and correcting AI-generated content. This shift makes human oversight a central mechanism of responsible AI governance. Yet human oversight is not automatically effective: AI systems can produce fluent and plausible outputs that are difficult for humans to evaluate. In many knowledge-work settings, including software development, consulting, auditing, healthcare, legal drafting, and customer service, the risk is not merely that AI makes errors, but that those errors are embedded in output that appears polished and credible. As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively.\n\nWe study this problem by developing an analytical model of human-AI co-creation. In our setting, a firm deploys an AI system and relies on a human worker to both produce output and oversee AI-generated work. The firm chooses a governance policy consisting of review frequency, oversight incentives, and productive-effort incentives. The worker observes these choices and responds by choosing productive effort and oversight depth. AI capability affects the firm through two channels. First, more capable AI increases the scale and value of AI-enabled production. Second, more capable AI can make errors harder to detect because its output is more fluent, coherent, and persuasive. We call this second channel capability-induced opacity. This creates a fundamental trade-off: AI capability raises productivity, but it may also increase the burden and reduce the effectiveness of responsible oversight.\n\nWe first consider a complete-information Stackelberg game as the baseline. Specifically, the firm moves first by setting review frequency and effort-based compensation, and the worker moves second by choosing productive effort and oversight depth. This structure captures a common feature of AI-enabled work: the firm can design incentives and review policies, but the worker ultimately determines how much effort to devote to production and how carefully to scrutinize AI output. We then consider an extension in which oversight depth is hidden from the firm. In this moral-hazard extension, the firm cannot directly contract on review depth and can instead motivate oversight only through rewards for verified error detection. The comparison between these two regimes allows us to isolate how hidden oversight changes the economics of responsible AI governance.\n\nOur analysis yields several results that are surprising relative to the common intuition that more AI capability and more human review are always beneficial. First, review frequency and oversight depth are substitutes from the worker's perspective. When the firm requires AI output to be reviewed more frequently, each review becomes less deep unless the firm adjusts incentives. However, aggregate effective oversight can still increase with review frequency when the gain in coverage dominates the decline in per-review depth. This result shows that firms face a nontrivial design choice: reviewing more outputs is not equivalent to reviewing them more carefully.\n\nSecond, the optimal governance policy depends critically on the costs of scaling review. As the organizational cost of review frequency increases, the firm reduces the fraction of AI output that is reviewed. Thus, responsible AI governance is costly to scale, especially when review requires coordination, workflow interruptions, documentation, escalation, or managerial attention. This result helps explain why firms may formally adopt human-in-the-loop policies while still relying on selective or shallow oversight in practice.\n\nThird, higher AI capability does not always improve firm performance. When AI capability primarily increases productive output, the marginal value of oversight rises because there is more AI-enabled work to protect. However, when capability-induced opacity is sufficiently strong, more capable AI reduces the effectiveness of each unit of human review. In that case, a more capable AI system can generate greater governance burden and may even lower firm profit. This result identifies a mechanism through which a less capable but more governable AI system can dominate a more capable but opaque one.\n\nFourth, in the hidden-oversight extension, monitoring infrastructure becomes central to responsible AI governance. When oversight depth is not directly observable, the firm's ability to induce careful review depends on whether caught errors can be verified and rewarded. Better monitoring quality increases hidden oversight, while weak verifiability reduces the firm's ability to motivate careful review. The extension therefore shows that governance infrastructure and AI capability can be complements: firms adopting more capable AI may also need stronger systems for verification, audit trails, escalation, and feedback.\n\nThe paper contributes to the analytical literature on co-creation and the emerging literature on responsible AI operations. Unlike traditional co-creation models in which all co-creators are strategic human or organizational actors, our setting features a non-strategic but opaque technology that changes both productivity and governability. The results show that responsible AI governance is not a binary choice between human review and no human review. Its effectiveness depends on the joint design of review frequency, oversight depth, incentives, monitoring quality, and AI capability.",
-      "authors": [
-        {
-          "person_id": null,
-          "name": "Rakesh Mallipeddi",
-          "affiliation": "The Ohio State University",
-          "role": "presenter"
-        }
-      ],
-      "presenter_person_id": null,
-      "schedule": {
-        "date": "2026-10-15",
-        "start_time": "15:15",
-        "end_time": "16:30",
-        "timezone": "America/New_York",
-        "room": "Pfahl 302",
-        "session_title": "Human Oversight & Governance of AI Systems"
-      },
-      "abstract_preview": "Firms increasingly deploy generative AI alongside human workers, expanding workers' responsibilities from producing output to also reviewing, validating, and correcting AI-generated content. This shift makes human oversight a central mechan…",
-      "cluster": 0,
-      "color": "#ba0c2f",
-      "x": 15.243532,
-      "y": 16.868385
-    },
-    {
       "submission_id": "6074",
       "title": "Outsourcing Morality: How AI Labels in Marketing Communication Change Perceptions of Firm Morality",
       "presenter": "Anjali Tapadiya",
@@ -3007,10 +2976,9 @@
       "id": 0,
       "name": "Economics of AI Oversight",
       "narrative": "How do oversight regimes, review frequency, and compensation affect accountability gaps and worker effort in human-AI environments?",
-      "size": 3,
+      "size": 2,
       "color": "#ba0c2f",
       "representative_ids": [
-        "6073",
         "5847",
         "6042"
       ]
@@ -3159,11 +3127,6 @@
       "weight": 0.641913
     },
     {
-      "source": "5847",
-      "target": "6073",
-      "weight": 0.711591
-    },
-    {
       "source": "5850",
       "target": "5968",
       "weight": 0.569701
@@ -3222,11 +3185,6 @@
       "source": "5883",
       "target": "6055",
       "weight": 0.644687
-    },
-    {
-      "source": "5883",
-      "target": "6073",
-      "weight": 0.666997
     },
     {
       "source": "5894",
@@ -3704,11 +3662,6 @@
       "weight": 0.725688
     },
     {
-      "source": "5985",
-      "target": "6073",
-      "weight": 0.666751
-    },
-    {
       "source": "5987",
       "target": "5996",
       "weight": 0.671492
@@ -3840,11 +3793,6 @@
     },
     {
       "source": "6013",
-      "target": "6073",
-      "weight": 0.665756
-    },
-    {
-      "source": "6013",
       "target": "6079",
       "weight": 0.625667
     },
@@ -3939,19 +3887,9 @@
       "weight": 0.606411
     },
     {
-      "source": "6042",
-      "target": "6073",
-      "weight": 0.680058
-    },
-    {
       "source": "6044",
       "target": "6068",
       "weight": 0.579571
-    },
-    {
-      "source": "6050",
-      "target": "6073",
-      "weight": 0.646577
     },
     {
       "source": "6052",
@@ -3965,11 +3903,6 @@
     },
     {
       "source": "6055",
-      "target": "6073",
-      "weight": 0.702774
-    },
-    {
-      "source": "6055",
       "target": "6083",
       "weight": 0.720235
     },
@@ -3977,11 +3910,6 @@
       "source": "6057",
       "target": "6063",
       "weight": 0.580916
-    },
-    {
-      "source": "6073",
-      "target": "6083",
-      "weight": 0.786098
     },
     {
       "source": "6074",
@@ -3992,29 +3920,8 @@
   "recommendations": [
     {
       "source": "5847",
-      "target": "6073",
-      "rank": 1,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could center on how biased human agents using opaque AI tools transform the principal-agent relationship, leading to a governance problem where firms must decide how to design the loop to allocate human attention effectively.",
-      "discussion_prompt": "How does the transformation of the principal-agent relationship via opaque AI tools impact how firms design the loop for human attention?",
-      "evidence": [
-        {
-          "submission_id": "5847",
-          "excerpt": "We identify a critical and largely overlooked problem: when biased human agents use opaque, \"black-box\" AI tools to execute delegated tasks, the principal-agent relationship is fundamentally transformed in ways that existing theory has not adequately addressed."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5847",
       "target": "6055",
-      "rank": 2,
+      "rank": 1,
       "categories": [
         "shared_interest"
       ],
@@ -4035,7 +3942,7 @@
     {
       "source": "5847",
       "target": "5960",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -4057,7 +3964,7 @@
     {
       "source": "5847",
       "target": "6042",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest"
       ],
@@ -4078,7 +3985,7 @@
     {
       "source": "5847",
       "target": "6083",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest"
       ],
@@ -4099,7 +4006,7 @@
     {
       "source": "5847",
       "target": "5985",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -4163,30 +4070,8 @@
     },
     {
       "source": "5850",
-      "target": "6073",
-      "rank": 3,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could occur between authors of submission 5850, who study interaction design's effect on developer outcomes, and authors of submission 6073, who contribute to literature on co-creation and responsible AI operations.",
-      "discussion_prompt": "How do the contributions to generative AI and responsible AI operations overlap in the context of human-AI collaboration and co-creation?",
-      "evidence": [
-        {
-          "submission_id": "5850",
-          "excerpt": "By identifying how interaction design shapes developer outcomes, this study contributes to the emerging literature on generative AI, human-AI collaboration, and developer productivity."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "The paper contributes to the analytical literature on co-creation and the emerging literature on responsible AI operations."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5850",
       "target": "5968",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest"
       ],
@@ -4207,7 +4092,7 @@
     {
       "source": "5850",
       "target": "6060",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -4229,7 +4114,7 @@
     {
       "source": "5850",
       "target": "6070",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -4442,30 +4327,8 @@
     },
     {
       "source": "5858",
-      "target": "6073",
-      "rank": 5,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing how to distinguish authenticity-based explanations from image quality or relevance when studying policy effects on platforms with AI-like imagery, while also considering how firms induce careful review when oversight depth is not observable.",
-      "discussion_prompt": "How do verification and reward mechanisms for caught errors relate to the study of authenticity-based explanations in platforms containing AI-like imagery?",
-      "evidence": [
-        {
-          "submission_id": "5858",
-          "excerpt": "These measures allow us to study whether the policy's effects are stronger when the competing platform contains more AI-like imagery and to distinguish an authenticity-based explanation from alternative interpretations based solely on image quality or informational relevance."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "When oversight depth is not directly observable, the firm's ability to induce careful review depends on whether caught errors can be verified and rewarded."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5858",
       "target": "6060",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -4507,29 +4370,8 @@
     },
     {
       "source": "5883",
-      "target": "6073",
-      "rank": 2,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "Two participants may discuss how higher or enhanced AI capability does not automatically or always improve firm or operational performance.",
-      "discussion_prompt": "Why might enhancing AI capability fail to improve operational or firm performance?",
-      "evidence": [
-        {
-          "submission_id": "5883",
-          "excerpt": "reveal that enhancing AI capability does not automatically improve operational performance."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "Third, higher AI capability does not always improve firm performance."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5883",
       "target": "6055",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest"
       ],
@@ -4550,7 +4392,7 @@
     {
       "source": "5883",
       "target": "5991",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest"
       ],
@@ -4571,7 +4413,7 @@
     {
       "source": "5883",
       "target": "5957",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest"
       ],
@@ -4592,7 +4434,7 @@
     {
       "source": "5883",
       "target": "6083",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -4821,28 +4663,6 @@
         {
           "submission_id": "5985",
           "excerpt": "As organizations seek to scale AI responsibly, technical expertise alone is not enough."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5896",
-      "target": "6073",
-      "rank": 6,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve a firm deploying an AI system where a human worker produces output and oversees AI-generated work. This may involve 'absorption,' where AI performs information-gathering and returns output, decoupling the seeing from the deciding.",
-      "discussion_prompt": "How does the 'absorption' operation affect the human worker's role in overseeing AI-generated work?",
-      "evidence": [
-        {
-          "submission_id": "5896",
-          "excerpt": "To work on the materiality of expert work, it specifies an operation it calls absorption: AI takes the task in, performs its information-gathering, and returns output for review, decoupling the seeing from the deciding that connected work had joined."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "In our setting, a firm deploys an AI system and relies on a human worker to both produce output and oversee AI-generated work."
         }
       ],
       "existing_collaborator": false
@@ -6020,28 +5840,6 @@
       "existing_collaborator": false
     },
     {
-      "source": "5960",
-      "target": "6073",
-      "rank": 5,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing how to bridge the gap between executive strategic vision and technical realities, while comparing two regimes to isolate how hidden oversight changes the economics of responsible AI governance.",
-      "discussion_prompt": "How does hidden oversight affect the economics of responsible AI governance when bridging the gap between executive vision and technical realities?",
-      "evidence": [
-        {
-          "submission_id": "5960",
-          "excerpt": "You'll experience what it looks like to achieve organizational harmony, learning how to bridge the gap between executive leadership's strategic vision and the technical realities of front-line staff."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "The comparison between these two regimes allows us to isolate how hidden oversight changes the economics of responsible AI governance."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
       "source": "5961",
       "target": "6030",
       "rank": 1,
@@ -6579,29 +6377,8 @@
     },
     {
       "source": "5968",
-      "target": "6073",
-      "rank": 4,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could focus on how mismatches between worker capabilities and firm requirements create labor supply-side constraints, while firms simultaneously face a governance problem regarding how to design loops to allocate human attention effectively.",
-      "discussion_prompt": "How do labor supply-side constraints relate to the governance problem of designing loops for human attention?",
-      "evidence": [
-        {
-          "submission_id": "5968",
-          "excerpt": "Understanding the potential changes in skill demand is crucial, as mismatches between workers' capabilities and firms' requirements may not only compromise workers' employability but also limit the pool of qualified candidates available to firms, creating labor supply-side constraints (Acemoglu and Restrepo 2019)."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5968",
       "target": "6050",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest"
       ],
@@ -6622,7 +6399,7 @@
     {
       "source": "5968",
       "target": "6029",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -6685,30 +6462,8 @@
     },
     {
       "source": "5973",
-      "target": "6073",
-      "rank": 3,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing how AI note writers are limited to tweets with at least one note request, while firms face a governance problem regarding how to design loops to allocate human attention effectively.",
-      "discussion_prompt": "How does the restriction on AI note writers relate to the governance problem firms face when designing human-in-the-loop systems?",
-      "evidence": [
-        {
-          "submission_id": "5973",
-          "excerpt": "Because AI note writers can only compose notes on tweets that have received at least one note request, whereas human writers face no such restriction, and because request information is unavailable to raters during evaluation, note requests provide plausibly exogenous variation in AI authorship."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5973",
       "target": "6012",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -6730,7 +6485,7 @@
     {
       "source": "5973",
       "target": "6018",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest"
       ],
@@ -6751,7 +6506,7 @@
     {
       "source": "5973",
       "target": "6054",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -7393,30 +7148,8 @@
     },
     {
       "source": "5985",
-      "target": "6073",
-      "rank": 3,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could center on the limitations of human intervention in AI ethics, noting that interdisciplinary expertise does not automatically produce stronger ethical outcomes and that human oversight is not automatically effective due to fluent, plausible AI outputs that are difficult to evaluate.",
-      "discussion_prompt": "How do the limitations of interdisciplinary expertise and human oversight impact the evaluation of AI outputs?",
-      "evidence": [
-        {
-          "submission_id": "5985",
-          "excerpt": "A central premise of the model is that interdisciplinary expertise does not automatically produce stronger ethical outcomes."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "Yet human oversight is not automatically effective: AI systems can produce fluent and plausible outputs that are difficult for humans to evaluate."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "5985",
       "target": "5979",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -7438,7 +7171,7 @@
     {
       "source": "5985",
       "target": "5991",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest"
       ],
@@ -8853,30 +8586,8 @@
     },
     {
       "source": "6013",
-      "target": "6073",
-      "rank": 3,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing how generative AI cannot fully displace human creators, as humans must produce fresh content. This leads to a governance problem for firms regarding whether to keep humans in the loop and how to design that loop for effective attention allocation.",
-      "discussion_prompt": "How should firms design the human-in-the-loop process to allocate attention effectively given that AI cannot fully displace human creators?",
-      "evidence": [
-        {
-          "submission_id": "6013",
-          "excerpt": "Our baseline result establishes a robust human-AI coexis- tence, analogous to the Grossman and Stiglitz (1980) impossibility of informationally efficient markets: Just as prices cannot fully aggregate private information-otherwise no investor would pay to acquire it, leaving nothing to aggregate-generative AI can- not fully displace human creators-otherwise they would stop producing fresh content,"
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6013",
       "target": "6065",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -8898,7 +8609,7 @@
     {
       "source": "6013",
       "target": "6079",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -8920,7 +8631,7 @@
     {
       "source": "6013",
       "target": "5912",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -9815,28 +9526,6 @@
       "existing_collaborator": false
     },
     {
-      "source": "6030",
-      "target": "6073",
-      "rank": 5,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "Justin Maxwell may discuss foundations for scaling, including client data rules, human signatures, and output reviews. This relates to the governance problem firms face regarding whether to keep humans in the loop and how to design that loop for effective attention allocation.",
-      "discussion_prompt": "How should firms design the human-in-the-loop process to allocate attention effectively while managing client data and output reviews?",
-      "evidence": [
-        {
-          "submission_id": "6030",
-          "excerpt": "Justin Maxwell will cover the foundations that had to exist before any of it could scale: what client data was allowed into a model and what was not, where a human signature was made non-negotiable, how output was reviewed before it reached a client, and the point at which the team stopped asking \"can AI do this?\" and started asking \"should a client ever know AI did this?\""
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
       "source": "6031",
       "target": "5851",
       "rank": 1,
@@ -9924,30 +9613,8 @@
     },
     {
       "source": "6031",
-      "target": "6073",
-      "rank": 5,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could address design and governance problems: one regarding whether teaching AI use conflicts with developing entrepreneurial capacity in students, and another regarding how firms design loops to allocate human attention effectively.",
-      "discussion_prompt": "How do the design problems in education and the governance problems in firms relate to the role of humans and AI?",
-      "evidence": [
-        {
-          "submission_id": "6031",
-          "excerpt": "If AI's permitted role shapes the trajectory of students' capacity to tolerate genuine uncertainty, entrepreneurship education faces a specific, previously undertheorized design problem: teaching students to use AI well is not the same task as teaching them to become entrepreneurially capable, and in some configurations the two goals may conflict."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6031",
       "target": "6047",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -10032,30 +9699,8 @@
     },
     {
       "source": "6032",
-      "target": "6073",
-      "rank": 4,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing the cost-benefit of using stronger models for causal discovery and the governance problem firms face when designing loops to allocate human attention effectively.",
-      "discussion_prompt": "How does the cost of stronger models relate to the design of human-in-the-loop governance?",
-      "evidence": [
-        {
-          "submission_id": "6032",
-          "excerpt": "The open question is therefore not whether stronger models improve causal discovery, but where in the process their additional capability is actually needed and worth its cost."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6032",
       "target": "6065",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -10077,7 +9722,7 @@
     {
       "source": "6032",
       "target": "6057",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -10313,30 +9958,8 @@
     },
     {
       "source": "6040",
-      "target": "6073",
-      "rank": 5,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing how firms face a governance problem regarding the design of human-in-the-loop attention allocation, while considering symbolic disclosers who have incentives to announce AI but have not implemented it as a within-treatment comparison group.",
-      "discussion_prompt": "How do governance problems regarding human-in-the-loop design relate to the distinction between symbolic and substantive AI disclosers?",
-      "evidence": [
-        {
-          "submission_id": "6040",
-          "excerpt": "Symbolic disclosers face the same incentives to announce AI as substantive ones but have not implemented it, so they serve as a within-treatment comparison group rather than a second set of controls."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6040",
       "target": "5957",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -10357,29 +9980,8 @@
     },
     {
       "source": "6042",
-      "target": "6073",
-      "rank": 1,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could occur between a researcher discussing how symmetric-information wage-setting frictions make rising vacancies and flat junior offers mutually exclusive, and another discussing how AI errors in knowledge-work settings can be embedded in output that appears polished and credible.",
-      "discussion_prompt": "How do the risks of polished AI errors in knowledge-work compare to the constraints of symmetric-information wage-setting frictions?",
-      "evidence": [
-        {
-          "submission_id": "6042",
-          "excerpt": "The model's sharpest result is that this asymmetry is not merely sufficient but necessary: under any symmetric-information wage-setting friction, rising vacancies and flat junior offers are mutually exclusive, because both reflect the same composite of news."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "In many knowledge-work settings, including software development, consulting, auditing, healthcare, legal drafting, and customer service, the risk is not merely that AI makes errors, but that those errors are embedded in output that appears polished and credible."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6042",
       "target": "6059",
-      "rank": 2,
+      "rank": 1,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -10401,7 +10003,7 @@
     {
       "source": "6042",
       "target": "6030",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -10423,7 +10025,7 @@
     {
       "source": "6042",
       "target": "6055",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest"
       ],
@@ -10444,7 +10046,7 @@
     {
       "source": "6042",
       "target": "5979",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -10466,7 +10068,7 @@
     {
       "source": "6042",
       "target": "5912",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -10892,29 +10494,8 @@
     },
     {
       "source": "6050",
-      "target": "6073",
-      "rank": 3,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could center on governance problems in organizations. One perspective focuses on configuring how human and machine knowledge modes interact to harness complementary strengths, while another focuses on how to design the loop to allocate human attention effectively.",
-      "discussion_prompt": "How should organizations design the loop and configure knowledge-governance to allocate human attention and harness complementary strengths?",
-      "evidence": [
-        {
-          "submission_id": "6050",
-          "excerpt": "Scaling AI is therefore fundamentally a knowledge-governance problem: organizations must govern hybrid cognition by configuring how human and machine knowledge modes interact so their complementary strengths can be harnessed reliably and responsibly."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6050",
       "target": "5991",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest"
       ],
@@ -10935,7 +10516,7 @@
     {
       "source": "6050",
       "target": "6029",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest"
       ],
@@ -10956,7 +10537,7 @@
     {
       "source": "6050",
       "target": "5999",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -11296,29 +10877,8 @@
     },
     {
       "source": "6055",
-      "target": "6073",
-      "rank": 4,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could center on the challenges of human oversight. One person might note that AI outputs can be fluent and plausible, making human evaluation difficult, while another adds that current models do not meet the reliability conditions needed for a human to do less without sacrificing assurance.",
-      "discussion_prompt": "How do plausible AI outputs and current reliability conditions impact the effectiveness of human oversight?",
-      "evidence": [
-        {
-          "submission_id": "6055",
-          "excerpt": "Scaling routine production is not end-to-end delivery: the models we test do not yet meet the reliability conditions required for an accountable human to do less without sacrificing assurance."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "Yet human oversight is not automatically effective: AI systems can produce fluent and plausible outputs that are difficult for humans to evaluate."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6055",
       "target": "6083",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest"
       ],
@@ -11769,30 +11329,8 @@
     },
     {
       "source": "6060",
-      "target": "6073",
-      "rank": 4,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could center on the challenges firms face as GenAI enters workflows, specifically regarding when to delegate creative processes and how to design governance loops to allocate human attention effectively.",
-      "discussion_prompt": "How should firms design governance loops to effectively allocate human attention when deciding how much of the creative process to delegate to GenAI?",
-      "evidence": [
-        {
-          "submission_id": "6060",
-          "excerpt": "As GenAI becomes embedded in organizational workflows and individual practice, however, the more consequential question is when to adopt and how much of the creative process to delegate."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6060",
       "target": "6065",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -11814,7 +11352,7 @@
     {
       "source": "6060",
       "target": "5912",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -11913,28 +11451,6 @@
         {
           "submission_id": "6058",
           "excerpt": "This session describes an operating model built from the inside of companies in the five to fifty million dollar revenue band, run by a practitioner who owns the production systems rather than advising on them."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6061",
-      "target": "6073",
-      "rank": 5,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could center on the governance problem firms face regarding how to design loops for effective human attention allocation, especially since directing agents well is a skill few people possess yet, potentially slowing progress.",
-      "discussion_prompt": "How does the scarcity of skills for directing agents impact the way firms design loops for human attention allocation?",
-      "evidence": [
-        {
-          "submission_id": "6061",
-          "excerpt": "Probably not as fast as they could, though: directing agents well is its own skill, and few people have it yet."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
         }
       ],
       "existing_collaborator": false
@@ -12503,30 +12019,8 @@
     },
     {
       "source": "6070",
-      "target": "6073",
-      "rank": 4,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing how managers evaluate the quality of employee communication and the governance problem firms face when designing loops to allocate human attention effectively.",
-      "discussion_prompt": "How do managerial evaluations of communication quality relate to the design of human-in-the-loop governance?",
-      "evidence": [
-        {
-          "submission_id": "6070",
-          "excerpt": "This possibility is consequential because managers evaluate not only how often employees speak up, but also how effectively they communicate their ideas, and higher-quality voice is associated with more favorable managerial evaluations (Brykman & Raver, 2021)."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6070",
       "target": "5976",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -12548,7 +12042,7 @@
     {
       "source": "6070",
       "target": "5980",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest"
       ],
@@ -12583,134 +12077,6 @@
         {
           "submission_id": "5920",
           "excerpt": "What remains unknown is whether such effects survive in real transactions, where consumers bear actual costs and manipulated and unmanipulated listings compete for the same demand."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6073",
-      "target": "6083",
-      "rank": 1,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "Two participants could discuss governance problems regarding humans in the loop. They might address how to design the loop for effective attention allocation and where to position humans and incentivize engagement when intermediate verification is costly and difficult to observe.",
-      "discussion_prompt": "How should firms design the loop and position humans to ensure effective attention and engagement when verification is costly?",
-      "evidence": [
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        },
-        {
-          "submission_id": "6083",
-          "excerpt": "The central governance challenge is therefore not simply whether to keep humans in the loop, but where to position them and how to incentivize their engagement when intermediate verification is costly and difficult to observe."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6073",
-      "target": "5847",
-      "rank": 2,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could focus on governance problems regarding how firms design loops for effective human attention, especially when biased human agents use opaque AI tools to execute delegated tasks, transforming the principal-agent relationship in ways existing theory has not adequately addressed.",
-      "discussion_prompt": "How does the use of opaque AI tools by biased human agents impact the design of loops for allocating human attention within firm governance?",
-      "evidence": [
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        },
-        {
-          "submission_id": "5847",
-          "excerpt": "We identify a critical and largely overlooked problem: when biased human agents use opaque, \"black-box\" AI tools to execute delegated tasks, the principal-agent relationship is fundamentally transformed in ways that existing theory has not adequately addressed."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6073",
-      "target": "5960",
-      "rank": 3,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing how hidden oversight affects the economics of responsible AI governance, while also exploring how to bridge the gap between executive leadership's strategic vision and the technical realities of front-line staff to achieve organizational harmony.",
-      "discussion_prompt": "How does the gap between executive vision and technical realities relate to the economics of responsible AI governance under hidden oversight?",
-      "evidence": [
-        {
-          "submission_id": "6073",
-          "excerpt": "The comparison between these two regimes allows us to isolate how hidden oversight changes the economics of responsible AI governance."
-        },
-        {
-          "submission_id": "5960",
-          "excerpt": "You'll experience what it looks like to achieve organizational harmony, learning how to bridge the gap between executive leadership's strategic vision and the technical realities of front-line staff."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6073",
-      "target": "6055",
-      "rank": 4,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could address how AI outputs can be fluent and plausible, making human evaluation difficult, and how current models do not meet reliability conditions for an accountable human to reduce their involvement without sacrificing assurance.",
-      "discussion_prompt": "How do plausible but difficult-to-evaluate AI outputs impact the reliability conditions needed for accountable human oversight?",
-      "evidence": [
-        {
-          "submission_id": "6073",
-          "excerpt": "Yet human oversight is not automatically effective: AI systems can produce fluent and plausible outputs that are difficult for humans to evaluate."
-        },
-        {
-          "submission_id": "6055",
-          "excerpt": "Scaling routine production is not end-to-end delivery: the models we test do not yet meet the reliability conditions required for an accountable human to do less without sacrificing assurance."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6073",
-      "target": "6013",
-      "rank": 5,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve discussing how generative AI cannot fully displace human creators, as creators must produce fresh content, and the resulting governance problem for firms regarding how to design the loop to allocate human attention effectively.",
-      "discussion_prompt": "How should firms design the loop to allocate human attention effectively given that generative AI cannot fully displace human creators?",
-      "evidence": [
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        },
-        {
-          "submission_id": "6013",
-          "excerpt": "Our baseline result establishes a robust human-AI coexis- tence, analogous to the Grossman and Stiglitz (1980) impossibility of informationally efficient markets: Just as prices cannot fully aggregate private information-otherwise no investor would pay to acquire it, leaving nothing to aggregate-generative AI can- not fully displace human creators-otherwise they would stop producing fresh content,"
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6073",
-      "target": "6042",
-      "rank": 6,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "A conversation could involve a discussion on risks in knowledge-work settings, such as software development or healthcare, where AI errors appear polished, alongside a technical analysis of how rising vacancies and flat junior offers are mutually exclusive under symmetric-information wage-setting frictions.",
-      "discussion_prompt": "How do polished AI errors in knowledge-work settings relate to symmetric-information wage-setting frictions?",
-      "evidence": [
-        {
-          "submission_id": "6073",
-          "excerpt": "In many knowledge-work settings, including software development, consulting, auditing, healthcare, legal drafting, and customer service, the risk is not merely that AI makes errors, but that those errors are embedded in output that appears polished and credible."
-        },
-        {
-          "submission_id": "6042",
-          "excerpt": "The model's sharpest result is that this asymmetry is not merely sufficient but necessary: under any symmetric-information wage-setting friction, rising vacancies and flat junior offers are mutually exclusive, because both reflect the same composite of news."
         }
       ],
       "existing_collaborator": false
@@ -12931,30 +12297,8 @@
     },
     {
       "source": "6079",
-      "target": "6073",
-      "rank": 5,
-      "categories": [
-        "shared_interest",
-        "across_themes"
-      ],
-      "explanation": "A conversation could involve a discussion on how a regressive tax affects discovery for smaller artists, alongside a separate dialogue regarding how firms manage the governance problem of designing loops to allocate human attention effectively.",
-      "discussion_prompt": "How do the governance problems regarding human attention allocation compare to the impact of regressive taxes on artist discovery?",
-      "evidence": [
-        {
-          "submission_id": "6079",
-          "excerpt": "Our estimates suggest the tax is modest, that it operates at discovery rather than in how listeners engage with a song they have chosen to play, and that it is regressive: the cost falls on the newer and smaller artists whose audiences have the least other information, and is near zero for the established."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6079",
       "target": "6060",
-      "rank": 6,
+      "rank": 5,
       "categories": [
         "shared_interest",
         "across_themes"
@@ -13017,29 +12361,8 @@
     },
     {
       "source": "6083",
-      "target": "6073",
-      "rank": 1,
-      "categories": [
-        "shared_interest"
-      ],
-      "explanation": "Two participants could discuss governance problems regarding humans in the loop. One might focus on how to design the loop for effective attention allocation, while the other addresses where to position humans and how to incentivize engagement when intermediate verification is costly and difficult to observe.",
-      "discussion_prompt": "How should firms design the loop to allocate human attention effectively while addressing the costs of intermediate verification?",
-      "evidence": [
-        {
-          "submission_id": "6083",
-          "excerpt": "The central governance challenge is therefore not simply whether to keep humans in the loop, but where to position them and how to incentivize their engagement when intermediate verification is costly and difficult to observe."
-        },
-        {
-          "submission_id": "6073",
-          "excerpt": "As a result, firms face a governance problem: they must decide not only whether to keep humans in the loop, but how to design the loop so that human attention is allocated effectively."
-        }
-      ],
-      "existing_collaborator": false
-    },
-    {
-      "source": "6083",
       "target": "6055",
-      "rank": 2,
+      "rank": 1,
       "categories": [
         "shared_interest"
       ],
@@ -13060,7 +12383,7 @@
     {
       "source": "6083",
       "target": "5960",
-      "rank": 3,
+      "rank": 2,
       "categories": [
         "shared_interest"
       ],
@@ -13081,7 +12404,7 @@
     {
       "source": "6083",
       "target": "5850",
-      "rank": 4,
+      "rank": 3,
       "categories": [
         "shared_interest"
       ],
@@ -13102,7 +12425,7 @@
     {
       "source": "6083",
       "target": "6016",
-      "rank": 5,
+      "rank": 4,
       "categories": [
         "shared_interest"
       ],
