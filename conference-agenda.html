@@ -299,6 +299,7 @@
             border-radius: 4px;
             font-size: 14px;
         }
+        .plenary-item[id] { scroll-margin-top: 18px; }
         .plenary-item.plenary-keynote {
             background: #fdf0f2;
             border-left-color: #ba0c2f;
@@ -315,6 +316,19 @@
         .plenary-place {
             color: #666;
             font-size: 13px;
+        }
+        .plenary-place a {
+            color: #ba0c2f;
+            text-decoration: underline;
+        }
+        .plenary-place a:hover { color: #9a0a28; }
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            overflow: hidden;
+            clip: rect(0 0 0 0);
+            white-space: nowrap;
         }
         .session-note {
             color: #666;
@@ -465,10 +479,19 @@
                 });
 
                 const plenaryItems = (day.plenary || []).map(item => {
-                    const place = item.place ? ` <span class="plenary-place">${escapeHtml(item.place)}</span>` : '';
+                    // Off-site stops (e.g. reception buses) link their address to a map. An item may
+                    // list several places (pick-up and drop-off), each with its own map link.
+                    const placeLink = (label, url) => url
+                        ? `<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${escapeHtml(label)}<span class="visually-hidden"> (opens Locations Map in new tab)</span></a>`
+                        : escapeHtml(label);
+                    const places = item.places
+                        ? item.places.map(p => placeLink(p.label, p.map_url)).join(' &middot; ')
+                        : (item.place ? placeLink(item.place, item.map_url) : '');
+                    const place = places ? ` <span class="plenary-place">${places}</span>` : '';
                     const kind = item.kind === 'keynote' ? ' plenary-keynote' : '';
+                    const anchor = item.anchor ? ` id="${escapeHtml(item.anchor)}"` : '';
                     return { start: item.start_time || '', html: `
-                        <div class="plenary-item${kind}">
+                        <div class="plenary-item${kind}"${anchor}>
                             <span class="plenary-time">${escapeHtml(item.time || '')}</span>
                             <span class="plenary-title">${escapeHtml(item.title || '')}</span>${place}
                         </div>` };
@@ -494,10 +517,12 @@
         // early. After render, scroll to the linked talk (e.g. #pres-5851 from the search page)
         // and briefly highlight it.
         function scrollToHashTarget() {
-            if (!location.hash || location.hash.indexOf('#pres-') !== 0) return;
+            // Talks (#pres-<id>) and anchored program items (e.g. #evening-reception from the portal).
+            if (!location.hash) return;
             const target = document.getElementById(location.hash.slice(1));
-            if (!target) return;
-            target.scrollIntoView({ block: 'center', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+            if (!target || target.closest('.day-jump') || target.classList.contains('day-header')) return;
+            const isTalk = location.hash.indexOf('#pres-') === 0;
+            target.scrollIntoView({ block: isTalk ? 'center' : 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
             target.classList.add('pres-highlight');
             setTimeout(() => target.classList.remove('pres-highlight'), 2600);
         }

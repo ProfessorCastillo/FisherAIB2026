@@ -163,15 +163,6 @@
               "session_title": "Breakout sessions 2",
               "presentations": [
                 {
-                  "submission_id": "5954",
-                  "title": "AI Everywhere, Results Nowhere: Building the Operating Model for Innovation at Scale",
-                  "presenter": "Heather Lenz",
-                  "affiliation": "AI Navigator Collective",
-                  "track": "Industry",
-                  "authors": "Heather Lenz",
-                  "alternative_presenter": null
-                },
-                {
                   "submission_id": "5964",
                   "title": "Beyond the Virtual Receptionist: Lessons in AI Readiness and Responsible Scale",
                   "presenter": "Tamora Lupton-Wilkinspon",
@@ -536,12 +527,12 @@
                   "alternative_presenter": null
                 },
                 {
-                  "submission_id": "5990",
-                  "title": "Generative AI Search on Content Creation Platform: Evidence from a Large-Scale Field Experiment",
-                  "presenter": "Hongxian Huang",
-                  "affiliation": "New York University, Stern School of Business",
+                  "submission_id": "5993",
+                  "title": "Decision Making using AI: An Examination of Environmental-Oriented Crowdfunding Opportunities with Artificial Intelligence",
+                  "presenter": "Wayne Fu",
+                  "affiliation": "University of Michigan-Dearborn",
                   "track": "Academic",
-                  "authors": "Hongxian Huang, Jinglong Zhang, Jason Chan, Anindya Ghose",
+                  "authors": "Wayne Fu, Vince Castillo, Guangzhi Shang",
                   "alternative_presenter": null
                 },
                 {
@@ -1198,17 +1189,68 @@
         },
         {
           "kind": "plenary",
+          "title": "Buses to Reception Arrive",
+          "time": "5:30 pm",
+          "start_time": "17:30",
+          "place": "Neil Avenue outside Gerlach Hall, 2108 Neil Ave, Columbus, OH 43210",
+          "map_url": "https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY&ll=40.0051173,-83.015428&z=18",
+          "anchor": "evening-reception"
+        },
+        {
+          "kind": "plenary",
+          "title": "Buses Depart to Reception",
+          "time": "5:45 pm",
+          "start_time": "17:45",
+          "place": "Neil Avenue outside Gerlach Hall",
+          "map_url": "https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY&ll=40.0051173,-83.015428&z=18"
+        },
+        {
+          "kind": "plenary",
           "title": "Evening Reception at Rev 1",
           "time": "6:00 pm – 9:00 pm",
           "start_time": "18:00",
-          "place": null
+          "place": "Rev 1 at the Peninsula, 330 Rush Alley, Suite 100, Columbus, OH 43215",
+          "map_url": "https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY&ll=39.9599652,-83.0091568&z=18"
         },
         {
           "kind": "plenary",
           "title": "Reception Welcome",
           "time": "6:30 pm – 6:45 pm",
           "start_time": "18:30",
-          "place": null
+          "place": "Rev 1 at the Peninsula",
+          "map_url": "https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY&ll=39.9599652,-83.0091568&z=18"
+        },
+        {
+          "kind": "plenary",
+          "title": "Return Buses Depart",
+          "time": "7:30 pm",
+          "start_time": "19:30",
+          "places": [
+            {
+              "label": "Pick-up: Rev 1 at the Peninsula",
+              "map_url": "https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY&ll=39.9599652,-83.0091568&z=18"
+            },
+            {
+              "label": "Drop-off: Gerlach Hall, Neil Ave",
+              "map_url": "https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY&ll=40.0051173,-83.015428&z=18"
+            }
+          ]
+        },
+        {
+          "kind": "plenary",
+          "title": "Final Return Buses Depart",
+          "time": "9:00 pm",
+          "start_time": "21:00",
+          "places": [
+            {
+              "label": "Pick-up: Rev 1 at the Peninsula",
+              "map_url": "https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY&ll=39.9599652,-83.0091568&z=18"
+            },
+            {
+              "label": "Drop-off: Gerlach Hall, Neil Ave",
+              "map_url": "https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY&ll=40.0051173,-83.015428&z=18"
+            }
+          ]
         }
       ]
     },

@@ -98,6 +98,23 @@ a:hover { color: var(--scarlet-deep); }
 .portal-nav .nav-desc { font-family: var(--serif); font-size: 0.86rem; color: var(--gray); margin-top: 4px; line-height: 1.4; }
 @media (max-width: 620px) { .portal-nav { grid-template-columns: 1fr; } }
 
+/* Single feature card centered under the 2x2 portal grid, one grid cell wide. */
+.portal-feature {
+  position: relative; display: block; box-sizing: border-box; width: calc((min(760px, 100%) - 1px) / 2);
+  margin: 14px auto 0; background: var(--paper); padding: 20px 22px 20px 25px;
+  border: 1px solid var(--rule); border-radius: 3px;
+  transition: box-shadow 0.2s ease, background 0.2s ease;
+}
+/* Scarlet hover edge drawn inside the gray border, matching the grid cards' accent. */
+.portal-feature:hover { box-shadow: inset 3px 0 0 var(--scarlet); background: #fcfcfd; }
+.portal-feature .feature-link { text-decoration: none; }
+.portal-feature .feature-link::after { content: ""; position: absolute; inset: 0; }
+.portal-feature .nav-title { font-family: var(--serif); font-weight: 700; font-size: 1.2rem; color: var(--ink); }
+.portal-feature .nav-desc { font-family: var(--serif); font-size: 0.86rem; color: var(--gray); margin-top: 4px; line-height: 1.4; }
+.portal-feature .feature-inline { position: relative; z-index: 1; color: var(--scarlet); }
+.portal-feature .feature-inline:hover { color: var(--scarlet-deep); }
+@media (max-width: 620px) { .portal-feature { width: 100%; } }
+
 /* ---- Quiet utility chips (feedback / install) ---- */
 .utility-link {
   font-family: var(--serif); font-size: 0.8rem; color: var(--gray); background: var(--paper);
@@ -173,3 +190,6 @@ a:hover { color: var(--scarlet-deep); }
 /* Scarlet-dash accent for supplemental copy blocks (OSU "scarlet dash" cue) */
 .schedule-link, .pres-link { color: var(--scarlet) !important; }
 .schedule-link:hover, .pres-link:hover { color: var(--scarlet-deep) !important; }
+
+/* Screen-reader-only text (shared; some pages also define their own copy). */
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
