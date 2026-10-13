@@ -1237,6 +1237,22 @@
         },
         {
           "kind": "plenary",
+          "title": "Return Buses Depart",
+          "time": "8:30 pm",
+          "start_time": "20:30",
+          "places": [
+            {
+              "label": "Pick-up: Rev 1 at the Peninsula",
+              "map_url": "https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY&ll=39.9599652,-83.0091568&z=18"
+            },
+            {
+              "label": "Drop-off: Gerlach Hall, Neil Ave",
+              "map_url": "https://www.google.com/maps/d/u/0/viewer?mid=1pymnbwrBrAAkXds0sX3ZJu2PO8dlNdY&ll=40.0051173,-83.015428&z=18"
+            }
+          ]
+        },
+        {
+          "kind": "plenary",
           "title": "Final Return Buses Depart",
           "time": "9:00 pm",
           "start_time": "21:00",
