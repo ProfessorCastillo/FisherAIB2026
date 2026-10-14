@@ -137,7 +137,7 @@
         "start_time": "12:45",
         "end_time": "14:00",
         "timezone": "America/New_York",
-        "room": "Pfahl 240",
+        "room": "Pfahl 340",
         "session_title": "AI Disclosure & Labeling: Platforms and Firms"
       },
       "abstract_preview": "Generative artificial intelligence is rapidly transforming how content is produced and distributed in digital marketplaces. Platforms and merchants can now generate images, text, audio, and video at low marginal cost, creating opportunities…",
@@ -291,7 +291,7 @@
         "start_time": "10:15",
         "end_time": "11:30",
         "timezone": "America/New_York",
-        "room": "Pfahl 340",
+        "room": "Daley Family Pavilion",
         "session_title": "Generative AI, Skills & Labor Demand"
       },
       "abstract_preview": "Generative AI and the Reorganization of Labor Demand\nMotivation\nAs generative AI moves from experimentation to organizational deployment, its consequences for the future of work may be less visible in aggregate headcount than in the design …",
@@ -334,7 +334,7 @@
         "start_time": "10:15",
         "end_time": "11:30",
         "timezone": "America/New_York",
-        "room": "Pfahl 240",
+        "room": "Pfahl 340",
         "session_title": "AI Search & Content on Digital Platforms"
       },
       "abstract_preview": "Motivation. Visual communication has become central to how firms compete on digital platforms. Where consumers cannot physically inspect products before purchase, images play a primary role in shaping evaluation, choice, and firm performanc…",
@@ -815,7 +815,7 @@
         "start_time": "10:15",
         "end_time": "11:30",
         "timezone": "America/New_York",
-        "room": "Pfahl 340",
+        "room": "Daley Family Pavilion",
         "session_title": "Generative AI, Skills & Labor Demand"
       },
       "abstract_preview": "The rapid diffusion of generative artificial intelligence (GenAI) is reshaping how firms organize work. Unlike earlier forms of artificial intelligence that were typically deployed for specialized prediction or analytical tasks, GenAI can g…",
@@ -1547,7 +1547,7 @@
         "start_time": "10:15",
         "end_time": "11:30",
         "timezone": "America/New_York",
-        "room": "Pfahl 240",
+        "room": "Pfahl 340",
         "session_title": "AI Search & Content on Digital Platforms"
       },
       "abstract_preview": "Online platforms are increasingly integrating conversational AI tools into their search and browsing inter-\nfaces. To understand how such tools affect user behavior and search outcomes, we run a pre-registered, incentivized\nonline experimen…",
@@ -1615,7 +1615,7 @@
         "start_time": "15:15",
         "end_time": "16:30",
         "timezone": "America/New_York",
-        "room": "Pfahl 240",
+        "room": "Pfahl 340",
         "session_title": "Generative AI & the Creator Economy"
       },
       "abstract_preview": "The rise of generative AI has raised an urgent economic question: will it eventu- ally replace human content creators, and if not, which tasks will survive? This paper develops a flexible modeling framework that yields a sharp answer and he…",
@@ -1948,7 +1948,7 @@
         "start_time": "14:15",
         "end_time": "15:00",
         "timezone": "America/New_York",
-        "room": "Pfahl 202",
+        "room": "Pfahl 302",
         "session_title": "Breakout sessions 3"
       },
       "abstract_preview": "Financial advisory is a trust business. Clients making exit, succession, and legacy decisions are not evaluating a product - they are deciding whether to hand a stranger the outcome of thirty years of work. That makes it one of the harder p…",
@@ -2010,7 +2010,7 @@
         "start_time": "10:15",
         "end_time": "11:30",
         "timezone": "America/New_York",
-        "room": "Pfahl 240",
+        "room": "Pfahl 340",
         "session_title": "AI Search & Content on Digital Platforms"
       },
       "abstract_preview": "Motivation. Firms increasingly rely on causal structures, formalized as directed acyclic graphs (DAGs), to uncover the causes and mechanisms underlying business outcomes, such as the drivers of demand, the sources of operational failures, a…",
@@ -2047,7 +2047,7 @@
         "start_time": "12:45",
         "end_time": "14:00",
         "timezone": "America/New_York",
-        "room": "Pfahl 240",
+        "room": "Pfahl 340",
         "session_title": "AI Disclosure & Labeling: Platforms and Firms"
       },
       "abstract_preview": "Generative AI has created new governance challenges for visual content platforms by making synthetic images easier to produce while raising concerns about authenticity, content quality, and user trust. This study examines the behavioral con…",
@@ -2300,7 +2300,7 @@
         "start_time": "12:45",
         "end_time": "14:00",
         "timezone": "America/New_York",
-        "room": "Pfahl 240",
+        "room": "Pfahl 340",
         "session_title": "AI Disclosure & Labeling: Platforms and Firms"
       },
       "abstract_preview": "Generative Artificial Intelligence (GAI) is reshaping the world since ChatGPT was released available to the public on November 30, 2022. Recent evidence also shows GAI produces a detectable share of new text in disclosures, for example, fin…",
@@ -2423,7 +2423,7 @@
         "start_time": "10:15",
         "end_time": "11:30",
         "timezone": "America/New_York",
-        "room": "Pfahl 340",
+        "room": "Daley Family Pavilion",
         "session_title": "Generative AI, Skills & Labor Demand"
       },
       "abstract_preview": "Motivation. \nArtificial intelligence (AI) is widely heralded as transformative, yet its returns are strikingly uneven: one recent report finds that 95 percent of organizations see no return on their in-house AI investment. This unevenness r…",
@@ -2534,7 +2534,7 @@
         "start_time": "15:15",
         "end_time": "16:30",
         "timezone": "America/New_York",
-        "room": "Pfahl 240",
+        "room": "Pfahl 340",
         "session_title": "Generative AI & the Creator Economy"
       },
       "abstract_preview": "Generative AI (GenAI) is transforming creator markets, yet little is known about how creators should use it once the technology becomes widely accessible. Prior research has largely asked whether firms or individuals should employ GenAI by …",

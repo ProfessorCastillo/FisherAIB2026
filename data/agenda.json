@@ -279,15 +279,6 @@
                   "track": "Industry",
                   "authors": "Vasiliki Stamouli, Aidan Irvine, Asa Baird, Briana Lindemeyer, Heather Cox, Minny Poon, Scott DiStefano, Taylor Washington",
                   "alternative_presenter": null
-                },
-                {
-                  "submission_id": "6030",
-                  "title": "Advice at Scale: What Happened When a Financial Advisory Practice Put AI Between the Advisor and the Client",
-                  "presenter": "Justin Maxwell",
-                  "affiliation": "SpeakerRealm",
-                  "track": "Industry",
-                  "authors": "Justin Maxwell",
-                  "alternative_presenter": null
                 }
               ]
             },
@@ -335,6 +326,15 @@
                   "affiliation": "ScottsMiracle-Gro",
                   "track": "Industry",
                   "authors": "Aditya Sankar",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6030",
+                  "title": "Advice at Scale: What Happened When a Financial Advisory Practice Put AI Between the Advisor and the Client",
+                  "presenter": "Justin Maxwell",
+                  "affiliation": "SpeakerRealm",
+                  "track": "Industry",
+                  "authors": "Justin Maxwell",
                   "alternative_presenter": null
                 }
               ]
@@ -514,7 +514,7 @@
               ]
             },
             {
-              "room": "Pfahl 240",
+              "room": "Pfahl 340",
               "session_title": "AI Search & Content on Digital Platforms",
               "presentations": [
                 {
@@ -640,7 +640,7 @@
               ]
             },
             {
-              "room": "Pfahl 340",
+              "room": "Daley Family Pavilion",
               "session_title": "Generative AI, Skills & Labor Demand",
               "presentations": [
                 {
@@ -772,7 +772,7 @@
               ]
             },
             {
-              "room": "Pfahl 240",
+              "room": "Pfahl 340",
               "session_title": "AI Disclosure & Labeling: Platforms and Firms",
               "presentations": [
                 {
@@ -988,7 +988,7 @@
               ]
             },
             {
-              "room": "Pfahl 240",
+              "room": "Pfahl 340",
               "session_title": "Generative AI & the Creator Economy",
               "presentations": [
                 {
