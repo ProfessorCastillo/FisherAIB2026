@@ -1945,11 +1945,11 @@
       "presenter_person_id": null,
       "schedule": {
         "date": "2026-10-14",
-        "start_time": "09:00",
-        "end_time": "10:15",
+        "start_time": "14:15",
+        "end_time": "15:00",
         "timezone": "America/New_York",
-        "room": "Pfahl 340",
-        "session_title": "Breakout sessions 1"
+        "room": "Pfahl 202",
+        "session_title": "Breakout sessions 3"
       },
       "abstract_preview": "Financial advisory is a trust business. Clients making exit, succession, and legacy decisions are not evaluating a product - they are deciding whether to hand a stranger the outcome of thirty years of work. That makes it one of the harder p…",
       "cluster": 4,

@@ -87,15 +87,6 @@
                   "alternative_presenter": null
                 },
                 {
-                  "submission_id": "6030",
-                  "title": "Advice at Scale: What Happened When a Financial Advisory Practice Put AI Between the Advisor and the Client",
-                  "presenter": "Justin Maxwell",
-                  "affiliation": "SpeakerRealm",
-                  "track": "Industry",
-                  "authors": "Justin Maxwell",
-                  "alternative_presenter": null
-                },
-                {
                   "submission_id": "6047",
                   "title": "Start Wide, Not Deep: What a Cross-Functional First Cohort Teaches an Institution About Itself",
                   "presenter": "JP Graulty",
@@ -287,6 +278,15 @@
                   "affiliation": "Experience Management Institute LLC",
                   "track": "Industry",
                   "authors": "Vasiliki Stamouli, Aidan Irvine, Asa Baird, Briana Lindemeyer, Heather Cox, Minny Poon, Scott DiStefano, Taylor Washington",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6030",
+                  "title": "Advice at Scale: What Happened When a Financial Advisory Practice Put AI Between the Advisor and the Client",
+                  "presenter": "Justin Maxwell",
+                  "affiliation": "SpeakerRealm",
+                  "track": "Industry",
+                  "authors": "Justin Maxwell",
                   "alternative_presenter": null
                 }
               ]
