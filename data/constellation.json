@@ -1944,12 +1944,12 @@
       ],
       "presenter_person_id": null,
       "schedule": {
-        "date": "2026-10-14",
-        "start_time": "14:15",
-        "end_time": "15:00",
+        "date": "2026-10-15",
+        "start_time": "15:15",
+        "end_time": "16:30",
         "timezone": "America/New_York",
         "room": "Pfahl 302",
-        "session_title": "Breakout sessions 3"
+        "session_title": "Human Oversight & Governance of AI Systems"
       },
       "abstract_preview": "Financial advisory is a trust business. Clients making exit, succession, and legacy decisions are not evaluating a product - they are deciding whether to hand a stranger the outcome of thirty years of work. That makes it one of the harder p…",
       "cluster": 4,

@@ -327,15 +327,6 @@
                   "track": "Industry",
                   "authors": "Aditya Sankar",
                   "alternative_presenter": null
-                },
-                {
-                  "submission_id": "6030",
-                  "title": "Advice at Scale: What Happened When a Financial Advisory Practice Put AI Between the Advisor and the Client",
-                  "presenter": "Justin Maxwell",
-                  "affiliation": "SpeakerRealm",
-                  "track": "Industry",
-                  "authors": "Justin Maxwell",
-                  "alternative_presenter": null
                 }
               ]
             }
@@ -1058,6 +1049,15 @@
                   "affiliation": "Cornell University/Cornell Tech",
                   "track": "Academic",
                   "authors": "Huaibing Yuan, Karan Girotra, Elena Belavina",
+                  "alternative_presenter": null
+                },
+                {
+                  "submission_id": "6030",
+                  "title": "Advice at Scale: What Happened When a Financial Advisory Practice Put AI Between the Advisor and the Client",
+                  "presenter": "Justin Maxwell",
+                  "affiliation": "SpeakerRealm",
+                  "track": "Industry",
+                  "authors": "Justin Maxwell",
                   "alternative_presenter": null
                 }
               ]
